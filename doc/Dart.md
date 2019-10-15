@@ -17,13 +17,13 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
 ## 语言特性
 1. 面向对象的：万物皆对象;哪怕是数字类型、方法甚至null都是对象，所有的对象都是继承自Object
 2. 强类型语言：但变量类型是可选,因为Dart可以自动推断变量类型 `var` & `dynamic`
-3. 支持范型：List<int>表示一个整型的数据列表；List<dynamic>则是一个对象的列表，其中可以装任意对象
+3. 支持范型：`List<int>` 表示一个整型的数据列表；`List<dynamic>` 则是一个对象的列表，其中可以装任意对象
 4. Dart没有public protected private等关键字,如果某个变量以下划线 `_` 开头，代表这个变量在库中是私有的
 5. 类的级联运算符 `...`
 6. 其他：单继承、支持接口、混入 mixins、抽象类、枚举 enum
 
 ## 数据类型
-1. 正数和小数 Numbers: `int a = 1;` `double b = 1.1;` 在 `Flutter` 中有定义 `Float` 等 `NativeType`
+1. 整数和小数 Numbers: `int a = 1;` `double b = 1.1;` 在 `Flutter` 中有定义 `Float` 等 `NativeType`
 2. 字符串 Strings: `var a="hello";` `String b="world";`
 3. 布尔类型 Booleans: `var a=false;` `bool b=true;`
 4. 数组 Arrays:
