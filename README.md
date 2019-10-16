@@ -32,11 +32,24 @@ $ flutter doctor
 
 ### flutter 指令
 ```
-0. flutter doctor
-1. flutter device
-2. flutter run
-3. flutter pub get
-4. flutter version
+flutter doctor
+flutter device
+flutter run
+flutter pub get
+flutter packages get
+flutter packages pub run build_runner build
+flutter packages pub run build_runner watch
+flutter version
+flutter upgrade
+flutter build apk;           //打包Android应用
+flutter build apk –release;
+flutter install;              //安装应用
+flutter build ios;            //打包IOS应用
+flutter build ios –release;
+flutter clean;               //清理重新编译项目
+flutter upgrade;            //升级Flutter SDK和依赖包
+flutter channel;            //查看Flutter官方分支列表和当前项目使用的Flutter分支
+flutter channel <分支名>;   //切换分支
 ```
 
 ### 计划
@@ -55,6 +68,7 @@ $ flutter doctor
     - 与原生APP交互
     - Flutter 调试&日志
     - web 前端
+    - 多语言
 4. 文档输出
     - 开发环境
     - 原理解析:渲染机制、消息机制
