@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercn/cmpt/api/news_api.dart';
 import 'package:fluttercn/cmpt/api/weather_api.dart';
 
 class Home extends StatefulWidget {
@@ -12,15 +13,28 @@ class Home extends StatefulWidget {
 
 class _HomePage extends State<Home> {
   String temperature;
+  int _count = 0;
   final api = WeatherApi();
+  final newsApi = NewsApi();
+
   _weatherClick() {
     api.getWeather("北京").then((res) {
       this.setState(() {
-        temperature =res.wendu;
+        temperature = res.wendu;
       });
     }).catchError((e) {
       print(e);
     });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    newsApi.getNewsList().then((list) {
+      setState(() {
+        _count = list.ent.length;
+      });
+    }).catchError((e) {});
   }
 
   @override
@@ -33,7 +47,8 @@ class _HomePage extends State<Home> {
         ),
       ),
       body: FloatingActionButton(
-          onPressed: _weatherClick, child: Text("Weather-$temperature")),
+          onPressed: _weatherClick,
+          child: Text("Weather-$temperature-$_count")),
     );
   }
 }

@@ -58,16 +58,17 @@ flutter channel <分支名>;   //切换分支
     - 豆瓣前250电影
     - 天气
 3. 技术栈
-    - Dart 语言简介
+    - [x]Dart 语言简介
     - Flutter-UI-Kit
     - 数据持久化：SQLite、KV
-    - 接口
-    - 序列化
+    - [x]接口
+    - [x]序列化
     - MVVM
     - 路由
     - 与原生APP交互
-    - Flutter 调试&日志
+    - [x]Flutter 调试&日志
     - web 前端
+		- 使用 iconfont
     - 多语言
 4. 文档输出
     - 开发环境
