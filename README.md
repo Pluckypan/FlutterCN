@@ -4,7 +4,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 ## 界面展示
 <div align="center">
 
-![home](http://img.1991th.com/tuchongeter/tech/fluttercn_home.png!720jpg)
+![home](http://img.1991th.com/tuchongeter/tech/fluttercn_home.png!480jpg)
 
 </div>
 
