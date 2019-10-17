@@ -11,4 +11,10 @@ class Helper {
     }
     return new Color(int.parse(s.substring(1, 7), radix: 16) + 0xFF000000);
   }
+
+  static int parseNum(String str){
+    RegExp reg = new RegExp(r"[0-9]+");
+    Iterable<Match> matches = reg.allMatches(str);
+    return int.tryParse(matches.first.group(0));
+  }
 }

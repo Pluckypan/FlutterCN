@@ -1,3 +1,4 @@
+import 'package:fluttercn/cmpt/helper.dart';
 import 'package:fluttercn/cmpt/model/base_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -31,4 +32,12 @@ class Weather extends BaseModel {
       _$WeatherFromJson(json);
 
   Map<String, dynamic> toJson() => _$WeatherToJson(this);
+
+  int getLowNum() {
+    return Helper.parseNum(low);
+  }
+
+  int getHighNum() {
+    return Helper.parseNum(high);
+  }
 }

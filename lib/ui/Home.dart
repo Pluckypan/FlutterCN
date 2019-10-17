@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:fluttercn/cmpt/api/news_api.dart';
 import 'package:fluttercn/cmpt/api/weather_api.dart';
@@ -24,6 +23,8 @@ class _HomePage extends State<Home> {
 
   _onWeatherViewClick() {}
 
+  _onNewsItemViewClick() {}
+
   @override
   void initState() {
     super.initState();
@@ -42,7 +43,6 @@ class _HomePage extends State<Home> {
   }
 
   Widget _newsListView(BuildContext context, String key) {
-    final size = MediaQuery.of(context).size.width;
     var news = _newsList != null ? _newsList.getNews(key) : null;
     return CustomScrollView(
       key: PageStorageKey<String>(key),
@@ -72,7 +72,7 @@ class _HomePage extends State<Home> {
                     child: InkWell(
                       splashColor: Colors.blue.withAlpha(30),
                       onTap: () {
-                        print('Card tapped.');
+                        _onNewsItemViewClick();
                       },
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -98,7 +98,8 @@ class _HomePage extends State<Home> {
                                   flex: 1,
                                   child: Column(
                                     mainAxisSize: MainAxisSize.min,
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: <Widget>[
                                       Expanded(
                                           flex: 1,
@@ -141,15 +142,14 @@ class _HomePage extends State<Home> {
                                 Expanded(
                                   flex: 0,
                                   child: ClipRRect(
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(5)),
-                                    child: Image.network(
-                                      "$cover",
-                                      fit: BoxFit.cover,
-                                      height: 100,
-                                      width: 100,
-                                    )
-                                  ),
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(5)),
+                                      child: Image.network(
+                                        "$cover",
+                                        fit: BoxFit.cover,
+                                        height: 100,
+                                        width: 100,
+                                      )),
                                 )
                               ],
                             ),
@@ -178,12 +178,13 @@ class _HomePage extends State<Home> {
   }
 
   Widget _weatherView() {
+    var _today = _weather.today();
     return GestureDetector(
       child: Center(
         child: Row(
           children: <Widget>[
             Icon(
-              WeatherIcon.sunny,
+              WeatherIcon.parseWeather(_today.type),
               size: 80,
               color: Colors.white,
             ),
@@ -201,18 +202,18 @@ class _HomePage extends State<Home> {
                 Column(
                   children: <Widget>[
                     Text(
-                      "10°",
+                      "${_weather.wendu}°",
                       style: TextStyle(fontSize: 30, color: Colors.white),
                     ),
                     Padding(
                       padding: EdgeInsets.only(bottom: 5),
-                      child: Text("北京 天气晴",
+                      child: Text("${_weather.city} ${_today.type}",
                           style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,
                               letterSpacing: 1)),
                     ),
-                    Text("5° ~ 15°",
+                    Text("${_today.getLowNum()}° ~ ${_today.getHighNum()}°",
                         style: TextStyle(fontSize: 20, color: Colors.white))
                   ],
                   mainAxisSize: MainAxisSize.min,

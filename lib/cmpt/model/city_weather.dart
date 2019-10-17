@@ -29,4 +29,8 @@ class CityWeather extends BaseModel {
       _$CityWeatherFromJson(json);
 
   Map<String, dynamic> toJson() => _$CityWeatherToJson(this);
+
+  Weather today() {
+    return forecast.first;
+  }
 }

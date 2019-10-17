@@ -23,6 +23,7 @@ Widget
 3. 缓存
   ImageCache是ImageProvider默认使用的图片缓存。ImageCache使用的是LRU的算法。默认可以存储1000张图片。如果觉得缓存太大，可以通过设置ImageCache的maximumSize属性来控制缓存图片的数量。也可以通过设置maximumSizeBytes来控制缓存的大小（默认缓存大小10MB）。
 4. 在实际开发中，考虑到图片加载速度可能不能达到预期。所以希望能增加渐入效果&增加placeHolder的功能。Flutter同样提供的这样的组件——FadeInImage。
+5. 圆形头像 `CircleAvatar`, 圆角图片 `ClipRRect`
 
 ### Container
 相当于 Android 中的 ViewGroup

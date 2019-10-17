@@ -25,9 +25,10 @@ https://flutterchina.club/technical-overview/
 ## 交互
 https://flutterchina.club/platform-channels/
 
-## 媒体查询
+## 小知识
 ```
-MediaQuery.of(context).size.width
+1. MediaQuery.of(context).size.width
+2. defaultTargetPlatform
 ```
 
 ## 开发规范
