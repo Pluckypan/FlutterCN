@@ -136,6 +136,7 @@ class _HomePage extends State<Home> {
                                 Expanded(
                                   flex: 0,
                                   child: VerticalDivider(
+                                    color: Colors.transparent,
                                     width: 10,
                                   ),
                                 ),
