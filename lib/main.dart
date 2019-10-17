@@ -9,6 +9,7 @@ class FlutterCNApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'FlutterCN',
+      debugShowCheckedModeBanner: false,
       //配置主题
       theme: ThemeData(
         primarySwatch: Colors.blue,
