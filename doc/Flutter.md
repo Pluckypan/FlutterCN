@@ -32,6 +32,9 @@ https://flutterchina.club/platform-channels/
 ## 开发规范
 [阿里巴巴咸鱼团队](https://github.com/alibaba/flutter-go/blob/develop/Flutter_Go%20%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
 
+## 路由管理
+- [fluro](https://github.com/theyakka/fluro)
+
 ## Model 与 json 字符串相互转换
 1. 添加依赖
   ```

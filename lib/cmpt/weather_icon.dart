@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/widgets.dart';
 
 class WeatherIcon {
@@ -21,6 +19,7 @@ class WeatherIcon {
   /// 由于接口无明确字段,需要
   /// 根据中文语义解析天气....
   static IconData parseWeather(String weather) {
+    if (weather == null) return sunny;
     if (weather.contains("雨")) {
       return rainy;
     } else if (weather.contains("雾霾") || weather.contains("霾")) {

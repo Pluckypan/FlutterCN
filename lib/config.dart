@@ -11,4 +11,7 @@ class Config {
       fontFamily: "Quicksand",
       letterSpacing: 2,
       wordSpacing: 2);
+
+  static const String routeHome = "/home";
+  static const String routeWeb = "/web";
 }

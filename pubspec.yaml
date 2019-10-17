@@ -1,4 +1,4 @@
-name: FlutterCN
+name: fluttercn
 description: FlutterCN 从入门到充满想象
 
 version: 1.0.0+1
@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   dio: ^3.0.3
   json_annotation: ^2.4.0
+  webview_flutter: ^0.3.15
 
 dev_dependencies:
   flutter_test:

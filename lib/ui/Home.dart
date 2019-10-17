@@ -1,3 +1,5 @@
+import 'package:fluttercn/cmpt/weather_icon.dart';
+import 'package:fluttercn/ui/webview_page.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/cmpt/api/news_api.dart';
 import 'package:fluttercn/cmpt/api/weather_api.dart';
@@ -5,7 +7,6 @@ import 'package:fluttercn/cmpt/model/city_weather.dart';
 import 'package:fluttercn/cmpt/model/news.dart';
 import 'package:fluttercn/cmpt/model/news_list.dart';
 import 'package:fluttercn/cmpt/model/pic_info.dart';
-import 'package:fluttercn/cmpt/wether_icon.dart';
 
 class Home extends StatefulWidget {
   final String title;
@@ -24,7 +25,9 @@ class _HomePage extends State<Home> {
 
   _onWeatherViewClick() {}
 
-  _onNewsItemViewClick() {}
+  _onNewsItemViewClick( BuildContext context, News news) {
+    WebViewPage.goto(context, news.source, news.link);
+  }
 
   @override
   void initState() {
@@ -77,7 +80,7 @@ class _HomePage extends State<Home> {
                     child: InkWell(
                       splashColor: Colors.blue.withAlpha(30),
                       onTap: () {
-                        _onNewsItemViewClick();
+                        _onNewsItemViewClick(context, aNews);
                       },
                       child: covers != null
                           ? _renderTypeMulPic(aNews, covers)
@@ -251,13 +254,13 @@ class _HomePage extends State<Home> {
   ///
   /// 天气布局
   Widget _weatherView() {
-    var _today = _weather.today();
+    var _today = _weather?.today();
     return GestureDetector(
       child: Center(
         child: Row(
           children: <Widget>[
             Icon(
-              WeatherIcon.parseWeather(_today.type),
+              WeatherIcon.parseWeather(_today?.type),
               size: 80,
               color: Colors.white,
             ),
@@ -275,18 +278,20 @@ class _HomePage extends State<Home> {
                 Column(
                   children: <Widget>[
                     Text(
-                      "${_weather.wendu}°",
+                      "${_weather?.wendu ?? 0}°",
                       style: TextStyle(fontSize: 30, color: Colors.white),
                     ),
                     Padding(
                       padding: EdgeInsets.only(bottom: 5),
-                      child: Text("${_weather.city} ${_today.type}",
+                      child: Text(
+                          "${_weather?.city ?? "北京"} ${_today?.type ?? "晴"}",
                           style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,
                               letterSpacing: 1)),
                     ),
-                    Text("${_today.getLowNum()}° ~ ${_today.getHighNum()}°",
+                    Text(
+                        "${_today?.getLowNum() ?? 0}° ~ ${_today?.getHighNum() ?? 0}°",
                         style: TextStyle(fontSize: 20, color: Colors.white))
                   ],
                   mainAxisSize: MainAxisSize.min,
