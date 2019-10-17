@@ -23,4 +23,12 @@ class News extends BaseModel {
   factory News.fromJson(Map<String, dynamic> json) => _$NewsFromJson(json);
 
   Map<String, dynamic> toJson() => _$NewsToJson(this);
+
+  String trimTitle() {
+    return title != null ? title.trim() : "";
+  }
+
+  String trimDigest() {
+    return digest != null ? digest.trim() : "";
+  }
 }

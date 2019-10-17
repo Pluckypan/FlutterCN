@@ -438,6 +438,11 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
   }  
   ```
 
+## 接口
+```
+typedef void CartChangedCallback(Product product, bool inCart);
+```
+
 ## 泛型
 ```
 class AnyBody<T> {

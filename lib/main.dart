@@ -13,9 +13,10 @@ class FlutterCNApp extends StatelessWidget {
       //配置主题
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: "Quicksand",
       ),
       home: Home(
-        title: "Home",
+        title: "FlutterCN",
       ),
     );
   }
