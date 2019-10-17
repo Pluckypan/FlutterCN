@@ -4,7 +4,8 @@ import 'package:fluttercn/cmpt/api/weather_api.dart';
 import 'package:fluttercn/cmpt/model/city_weather.dart';
 import 'package:fluttercn/cmpt/model/news.dart';
 import 'package:fluttercn/cmpt/model/news_list.dart';
-import 'package:fluttercn/cmpt/weather_icon.dart';
+import 'package:fluttercn/cmpt/model/pic_info.dart';
+import 'package:fluttercn/cmpt/wether_icon.dart';
 
 class Home extends StatefulWidget {
   final String title;
@@ -42,6 +43,8 @@ class _HomePage extends State<Home> {
     });
   }
 
+  ///
+  /// 新闻列表视图
   Widget _newsListView(BuildContext context, String key) {
     var news = _newsList != null ? _newsList.getNews(key) : null;
     return CustomScrollView(
@@ -57,9 +60,11 @@ class _HomePage extends State<Home> {
             delegate: SliverChildBuilderDelegate(
               (BuildContext context, int index) {
                 News aNews = news[index];
-                var cover = aNews.picInfo != null && aNews.picInfo.isNotEmpty
-                    ? aNews.picInfo[0].url
-                    : "http://img.1991th.com/tuchongeter/statics/single-gallery-01.jpg!600";
+                var covers = (aNews.digest == null || aNews.digest.isEmpty) &&
+                        aNews.picInfo != null &&
+                        aNews.picInfo.length > 0
+                    ? aNews.picInfo
+                    : null;
                 return Card(
                   color: Colors.white,
                   elevation: 4,
@@ -74,89 +79,9 @@ class _HomePage extends State<Home> {
                       onTap: () {
                         _onNewsItemViewClick();
                       },
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Expanded(
-                            flex: 0,
-                            child: Text(
-                              "${aNews.trimTitle()}",
-                              style: TextStyle(
-                                color: Colors.black87,
-                                fontSize: 18,
-                              ),
-                              textAlign: TextAlign.start,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                          Expanded(
-                            flex: 1,
-                            child: Row(
-                              children: <Widget>[
-                                Expanded(
-                                  flex: 1,
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.min,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: <Widget>[
-                                      Expanded(
-                                          flex: 1,
-                                          child: Padding(
-                                            padding: EdgeInsets.only(
-                                                top: 10, bottom: 10),
-                                            child: Text(
-                                              "${aNews.trimDigest()}",
-                                              style: TextStyle(
-                                                color: Colors.grey,
-                                                fontSize: 16,
-                                              ),
-                                              textAlign: TextAlign.start,
-                                              maxLines: 3,
-                                              overflow: TextOverflow.ellipsis,
-                                            ),
-                                          )),
-                                      Expanded(
-                                        flex: 0,
-                                        child: Text(
-                                          "${aNews.source}  ${aNews.ptime}",
-                                          style: TextStyle(
-                                            color: Colors.grey,
-                                            fontSize: 12,
-                                          ),
-                                          textAlign: TextAlign.start,
-                                          maxLines: 3,
-                                          overflow: TextOverflow.ellipsis,
-                                        ),
-                                      )
-                                    ],
-                                  ),
-                                ),
-                                Expanded(
-                                  flex: 0,
-                                  child: VerticalDivider(
-                                    color: Colors.transparent,
-                                    width: 10,
-                                  ),
-                                ),
-                                Expanded(
-                                  flex: 0,
-                                  child: ClipRRect(
-                                      borderRadius:
-                                          BorderRadius.all(Radius.circular(5)),
-                                      child: Image.network(
-                                        "$cover",
-                                        fit: BoxFit.cover,
-                                        height: 100,
-                                        width: 100,
-                                      )),
-                                )
-                              ],
-                            ),
-                          ),
-                        ],
-                      ),
+                      child: covers != null
+                          ? _renderTypeMulPic(aNews, covers)
+                          : _renderTypeNormal(aNews),
                     ),
                   ),
                 );
@@ -169,6 +94,151 @@ class _HomePage extends State<Home> {
     );
   }
 
+  ///
+  /// 渲染普通布局
+  Widget _renderTypeNormal(News aNews) {
+    var cover = aNews.picInfo != null && aNews.picInfo.isNotEmpty
+        ? aNews.picInfo[0].url
+        : "http://img.1991th.com/tuchongeter/statics/single-gallery-01.jpg!600";
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        Expanded(
+          flex: 0,
+          child: Text(
+            "${aNews.trimTitle()}",
+            style: TextStyle(
+              color: Colors.black87,
+              fontSize: 18,
+            ),
+            textAlign: TextAlign.start,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+        Expanded(
+          flex: 1,
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                flex: 1,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Expanded(
+                        flex: 1,
+                        child: Padding(
+                          padding: EdgeInsets.only(top: 10, bottom: 10),
+                          child: Text(
+                            "${aNews.trimDigest()}",
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 16,
+                            ),
+                            textAlign: TextAlign.start,
+                            maxLines: 3,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        )),
+                    Expanded(
+                      flex: 0,
+                      child: Text(
+                        "${aNews.source}  ${aNews.ptime}",
+                        style: TextStyle(
+                          color: Colors.grey,
+                          fontSize: 12,
+                        ),
+                        textAlign: TextAlign.start,
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Expanded(
+                flex: 0,
+                child: VerticalDivider(
+                  color: Colors.transparent,
+                  width: 10,
+                ),
+              ),
+              Expanded(
+                flex: 0,
+                child: ClipRRect(
+                    borderRadius: BorderRadius.all(Radius.circular(5)),
+                    child: Image.network(
+                      "$cover",
+                      fit: BoxFit.cover,
+                      height: 100,
+                      width: 100,
+                    )),
+              )
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  ///
+  /// 渲染多图
+  Widget _renderTypeMulPic(News aNews, List<PicInfo> covers) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        Expanded(
+          flex: 0,
+          child: Text(
+            "${aNews.trimTitle()}",
+            style: TextStyle(
+              color: Colors.black87,
+              fontSize: 18,
+            ),
+            textAlign: TextAlign.start,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+        Expanded(
+          flex: 1,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: covers
+                .map((PicInfo info) => Image.network(
+                      "${info.url}",
+                      fit: BoxFit.cover,
+                      height: 100,
+                      width: 100,
+                    ))
+                .toList(),
+          ),
+        ),
+        Expanded(
+          flex: 0,
+          child: Row(
+            children: <Widget>[
+              Text(
+                "${aNews.source}  ${aNews.ptime}",
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 12,
+                ),
+                textAlign: TextAlign.start,
+                maxLines: 3,
+                overflow: TextOverflow.ellipsis,
+              )
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  ///
+  /// 顶部按钮布局
   List<Widget> _actionView() {
     return <Widget>[
       new IconButton(
@@ -178,6 +248,8 @@ class _HomePage extends State<Home> {
     ];
   }
 
+  ///
+  /// 天气布局
   Widget _weatherView() {
     var _today = _weather.today();
     return GestureDetector(

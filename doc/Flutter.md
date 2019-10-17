@@ -14,8 +14,6 @@
 - [flutter Widget 在线预览](https://flutter-widget-livebook.blankapp.org/basics/introduction/)
 - [咸鱼](https://www.yuque.com/xytech/flutter)
 - [Flutter in action](https://developer.aliyun.com/article/720790)
-- [iconfont](https://juejin.im/post/5b1bb68c6fb9a01e4508cbf5)
-- [wanandroid_flutter](https://github.com/yechaoa/wanandroid_flutter)
 
 [架构](http://img.1991th.com/tuchongeter/tech/flutter.framework)
 

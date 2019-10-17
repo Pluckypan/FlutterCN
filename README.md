@@ -1,7 +1,14 @@
 # FlutterCN
 A Project to Share About FlutterCN.Flutter学习与分享
 
-### 安装
+## 界面展示
+<div align="center">
+
+![home](./art/home.png)
+
+</div>
+
+## 安装
 1. zip 下载解压 配置flutter环境变量
 2. 配置环境变量
 	```
@@ -13,13 +20,13 @@ A Project to Share About FlutterCN.Flutter学习与分享
     export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 	```
 
-### 验证
+## 验证
 ```
 $ flutter doctor
 ```
 1. Android Studio 搜索并安装 flutter 插件,会自动安装flutter&dart
 
-### Hello World
+## Hello World
 1. New Flutter Project
 2. 热重载
 
@@ -52,31 +59,40 @@ flutter channel;            //查看Flutter官方分支列表和当前项目使�
 flutter channel <分支名>;   //切换分支
 ```
 
+## 免费API
+- [开源社区](https://www.apiopen.top/api.html#top)
+- [新闻接口](https://www.apiopen.top/journalismApi)
+- [天气获取接口](https://www.apiopen.top/weatherApi?city=成都)
+- [美图获取接口](https://www.apiopen.top/meituApi?page=1)
+
 ### 计划
 1. 用 Flutter 开发一个 订阅类APP
 2. 要求内容
-    - 豆瓣前250电影
+    - 新闻流
     - 天气
 3. 技术栈
     - [x]Dart 语言简介
-    - Flutter-UI-Kit
+		- 多语言		
+    - MVVM		
+    - 与原生APP交互					
+    - 路由
+		- Mock Relese & Debug
+    - Flutter-UI-Kit					
     - 数据持久化：SQLite、KV
     - [x]接口
     - [x]序列化
-    - MVVM
-    - 路由
-    - 与原生APP交互
-    - [x]Flutter 调试&日志
-    - web 前端
-		- 使用 iconfont
-    - 多语言
+    - [x] Flutter 调试&日志
+		- [x] 使用 iconfont
+		- Flutter 终端指令
+    - web 前端		
 4. 文档输出
     - 开发环境
+		- 快速集成：`Jenkins` 打包,渠道分发
     - 原理解析:渲染机制、消息机制
-    - 目录结构解析        
+    - 目录结构解析：协作&`git submodule`        
     - 关键字解读
     - 包管理
-    - 发布自己的Lib
+    - 发布自己的包
     - 常用指令
     - 遇到的问题
     - 技术总结与展望
