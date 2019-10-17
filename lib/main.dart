@@ -1,6 +1,4 @@
-import 'package:fluttercn/ui/webview_page.dart';
 import 'package:fluttercn/ui/Home.dart';
-import 'package:fluttercn/config.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(FlutterCNApp());
@@ -21,7 +19,7 @@ class FlutterCNApp extends StatelessWidget {
         title: "FlutterCN",
       ),
       routes: <String,WidgetBuilder>{
-        Config.routeWeb:(BuildContext context) => WebViewPage()
+
       },
     );
   }
