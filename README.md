@@ -32,20 +32,20 @@ A Project to Share About FlutterCN.Flutter学习与分享
 		- [x] 接口
     - [x] 序列化
     - [x] Flutter 调试&日志
-		- [x] 使用 iconfont		
-		- [ ] 多语言		
-    - [ ] 路由		
-    - [ ] MVVM		
-    - [ ] 与原生APP交互					
+		- [x] 使用 iconfont
+		- [x] 多语言
+    - [ ] 路由
+    - [ ] MVVM
+    - [ ] 与原生APP交互
 		- [ ] Mock Relese & Debug
-    - [ ] Flutter-UI-Kit					
+    - [ ] Flutter-UI-Kit			
     - [ ] 数据持久化：SQLite、KV
 		- [ ] Flutter 终端指令
 4. 文档输出
     - [ ] 开发环境
 	  - [ ] 快速集成：`Jenkins` 打包,渠道分发
     - [ ] 原理解析:渲染机制、消息机制
-    - [ ] 目录结构解析：协作&`git submodule`        
+    - [ ] 目录结构解析：协作&`git submodule`
     - [ ] 关键字解读
     - [ ] 包管理
     - [ ] 发布自己的包
