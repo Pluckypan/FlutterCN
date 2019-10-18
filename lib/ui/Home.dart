@@ -112,7 +112,7 @@ class _HomePage extends State<Home> {
             "${aNews.trimTitle()}",
             style: TextStyle(
               color: Colors.black87,
-              fontSize: 18,
+              fontSize: 16,
             ),
             textAlign: TextAlign.start,
             maxLines: 2,
@@ -137,7 +137,7 @@ class _HomePage extends State<Home> {
                             "${aNews.trimDigest()}",
                             style: TextStyle(
                               color: Colors.grey,
-                              fontSize: 16,
+                              fontSize: 14,
                             ),
                             textAlign: TextAlign.start,
                             maxLines: 3,
@@ -197,7 +197,7 @@ class _HomePage extends State<Home> {
             "${aNews.trimTitle()}",
             style: TextStyle(
               color: Colors.black87,
-              fontSize: 18,
+              fontSize: 16,
             ),
             textAlign: TextAlign.start,
             maxLines: 2,
@@ -210,13 +210,12 @@ class _HomePage extends State<Home> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: covers
-                .map((PicInfo info) => Image.network(
-                      "${info.url}",
-                      fit: BoxFit.cover,
-                      height: 100,
-                      width: 100,
-                    ))
-                .toList(),
+                .map((PicInfo info) =>
+            Expanded(flex: 1,child: Padding(padding: EdgeInsets.only(left: 5,right: 5),child: Image.network(
+              "${info.url}",
+              fit: BoxFit.cover,
+              height: 100,
+            )),),).toList(),
           ),
         ),
         Expanded(

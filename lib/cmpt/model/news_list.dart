@@ -36,27 +36,40 @@ class NewsList extends BaseModel {
   };
 
   List<News> getNews(String key) {
+    List<News> news;
     switch (key) {
       case "home":
-        return home;
+        news = home;
+        break;
       case "toutiao":
-        return toutiao;
+        news = toutiao;
+        break;
       case "ent":
-        return ent;
+        news = ent;
+        break;
       case "tech":
-        return tech;
+        news = tech;
+        break;
       case "auto":
-        return auto;
+        news = auto;
+        break;
       case "money":
-        return money;
+        news = money;
+        break;
       case "sports":
-        return sports;
+        news = sports;
+        break;
       case "dy":
-        return dy;
+        news = dy;
+        break;
       case "war":
-        return war;
+        news = war;
+        break;
       default:
-        return home;
+        news = home;
+        break;
     }
+    return news.where((item) =>
+        (item.title?.isNotEmpty ?? false) && (item.ptime?.isNotEmpty ?? false)).toList();
   }
 }

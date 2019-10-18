@@ -1,6 +1,12 @@
 # FlutterCN
 A Project to Share About FlutterCN.Flutter学习与分享
 
+<div align="center">
+
+![FlutterCN](./art/slog.jpg)
+
+</div>
+
 ## 界面展示
 <div align="center">
 
