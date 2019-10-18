@@ -6,16 +6,12 @@ class WebViewPage extends StatelessWidget {
   final String title;
   final String url;
 
-  WebViewPage(this.title,this.url);
+  WebViewPage(this.title, this.url);
 
   static goto(BuildContext context, String title, String url) {
     print("$title - $url");
-    Navigator.push(
-        context,
-        new MaterialPageRoute(
-            builder: (context) => new WebViewPage(title,url)
-        )
-    );
+    Navigator.push(context,
+        MaterialPageRoute(builder: (context) => new WebViewPage(title, url)));
   }
 
   @override
@@ -28,9 +24,7 @@ class WebViewPage extends StatelessWidget {
         child: WebView(
           initialUrl: url,
           onPageFinished: (String title) => {print(title)},
-          onWebViewCreated: (WebViewController web) =>
-          {
-          },
+          onWebViewCreated: (WebViewController web) => {},
         ),
       ),
     );

@@ -1,4 +1,5 @@
-import 'package:fluttercn/ui/Home.dart';
+import 'package:fluttercn/ui/about.dart';
+import 'package:fluttercn/ui/home.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(FlutterCNApp());
@@ -18,8 +19,8 @@ class FlutterCNApp extends StatelessWidget {
       home: Home(
         title: "FlutterCN",
       ),
-      routes: <String,WidgetBuilder>{
-
+      routes: <String, WidgetBuilder>{
+        AboutPage.aboutRoute: (BuildContext context) => AboutPage()
       },
     );
   }

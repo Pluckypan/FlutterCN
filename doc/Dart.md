@@ -188,6 +188,41 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
     print("finally");
   }
   ```
+## 数组相关方法
+- forEach() `students.forEach((student) => print(student));`
+- map `students.map((student) => 'Hello ' + student['name']).toList();`
+- contains() `nums.contains(5);`
+- sort() `numbers.sort((num1, num2) => num1 - num2);`
+- reduce() `var sum = numbers.reduce((curr, next) => curr + next);`
+- fold() `numbers.fold(10, (curr, next) => curr + next);`
+- every() 用于判断数组中的每一项是否均达到了某个条件
+  `var isAgeOver20 = students.every((student) => student["age"] > 20);`
+- where() 返回数组中满足给定条件的元素集合
+  `students.where((student) => student["age"] > 16).toList();`
+- firstWhere() 返回数组中满足给定条件的第一个元素
+  `students.firstWhere((student) => student["age"] > 16, orElse: () => null);`
+- singleWhere() 返回数组中满足给定条件的唯一一个元素，若有多个元素满足条件会抛出异常
+  `students.singleWhere((student) => student["age"] < 16, orElse: () => null);`
+- take(n) 从数组里取 n 个元素
+- skip(n) 跳过数组中的 n 个元素
+- List.from() 克隆一个数组
+- expand()
+  ```
+  var arr1 = [[2, 5], [7], [11, 12]];
+  var flattened = arr1.expand((item) => item).toList();
+  print(flattened);
+  // [2, 5, 7, 11, 12]
+
+  var arr2 = [2, 5, 8];
+  var computed = arr2.expand((item) => [item * 8]).toList();
+  print(computed);
+  // [16, 40, 64]
+
+  // 当对每一项进行计算时类似于 map()
+  var computed2 = arr2.map((item) => item * 8).toList();
+  print(computed2);
+  // [16, 40, 64]  
+  ```
 
 ## 变量
 - 定义变量

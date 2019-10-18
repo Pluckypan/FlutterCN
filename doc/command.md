@@ -6,7 +6,7 @@ Flutter 常用指令
 ```
 flutter doctor
 flutter device
-flutter run
+flutter run -d deviceId
 flutter pub get
 flutter packages get
 flutter packages pub run build_runner build

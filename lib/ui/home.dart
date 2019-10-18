@@ -1,4 +1,5 @@
 import 'package:fluttercn/cmpt/weather_icon.dart';
+import 'package:fluttercn/ui/about.dart';
 import 'package:fluttercn/ui/webview_page.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/cmpt/api/news_api.dart';
@@ -25,7 +26,7 @@ class _HomePage extends State<Home> {
 
   _onWeatherViewClick() {}
 
-  _onNewsItemViewClick( BuildContext context, News news) {
+  _onNewsItemViewClick(BuildContext context, News news) {
     WebViewPage.goto(context, news.source, news.link);
   }
 
@@ -210,12 +211,19 @@ class _HomePage extends State<Home> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: covers
-                .map((PicInfo info) =>
-            Expanded(flex: 1,child: Padding(padding: EdgeInsets.only(left: 5,right: 5),child: Image.network(
-              "${info.url}",
-              fit: BoxFit.cover,
-              height: 100,
-            )),),).toList(),
+                .map(
+                  (PicInfo info) => Expanded(
+                    flex: 1,
+                    child: Padding(
+                        padding: EdgeInsets.only(left: 5, right: 5),
+                        child: Image.network(
+                          "${info.url}",
+                          fit: BoxFit.cover,
+                          height: 100,
+                        )),
+                  ),
+                )
+                .toList(),
           ),
         ),
         Expanded(
@@ -245,7 +253,10 @@ class _HomePage extends State<Home> {
     return <Widget>[
       new IconButton(
         icon: Icon(Icons.info_outline),
-        onPressed: () {},
+        onPressed: () {
+          AboutPage.goto(context,
+              args: {"about": "Plucky"}, callback: (obj) => {print(obj)});
+        },
       ),
     ];
   }
