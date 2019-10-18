@@ -25,30 +25,30 @@ A Project to Share About FlutterCN.Flutter学习与分享
 ## 计划
 1. 用 Flutter 开发一个资讯类APP
 2. 要求内容
-    - [x] 新闻流
-    - [x] 天气
+	- [x] 新闻流
+	- [x] 天气
 3. 技术栈
-    - [x] Dart 语言简介
-		- [x] 接口
-    - [x] 序列化
-    - [x] Flutter 调试&日志
-		- [x] 使用 iconfont
-		- [x] 多语言
-    - [ ] 路由
-    - [ ] MVVM
-    - [ ] 与原生APP交互
-		- [ ] Mock Relese & Debug
-    - [ ] Flutter-UI-Kit			
-    - [ ] 数据持久化：SQLite、KV
-		- [ ] Flutter 终端指令
+	- [x] Dart 语言简介
+	- [x] 接口
+	- [x] 序列化
+	- [x] Flutter 调试&日志
+	- [x] 使用 iconfont
+	- [x] 多语言
+	- [ ] 路由
+	- [ ] MVVM
+	- [ ] 与原生APP交互
+	- [ ] Mock Relese & Debug
+	- [ ] Flutter-UI-Kit			
+	- [ ] 数据持久化：SQLite、KV
+	- [ ] Flutter 终端指令
 4. 文档输出
-    - [ ] 开发环境
-	  - [ ] 快速集成：`Jenkins` 打包,渠道分发
-    - [ ] 原理解析:渲染机制、消息机制
-    - [ ] 目录结构解析：协作&`git submodule`
-    - [ ] 关键字解读
-    - [ ] 包管理
-    - [ ] 发布自己的包
-    - [ ] 常用指令
-    - [ ] 遇到的问题
-    - [ ] 技术总结与展望
+	- [ ] 开发环境
+	- [ ] 快速集成：`Jenkins` 打包,渠道分发
+	- [ ] 原理解析:渲染机制、消息机制
+	- [ ] 目录结构解析：协作&`git submodule`
+	- [ ] 关键字解读
+	- [ ] 包管理
+	- [ ] 发布自己的包
+	- [ ] 常用指令
+	- [ ] 遇到的问题
+	- [ ] 技术总结与展望
