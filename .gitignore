@@ -26,6 +26,7 @@ proguard/
 # Log Files
 *.log
 .packages
+.flutter-plugins
 .pubspec.lock
 
 # Android Studio Navigation editor temp files
