@@ -1,0 +1,8 @@
+{
+  "appName": "FlutterCN",
+  "home": "Home",
+  "sunny": "Sunny",
+  "beijing": "Beijing",
+  "messageFrom": "Message from:$user $age",
+  "about": "About"
+}

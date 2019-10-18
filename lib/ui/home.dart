@@ -1,4 +1,5 @@
 import 'package:fluttercn/cmpt/weather_icon.dart';
+import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/ui/about.dart';
 import 'package:fluttercn/ui/webview_page.dart';
 import 'package:flutter/material.dart';
@@ -294,7 +295,7 @@ class _HomePage extends State<Home> {
                     Padding(
                       padding: EdgeInsets.only(bottom: 5),
                       child: Text(
-                          "${_weather?.city ?? "北京"} ${_today?.type ?? "晴"}",
+                          "${_weather?.city ?? S.of(context).beijing} ${_today?.type ?? S.of(context).sunny}",
                           style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,

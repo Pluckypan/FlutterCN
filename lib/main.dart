@@ -1,3 +1,5 @@
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/ui/about.dart';
 import 'package:fluttercn/ui/home.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +11,7 @@ class FlutterCNApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FlutterCN',
+      title: "FlutterCN",
       debugShowCheckedModeBanner: false,
       //配置主题
       theme: ThemeData(
@@ -19,6 +21,15 @@ class FlutterCNApp extends StatelessWidget {
       home: Home(
         title: "FlutterCN",
       ),
+      localizationsDelegates: [
+        S.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: S.delegate.supportedLocales,
+      // 在当前系统语言不在支持列表时,强制使用某语言
+      localeResolutionCallback: S.delegate
+          .resolution(fallback: new Locale("zh", "CN"), withCountry: false),
       routes: <String, WidgetBuilder>{
         AboutPage.aboutRoute: (BuildContext context) => AboutPage()
       },

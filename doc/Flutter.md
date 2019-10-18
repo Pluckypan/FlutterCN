@@ -35,6 +35,52 @@ https://flutterchina.club/platform-channels/
 ## 路由管理
 - [fluro](https://github.com/theyakka/fluro)
 
+## 多语言
+1. [官方](https://flutter.cn/docs/development/accessibility-and-localization/internationalization)
+2. [插件](https://plugins.jetbrains.com/plugin/10128-flutter-i18n/)
+### 多语言插件
+1. 添加依赖
+  ```
+  dependencies:
+    flutter_localizations:
+      sdk: flutter  
+  ```
+2. IDE 搜索 `Flutter i18n`,安装插件
+3. 会自动生成
+  - `lib/generated/i18n.dart`
+  - `res/values/strings_en.arb` json 文件
+3. 配置APP
+  ```
+  class CrazyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+      return new MaterialApp(
+        localizationsDelegates: [
+          S.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
+        supportedLocales: S.delegate.supportedLocales,
+        // 在当前系统语言不在支持列表时,强制使用某语言
+        localeResolutionCallback: S.delegate
+            .resolution(fallback: new Locale("zh", "CN"), withCountry: false),
+        title: 'FlutterCN',
+        theme: new ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: new Home(title: 'FlutterCN'),
+      );
+    }
+  }
+  ```
+4. 新建 `strings_xx.arb`: 在 `res/values` 文件夹右键 新建 `Arb File`.
+5. 使用
+  - 简单取值：`"appName": "FlutterCN",` -> `S.of(context).appName`
+  - 有参取值：`"messageFrom": "天堂来信:$user $age",` -> `S.of(context).messageFrom(x,x)`
+6. 优点：使用简单,基于官方 `flutter_localizations` 实现
+7. 缺点：在 APP 中无法引用(因为没有初始化)  
+
+
 ## Model 与 json 字符串相互转换
 1. 添加依赖
   ```

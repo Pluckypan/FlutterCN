@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:fluttercn/generated/i18n.dart';
 
 typedef void AboutPageCallback(Object result);
 
@@ -14,16 +15,17 @@ class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var args = ModalRoute.of(context).settings.arguments;
-    print(args);
+    var from = (args != null && args is Map) ? args["about"] : null;
+    print(from);
     return Scaffold(
       appBar: AppBar(
-        title: Text("about"),
+        title: Text(S.of(context).about),
       ),
       body: Padding(
         padding: EdgeInsets.all(10),
         child: Center(
           child: MaterialButton(
-            child: Text("$args"),
+            child: Text(S.of(context).messageFrom("${from ?? ""}", "20")),
             onPressed: () {
               Navigator.of(context).pop("About...");
             },
