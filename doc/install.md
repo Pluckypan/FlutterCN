@@ -22,6 +22,11 @@ $ flutter doctor
 ```
 1. Android Studio 搜索并安装 flutter 插件,会自动安装flutter&dart
 
+## 问题
+1. 按照提示缺少什么安装什么
+2. `CocoaPods installed but not initialized.`
+	- `git clone https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git  ~/.cocoapods/repos/master`
+
 
 ### 运行
 ```
