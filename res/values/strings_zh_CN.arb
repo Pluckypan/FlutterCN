@@ -4,5 +4,9 @@
   "sunny": "晴",
   "beijing": "北京",
   "messageFrom": "天堂来信:$user $age",
+  "profile": "个人资料",
+  "widget": "常用控件",
+  "animation": "动画专题",
+  "settings": "设置",
   "about": "关于"
 }

@@ -4,5 +4,9 @@
   "sunny": "Sunny",
   "beijing": "Beijing",
   "messageFrom": "Message from:$user $age",
+  "profile": "Profile",
+  "widget": "Widgets",
+  "animation": "Animation",
+  "settings": "Settings",
   "about": "About"
 }

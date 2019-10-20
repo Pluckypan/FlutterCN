@@ -22,10 +22,14 @@ class S implements WidgetsLocalizations {
   TextDirection get textDirection => TextDirection.ltr;
 
   String get about => "About";
+  String get animation => "Animation";
   String get appName => "FlutterCN";
   String get beijing => "Beijing";
   String get home => "Home";
+  String get profile => "Profile";
+  String get settings => "Settings";
   String get sunny => "Sunny";
+  String get widget => "Widgets";
   String messageFrom(String user, String age) => "Message from:$user $age";
 }
 
@@ -40,7 +44,13 @@ class $zh_CN extends S {
   TextDirection get textDirection => TextDirection.ltr;
 
   @override
+  String get settings => "设置";
+  @override
+  String get widget => "常用控件";
+  @override
   String get appName => "FlutterCN";
+  @override
+  String get profile => "个人资料";
   @override
   String get about => "关于";
   @override
@@ -49,6 +59,8 @@ class $zh_CN extends S {
   String get sunny => "晴";
   @override
   String get home => "首页";
+  @override
+  String get animation => "动画专题";
   @override
   String messageFrom(String user, String age) => "天堂来信:$user $age";
 }
