@@ -37,12 +37,12 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [ ] 路由
 	- [ ] MVVM
 	- [ ] 与原生APP交互
-	- [ ] Mock Relese & Debug
+	- [x] ~Mock Relese & Debug~
 	- [ ] Flutter-UI-Kit			
 	- [ ] 数据持久化：SQLite、KV
 	- [ ] Flutter 终端指令
 	- [ ] 控件实践：长线
-	- [ ] 动画实践：长线	
+	- [ ] 动画实践：长线
 4. 文档输出
 	- [ ] 开发环境
 	- [ ] 快速集成：`Jenkins` 打包,渠道分发

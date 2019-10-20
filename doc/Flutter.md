@@ -105,23 +105,23 @@ https://flutterchina.club/platform-channels/
   flutter packages pub run build_runner build
   ```
 4. 示例代码  
-```
-import 'package:fluttercn/cmpt/model/base_model.dart';
-import 'package:json_annotation/json_annotation.dart';
+  ```
+  import 'package:fluttercn/cmpt/model/base_model.dart';
+  import 'package:json_annotation/json_annotation.dart';
 
-part 'resp.g.dart';
+  part 'resp.g.dart';
 
-@JsonSerializable()
-class Resp extends BaseModel {
-  int code;
-  String msg;
-  Object data;
+  @JsonSerializable()
+  class Resp extends BaseModel {
+    int code;
+    String msg;
+    Object data;
 
-  factory Resp.fromJson(Map<String, dynamic> json) => _$RespFromJson(json);
+    factory Resp.fromJson(Map<String, dynamic> json) => _$RespFromJson(json);
 
-  Map<String, dynamic> toJson() => _$RespToJson(this);
-}
-```
+    Map<String, dynamic> toJson() => _$RespToJson(this);
+  }
+  ```
 5. 参考链接 [jsonexample](https://github.com/flutter/samples/tree/master/jsonexample)
 
 ## Widget
@@ -188,4 +188,17 @@ class Resp extends BaseModel {
       transmogrify: ^0.4.0
     dev_dependencies:
       test: '>=0.6.0 <0.12.0'
+  ```
+## 开发web
+- [css与flutter对比](https://flutterchina.club/web-analogs/#)
+- [官方 web DEMO](https://github.com/flutter/samples/blob/master/web/readme.md)
+- 启用 web 功能：`flutter config --enable-web`
+- 关键指令
+  ```
+  $ flutter channel dev
+  $ flutter upgrade
+  $ cd gallery
+  $ flutter pub get
+  $ flutter run -d chrome
+  $ flutter build web
   ```

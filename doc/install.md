@@ -6,7 +6,7 @@ Flutter 安装完成之后,Dart语言的环境同样安装好了
 
 ## 安装
 1. zip 下载解压 配置flutter环境变量
-2. 配置环境变量
+2. 配置环境变量 把下载的flutter的路径添加进环境变量
 	```
     export PATH=`pwd`/flutter/bin:$PATH
 	```
