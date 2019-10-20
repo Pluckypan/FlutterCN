@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/ui/about.dart';
@@ -10,6 +11,8 @@ class FlutterCNApp extends StatelessWidget {
   // APP 同样是一个 Widget,这里使用官方推荐的 MaterialApp
   @override
   Widget build(BuildContext context) {
+    final platform=defaultTargetPlatform;
+    print("platform=$platform");
     return MaterialApp(
       title: "FlutterCN",
       debugShowCheckedModeBanner: false,

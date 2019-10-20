@@ -189,16 +189,3 @@ https://flutterchina.club/platform-channels/
     dev_dependencies:
       test: '>=0.6.0 <0.12.0'
   ```
-## 开发web
-- [css与flutter对比](https://flutterchina.club/web-analogs/#)
-- [官方 web DEMO](https://github.com/flutter/samples/blob/master/web/readme.md)
-- 启用 web 功能：`flutter config --enable-web`
-- 关键指令
-  ```
-  $ flutter channel dev
-  $ flutter upgrade
-  $ cd gallery
-  $ flutter pub get
-  $ flutter run -d chrome
-  $ flutter build web
-  ```

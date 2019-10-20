@@ -10,7 +10,6 @@ class BaseApi {
     baseUrl: host,
     connectTimeout: 5000,
     receiveTimeout: 3000,
-    headers: {HttpHeaders.userAgentHeader: 'echo', 'author': 'plucky'},
   ));
 
   BaseApi() {

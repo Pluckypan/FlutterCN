@@ -13,6 +13,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 - [Dart 语言基础](./doc/dart.md)
 - [Flutter 概述](./doc/flutter.md)
 - [万物皆 Widget](./doc/widget.md)
+- [Flutter开发Web](./doc/web.md)
 - [Flutter 常用指令解析](./doc/command.md)
 
 
@@ -34,23 +35,22 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] Flutter 调试&日志
 	- [x] 使用 iconfont
 	- [x] 多语言
+	- [x] web开发
 	- [ ] 路由
 	- [ ] MVVM
-	- [ ] 与原生APP交互
-	- [x] ~Mock Relese & Debug~
-	- [ ] Flutter-UI-Kit			
+	- [ ] 与原生APP交互		
 	- [ ] 数据持久化：SQLite、KV
 	- [ ] Flutter 终端指令
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线
+	- [x] ~Mock Relese & Debug~
 4. 文档输出
-	- [ ] 开发环境
-	- [ ] 快速集成：`Jenkins` 打包,渠道分发
+	- [x] 开发环境: Dart & Flutter & pub
+	- [x] 包管理: pub&git&path&发布自己的包
 	- [ ] 原理解析:渲染机制、消息机制
-	- [ ] 目录结构解析：协作&`git submodule`
 	- [ ] 关键字解读
-	- [ ] 包管理
-	- [ ] 发布自己的包
 	- [ ] 常用指令
+	- [ ] 快速集成：`Jenkins` 打包,渠道分发
+	- [ ] 目录结构解析：协作&`git submodule`
 	- [ ] 遇到的问题
 	- [ ] 技术总结与展望
