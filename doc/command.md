@@ -29,6 +29,7 @@ flutter packages pub run build_runner watch
 flutter update-packages --force-upgrade
 flutter version
 flutter upgrade
+flutter build web;// 打包html
 flutter build apk;           //打包Android应用
 flutter build apk –release;
 flutter install;              //安装应用
