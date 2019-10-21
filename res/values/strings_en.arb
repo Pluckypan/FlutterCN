@@ -9,5 +9,6 @@
   "animation": "Animation",
   "settings": "Settings",
   "coming_soon": "Coming Soon",
+  "counting": "$time s",
   "about": "About"
 }

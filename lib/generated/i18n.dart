@@ -31,6 +31,7 @@ class S implements WidgetsLocalizations {
   String get settings => "Settings";
   String get sunny => "Sunny";
   String get widget => "Widgets";
+  String counting(String time) => "$time s";
   String messageFrom(String user, String age) => "Message from:$user $age";
 }
 
@@ -64,6 +65,8 @@ class $zh_CN extends S {
   String get home => "首页";
   @override
   String get animation => "动画专题";
+  @override
+  String counting(String time) => "倒计时($time)";
   @override
   String messageFrom(String user, String age) => "天堂来信:$user $age";
 }

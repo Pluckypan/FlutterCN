@@ -3,8 +3,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/route_manager.dart';
 import 'package:fluttercn/ui/about.dart';
-import 'package:fluttercn/ui/home.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttercn/ui/splash.dart';
 
 void main() => runApp(FlutterCNApp());
 
@@ -22,9 +22,7 @@ class FlutterCNApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: "Quicksand",
       ),
-      home: Home(
-        title: "FlutterCN",
-      ),
+      home: SplashPage(),
       localizationsDelegates: [
         S.delegate,
         GlobalMaterialLocalizations.delegate,

@@ -9,5 +9,6 @@
   "animation": "动画专题",
   "settings": "设置",
   "coming_soon": "正在开发中...",
+  "counting": "倒计时($time)",
   "about": "关于"
 }

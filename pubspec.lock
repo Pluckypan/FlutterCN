@@ -382,6 +382,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
+  rxdart:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "000497b81eb1afa3ddeece30a278aa2a6e9d1358"
+      url: "git@github.com:ReactiveX/rxdart.git"
+    source: git
+    version: "0.22.4"
   shelf:
     dependency: transitive
     description:

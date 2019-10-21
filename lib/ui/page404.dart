@@ -58,7 +58,7 @@ class Page404 extends StatelessWidget {
                   height: 5.0,
                 ),
                 Text(
-                  message,
+                  message??S.of(context).coming_soon,
                   style: TextStyle(
                       fontSize: 15.0,
                       fontWeight: FontWeight.normal,

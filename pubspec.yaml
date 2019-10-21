@@ -17,6 +17,8 @@ dependencies:
   webview_flutter: ^0.3.15
   fluro:
     git: git://github.com/theyakka/fluro.git
+  rxdart:
+    git: git@github.com:ReactiveX/rxdart.git
 
 dev_dependencies:
   flutter_test:

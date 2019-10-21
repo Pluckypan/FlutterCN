@@ -1,3 +1,4 @@
+import 'package:fluro/fluro.dart';
 import 'package:fluttercn/cmpt/weather_icon.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/ui/about.dart';
@@ -13,6 +14,14 @@ import 'package:fluttercn/cmpt/model/pic_info.dart';
 
 class Home extends StatefulWidget {
   final String title;
+
+  static configRoutes(Router router) {
+    router.define("/:title",
+        handler: Handler(
+            handlerFunc:
+                (BuildContext context, Map<String, List<String>> params) =>
+                    Home(title: params["title"][0])));
+  }
 
   Home({Key key, this.title}) : super(key: key);
 
@@ -338,7 +347,7 @@ class _HomePage extends State<Home> {
                     },
                   ),
                   centerTitle: true,
-                  title: Text(widget.title),
+                  title: Text(widget.title ?? S.of(context).appName),
                   pinned: true,
                   floating: false,
                   snap: false,
