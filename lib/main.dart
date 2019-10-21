@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/route_manager.dart';
 import 'package:fluttercn/ui/about.dart';
 import 'package:fluttercn/ui/home.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +12,7 @@ class FlutterCNApp extends StatelessWidget {
   // APP 同样是一个 Widget,这里使用官方推荐的 MaterialApp
   @override
   Widget build(BuildContext context) {
-    final platform=defaultTargetPlatform;
+    final platform = defaultTargetPlatform;
     print("platform=$platform");
     return MaterialApp(
       title: "FlutterCN",
@@ -36,6 +37,7 @@ class FlutterCNApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         AboutPage.aboutRoute: (BuildContext context) => AboutPage()
       },
+      onGenerateRoute: RouteManager.generator,
     );
   }
 }

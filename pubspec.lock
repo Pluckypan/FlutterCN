@@ -169,6 +169,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.10.9"
+  fluro:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "15363723607d3be9e03e04d8c50d058f78fa647c"
+      url: "git://github.com/theyakka/fluro.git"
+    source: git
+    version: "1.5.1"
   flutter:
     dependency: "direct main"
     description: flutter

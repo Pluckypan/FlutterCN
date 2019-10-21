@@ -1,6 +1,7 @@
 import 'package:fluttercn/cmpt/weather_icon.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/ui/about.dart';
+import 'package:fluttercn/ui/left_drawer.dart';
 import 'package:fluttercn/ui/webview_page.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/cmpt/api/news_api.dart';
@@ -320,6 +321,7 @@ class _HomePage extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: LeftDrawer(),
       body: DefaultTabController(
         length: NewsList.titles.length,
         child: NestedScrollView(
@@ -331,7 +333,9 @@ class _HomePage extends State<Home> {
                 child: SliverAppBar(
                   leading: IconButton(
                     icon: Icon(Icons.menu),
-                    onPressed: () {},
+                    onPressed: () {
+                      Scaffold.of(context).openDrawer();
+                    },
                   ),
                   centerTitle: true,
                   title: Text(widget.title),

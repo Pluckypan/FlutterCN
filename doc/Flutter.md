@@ -141,9 +141,11 @@ https://flutterchina.club/platform-channels/
       plugin1:                # 依赖本地插件
         path: ../plugin1/
       package1:               # 依赖 git 插件
-          git:
-            url: git://github.com/flutter/packages.git
-            path: packages/package1    
+        git:
+          url: git://github.com/flutter/packages.git
+          path: packages/package1   
+      fluro:
+         git: git://github.com/theyakka/fluro.git             
 
     dependency_overrides:
       url_launcher: '0.4.3'

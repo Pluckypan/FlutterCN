@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/route_manager.dart';
 
 class LeftDrawer extends StatelessWidget {
   static const drawerTextStyle =
@@ -59,6 +60,10 @@ class LeftDrawer extends StatelessWidget {
               Icons.settings,
               color: Colors.brown,
             ),
+            onTap: () => {
+              RouteManager.goto(context, "page404/settings")
+                  .then((val) => {print(val)})
+            },
           ),
         ],
       ),

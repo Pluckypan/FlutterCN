@@ -37,6 +37,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 多语言
 	- [x] web开发
 	- [ ] 路由
+	- [ ] 启动页
 	- [ ] MVVM
 	- [ ] 与原生APP交互		
 	- [ ] 数据持久化：SQLite、KV

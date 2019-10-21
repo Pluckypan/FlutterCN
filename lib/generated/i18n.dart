@@ -25,6 +25,7 @@ class S implements WidgetsLocalizations {
   String get animation => "Animation";
   String get appName => "FlutterCN";
   String get beijing => "Beijing";
+  String get coming_soon => "Coming Soon";
   String get home => "Home";
   String get profile => "Profile";
   String get settings => "Settings";
@@ -43,6 +44,8 @@ class $zh_CN extends S {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
+  @override
+  String get coming_soon => "正在开发中...";
   @override
   String get settings => "设置";
   @override
