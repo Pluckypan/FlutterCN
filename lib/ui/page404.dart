@@ -1,6 +1,5 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/route_manager.dart';
 
@@ -16,7 +15,7 @@ class Page404 extends StatelessWidget {
                 Page404(
                   params["message"][0],
                 )),
-        transitionType: TransitionType.inFromLeft);
+        transitionType: TransitionType.inFromRight);
   }
 
   @override

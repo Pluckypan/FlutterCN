@@ -35,6 +35,6 @@ class RouteManager {
   }
 
   static Route<dynamic> generator(RouteSettings routeSettings){
-    _manager._router.generator(routeSettings);
+    return _manager._router.generator(routeSettings);
   }
 }

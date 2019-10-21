@@ -36,6 +36,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 使用 iconfont
 	- [x] 多语言
 	- [x] web开发
+	- [ ] MacOs & Windows App 开发
 	- [ ] 路由
 	- [ ] 启动页
 	- [ ] MVVM
@@ -49,6 +50,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 开发环境: Dart & Flutter & pub
 	- [x] 包管理: pub&git&path&发布自己的包
 	- [ ] 原理解析:渲染机制、消息机制
+	- [ ] jit,aot
 	- [ ] 关键字解读
 	- [ ] 常用指令
 	- [ ] 快速集成：`Jenkins` 打包,渠道分发

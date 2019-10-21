@@ -10,6 +10,7 @@
 - [flutterawesome](https://flutterawesome.com/)
 - [flutter-examples](https://github.com/nisrulz/flutter-examples)
 - [Flutter-UI-Kit](https://github.com/iampawan/Flutter-UI-Kit)
+- [编写 MacOS&Win APP](https://feather-apps.com/)
 - [inKino&web](https://github.com/roughike/inKino)
 - [flutter Widget 在线预览](https://flutter-widget-livebook.blankapp.org/basics/introduction/)
 - [咸鱼](https://www.yuque.com/xytech/flutter)
@@ -131,6 +132,8 @@ https://flutterchina.club/platform-channels/
 1. 断点调试：和 Android 调试差不多
 2. 打印日志：print(xxx)
 3. Debug Painting：Android的布局边界在Flutter并不会显示
+4. ` command + \` 热重载 ` command + shift + \ ` 热重启
+5. ` Alt + command + \` 所有设备热重载 ` Alt + command + shift + \ ` 所有设备热重启
 
 ## 包管理
 1. pubspec.yaml 配置如下
