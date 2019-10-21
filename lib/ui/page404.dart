@@ -6,15 +6,16 @@ import 'package:fluttercn/route_manager.dart';
 class Page404 extends StatelessWidget {
   final String message;
 
-  Page404(this.message);
+  Page404({this.message});
 
   static configRoutes(Router router) {
     router.define("/page404/:message",
         handler: Handler(
-            handlerFunc: (BuildContext context, Map<String, List<String>> params) =>
-                Page404(
-                  params["message"][0],
-                )),
+            handlerFunc:
+                (BuildContext context, Map<String, List<String>> params) =>
+                    Page404(
+                      message: params["message"][0],
+                    )),
         transitionType: TransitionType.inFromRight);
   }
 

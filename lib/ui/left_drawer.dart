@@ -14,12 +14,15 @@ class LeftDrawer extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: <Widget>[
           UserAccountsDrawerHeader(
-            accountName: Text(Config.appUser),
-            accountEmail: Text(Config.appEmail),
-            currentAccountPicture: CircleAvatar(
-              backgroundImage: AssetImage(Config.avatarUrl),
-            ),
-          ),
+              accountName: Text(Config.appUser),
+              accountEmail: Text(Config.appEmail),
+              currentAccountPicture: GestureDetector(
+                onTap: () =>
+                    {RouteManager.goto(context, "/about/${Config.appUser}/29")},
+                child: CircleAvatar(
+                  backgroundImage: AssetImage(Config.avatarUrl),
+                ),
+              )),
           new ListTile(
             title: Text(
               S.of(context).profile,

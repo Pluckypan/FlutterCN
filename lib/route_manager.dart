@@ -1,5 +1,6 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttercn/ui/about.dart';
 import 'package:fluttercn/ui/page404.dart';
 
 class RouteManager {
@@ -9,7 +10,11 @@ class RouteManager {
   final _router = Router();
 
   RouteManager() {
+    _router.notFoundHandler = Handler(
+        handlerFunc: (BuildContext context, Map<String, List<String>> params) =>
+            Page404());
     Page404.configRoutes(_router);
+    AboutPage.configRoutes(_router);
   }
 
   static Future goto(BuildContext context, String path,
@@ -34,7 +39,7 @@ class RouteManager {
     return Navigator.pop(context, result);
   }
 
-  static Route<dynamic> generator(RouteSettings routeSettings){
+  static Route<dynamic> generator(RouteSettings routeSettings) {
     return _manager._router.generator(routeSettings);
   }
 }
