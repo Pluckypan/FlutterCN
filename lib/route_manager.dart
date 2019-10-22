@@ -1,8 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttercn/ui/about.dart';
-import 'package:fluttercn/ui/home.dart';
-import 'package:fluttercn/ui/page404.dart';
+import 'package:fluttercn/pages/about.dart';
+import 'package:fluttercn/pages/home.dart';
+import 'package:fluttercn/pages/page404.dart';
+import 'package:fluttercn/pages/profile.dart';
 
 class RouteManager {
   RouteManager._();
@@ -17,6 +18,7 @@ class RouteManager {
     Page404.configRoutes(_router);
     AboutPage.configRoutes(_router);
     Home.configRoutes(_router);
+    ProfilePage.configRoutes(_router);
   }
 
   static Future goto(BuildContext context, String path,

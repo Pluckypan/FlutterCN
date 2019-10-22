@@ -13,6 +13,10 @@ class Config {
   static const imageUrl = "assets/images";
   static const logoUrl = "$imageUrl/logo@white.png";
   static const avatarUrl = "$imageUrl/user.jpg";
+  static const splashUrl =
+      "http://img.1991th.com/tuchongeter/statics/984B_R_1024_10000_Q90.jpg";
+  static const avatarNetUrl =
+      "http://img.1991th.com/tuchongeter/statics/user-03.jpg";
 
   // theme
   static const rootTheme = TextStyle(

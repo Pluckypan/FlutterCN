@@ -2,9 +2,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/route_manager.dart';
-import 'package:fluttercn/ui/about.dart';
+import 'package:fluttercn/pages/about.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttercn/ui/splash.dart';
+import 'package:fluttercn/pages/splash.dart';
 
 void main() => runApp(FlutterCNApp());
 
