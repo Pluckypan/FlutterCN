@@ -14,7 +14,7 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPage extends State<SplashPage> {
   StreamSubscription _subscription;
-  int _count = 0;
+  int _count = 5;
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +45,7 @@ class _SplashPage extends State<SplashPage> {
         .take(5)
         .listen((t) {
       setState(() {
-        _count = t+1;
+        _count = 5 - (t + 1);
       });
     },
             onDone: () => {
