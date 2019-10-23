@@ -9,7 +9,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 </div>
 
 ## 相关文档
-- [开发环境安装](./doc/install.md)
+- [开发环境搭建](./doc/install.md)
 - [Dart 语言基础](./doc/dart.md)
 - [Flutter 概述](./doc/flutter.md)
 - [万物皆 Widget](./doc/widget.md)
@@ -45,15 +45,15 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [ ] Flutter 终端指令
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线
-	- [ ] MacOs & Windows App 开发	
+	- [ ] MacOs & Windows App 开发
 	- [x] ~Mock Relese & Debug~
 4. 文档输出
 	- [x] 开发环境: Dart & Flutter & pub
 	- [x] 包管理: pub&git&path&发布自己的包
 	- [ ] 原理解析:渲染机制、消息机制
-	- [x] 常用指令	
+	- [x] 常用指令
 	- [ ] 关键字解读
-	- [ ] jit,aot	
+	- [ ] jit,aot
 	- [ ] 快速集成：`Jenkins` 打包,渠道分发
 	- [ ] 目录结构解析：协作&`git submodule`
 	- [x] 遇到的问题
