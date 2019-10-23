@@ -37,10 +37,4 @@ static goto(BuildContext context, {Object args, AboutPageCallback callback}) {
 Navigator.of(context).pop("About...");
 ```
 
-## fluro 特性
-1. 实现路由跳转
-Function handlers (map to a function instead of a route)
-Wildcard parameter matching
-Querystring parameter parsing
-Common transitions built-in
-Simple custom transition creation
+## fluro

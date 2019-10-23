@@ -8,11 +8,12 @@ class ProfilePage extends StatelessWidget {
   var _deviceSize;
 
   static configRoutes(Router router) {
-    router.define("/profile",
-        handler: Handler(
-            handlerFunc:
-                (BuildContext context, Map<String, List<String>> parameters) =>
-                    ProfilePage()));
+    router.define("/profile", handler: Handler(handlerFunc:
+        (BuildContext context, Map<String, List<String>> parameters) {
+      // 接口的另一种写法 方便打印参数
+      print(parameters);
+      return ProfilePage();
+    }));
   }
 
   static Future gotoRoute(BuildContext context) {
