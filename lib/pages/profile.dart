@@ -1,12 +1,11 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttercn/cmpt/storage/mmkv.dart';
 import 'package:fluttercn/config.dart';
 import 'package:fluttercn/route_manager.dart';
 
 // ignore: must_be_immutable
-class ProfilePage extends StatelessWidget {
-  var _deviceSize;
-
+class ProfilePage extends StatefulWidget {
   static configRoutes(Router router) {
     router.define("/profile", handler: Handler(handlerFunc:
         (BuildContext context, Map<String, List<String>> parameters) {
@@ -18,6 +17,24 @@ class ProfilePage extends StatelessWidget {
 
   static Future gotoRoute(BuildContext context) {
     return RouteManager.goto(context, "/profile");
+  }
+
+  @override
+  State createState() => _ProfilePage();
+}
+
+class _ProfilePage extends State<ProfilePage> {
+  var _checked = false;
+  var _deviceSize;
+
+  @override
+  void initState() {
+    MMKV.getValue<bool>("checked").then((checked) => {
+          setState(() {
+            _checked = checked;
+          })
+        });
+    super.initState();
   }
 
   @override
@@ -143,7 +160,11 @@ class ProfilePage extends StatelessWidget {
             profileTile(
               title: "1.2K",
               subtitle: "Following",
-            )
+            ),
+            Switch(
+                value: _checked == true,
+                onChanged: (checked) =>
+                    {MMKV.setValue<bool>("checked", checked)})
           ],
         ),
       );

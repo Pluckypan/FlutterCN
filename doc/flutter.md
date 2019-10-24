@@ -56,6 +56,7 @@ https://flutterchina.club/platform-channels/
     @override
     Widget build(BuildContext context) {
       return new MaterialApp(
+        onGenerateTitle: (context) => S.of(context).appName,
         localizationsDelegates: [
           S.delegate,
           GlobalMaterialLocalizations.delegate,
@@ -79,8 +80,7 @@ https://flutterchina.club/platform-channels/
   - 简单取值：`"appName": "FlutterCN",` -> `S.of(context).appName`
   - 有参取值：`"messageFrom": "天堂来信:$user $age",` -> `S.of(context).messageFrom(x,x)`
 6. 优点：使用简单,基于官方 `flutter_localizations` 实现
-7. 缺点：在 APP 中无法引用多语言(因为没有初始化)  
-
+7. 缺点：在 APP 中无法引用多语言(因为没有初始化),但是可以 `onGenerateTitle: (context) => S.of(context).appName,` 使用
 
 ## Model 与 json 字符串相互转换
 1. 添加依赖

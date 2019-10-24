@@ -39,9 +39,9 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] web开发
 	- [x] 路由
 	- [x] 启动页
+	- [x] 数据持久化：KV、~~SQLite~~	
 	- [ ] MVVM
 	- [ ] 与原生APP交互		
-	- [ ] 数据持久化：SQLite、KV
 	- [ ] Flutter 终端指令
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线

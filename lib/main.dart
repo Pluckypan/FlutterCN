@@ -15,7 +15,7 @@ class FlutterCNApp extends StatelessWidget {
     final platform = defaultTargetPlatform;
     print("platform=$platform");
     return MaterialApp(
-      title: "FlutterCN",
+      onGenerateTitle: (context) => S.of(context).appName,
       debugShowCheckedModeBanner: false,
       //配置主题
       theme: ThemeData(
