@@ -1,6 +1,7 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/provider/language_provider.dart';
 import 'package:fluttercn/provider/theme_provider.dart';
 import 'package:fluttercn/route_manager.dart';
 import 'package:provider/provider.dart';
@@ -30,8 +31,14 @@ class Settings extends StatelessWidget {
     return ListView(
       children: <Widget>[
         ListTile(
-          title: Text(S.of(context).language),
-          trailing: Switch(value: false, onChanged: (checked) {}),
+          title: Text(
+              Provider.of<LanguageProvider>(context).getLanguageName(context)),
+          trailing: Switch(
+              value: Provider.of<LanguageProvider>(context).chinese,
+              onChanged: (checked) {
+                LanguageProvider provider =Provider.of<LanguageProvider>(context);
+                provider.changeLang(checked);
+              }),
         ),
         ListTile(
           title: Text(Provider.of<ThemeProvider>(context).themeName(context)),

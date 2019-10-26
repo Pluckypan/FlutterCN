@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/provider/language_provider.dart';
 import 'package:fluttercn/provider/provider_manager.dart';
 import 'package:fluttercn/provider/theme_provider.dart';
 import 'package:fluttercn/route_manager.dart';
@@ -21,16 +22,17 @@ class FlutterCNApp extends StatelessWidget {
       providers: ProviderManager.providers,
       child: Consumer<ThemeProvider>(
           builder: (context, themeProvider, child) =>
-              _createApp(themeProvider)),
+              _createApp(context, themeProvider)),
     );
   }
 
-  Widget _createApp(ThemeProvider themeProvider) {
+  Widget _createApp(BuildContext context, ThemeProvider themeProvider) {
     return MaterialApp(
       onGenerateTitle: (context) => S.of(context).appName,
       debugShowCheckedModeBanner: false,
       //配置主题 Provider.of<ThemeProvider>(context).getTheme()
       theme: themeProvider.getTheme(),
+      locale: Provider.of<LanguageProvider>(context).getLocale(),
       home: SplashPage(),
       localizationsDelegates: [
         S.delegate,

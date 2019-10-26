@@ -8,7 +8,7 @@ enum AppTheme { Blue, Pink }
 class ThemeProvider extends ChangeNotifier {
   ThemeProvider() {
     MMKV.getValue<bool>("appTheme").then((blue) {
-      changeTheme(blue ? AppTheme.Blue : AppTheme.Pink);
+      changeTheme(blue==true ? AppTheme.Blue : AppTheme.Pink);
     });
   }
 
