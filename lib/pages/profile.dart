@@ -57,7 +57,7 @@ class _ProfilePage extends State<ProfilePage> {
             Switch(
                 value: _checked == true,
                 onChanged: (checked) =>
-                    {MMKV.setValue<bool>("checked", checked)}),
+                    {MMKV.setValue("checked", checked)}),
           ],
         ),
       ),

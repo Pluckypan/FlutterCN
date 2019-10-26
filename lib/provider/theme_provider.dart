@@ -1,10 +1,17 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttercn/cmpt/storage/mmkv.dart';
 import 'package:fluttercn/generated/i18n.dart';
 
 enum AppTheme { Blue, Pink }
 
 class ThemeProvider extends ChangeNotifier {
+  ThemeProvider() {
+    MMKV.getValue<bool>("appTheme").then((blue) {
+      changeTheme(blue ? AppTheme.Blue : AppTheme.Pink);
+    });
+  }
+
   AppTheme _theme = AppTheme.Blue;
 
   changeTheme(AppTheme theme) {
@@ -13,6 +20,7 @@ class ThemeProvider extends ChangeNotifier {
   }
 
   change(bool blue) {
+    MMKV.setValue("appTheme", blue);
     changeTheme(blue ? AppTheme.Blue : AppTheme.Pink);
   }
 

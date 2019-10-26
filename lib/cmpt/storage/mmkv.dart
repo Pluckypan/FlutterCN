@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class MMKV {
   MMKV._();
 
-  static Future<bool> setValue<T>(String key, T value) async {
+  static Future<bool> setValue(String key, dynamic value) async {
     final prefs = await SharedPreferences.getInstance();
 
     if (value.runtimeType == bool) {
