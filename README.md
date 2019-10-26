@@ -41,13 +41,14 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 启动页
 	- [x] 数据持久化：KV、~~SQLite~~	
 	- [ ] MVVM
-	- [ ] 主题
+	- [ ] 主题: provider 全局状态同步
+	- [ ] 自定义View
 	- [ ] 与原生APP交互		
 	- [ ] Flutter 终端指令
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线
 	- [ ] MacOs & Windows App 开发
-	- [x] ~Mock Relese & Debug~
+	- [x] ~Mock Release & Debug~
 4. 文档输出
 	- [x] 开发环境: Dart & Flutter & pub
 	- [x] 包管理: pub&git&path&发布自己的包

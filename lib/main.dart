@@ -1,10 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/provider/provider_manager.dart';
+import 'package:fluttercn/provider/theme_provider.dart';
 import 'package:fluttercn/route_manager.dart';
 import 'package:fluttercn/pages/about.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/pages/splash.dart';
+import 'package:provider/provider.dart';
 
 void main() => runApp(FlutterCNApp());
 
@@ -14,14 +17,20 @@ class FlutterCNApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final platform = defaultTargetPlatform;
     print("platform=$platform");
+    return MultiProvider(
+      providers: ProviderManager.providers,
+      child: Consumer<ThemeProvider>(
+          builder: (context, themeProvider, child) =>
+              _createApp(themeProvider)),
+    );
+  }
+
+  Widget _createApp(ThemeProvider themeProvider) {
     return MaterialApp(
       onGenerateTitle: (context) => S.of(context).appName,
       debugShowCheckedModeBanner: false,
-      //配置主题
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        fontFamily: "Quicksand",
-      ),
+      //配置主题 Provider.of<ThemeProvider>(context).getTheme()
+      theme: themeProvider.getTheme(),
       home: SplashPage(),
       localizationsDelegates: [
         S.delegate,
