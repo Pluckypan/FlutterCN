@@ -31,6 +31,7 @@ class MMKV {
   }
 
   static Future<T> getValue<T>(String key) async {
+    print("T=$T key=$key");
     final prefs = await SharedPreferences.getInstance();
     return prefs.get(key) as T;
   }

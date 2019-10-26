@@ -13,8 +13,9 @@ class Config {
   static const imageUrl = "assets/images";
   static const logoUrl = "$imageUrl/logo@white.png";
   static const avatarUrl = "$imageUrl/user.jpg";
+  static const splashBg = "$imageUrl/splash.jpg";
   static const splashUrl =
-      "http://img.1991th.com/tuchongeter/statics/984B_R_1024_10000_Q90.jpg";
+      "http://img.1991th.com/tuchongeter/statics/F3UN3AHCF24T34V";
   static const avatarNetUrl =
       "http://img.1991th.com/tuchongeter/statics/user-03.jpg";
 

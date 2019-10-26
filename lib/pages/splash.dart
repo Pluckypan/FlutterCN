@@ -1,6 +1,8 @@
 import 'dart:async';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/home.dart';
 import 'package:rxdart/rxdart.dart';
@@ -18,24 +20,34 @@ class _SplashPage extends State<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
+    final statusBarHeight = MediaQuery.of(context).padding.top;
     return Scaffold(
       body: Center(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text(
-            S.of(context).appName,
-            style: TextStyle(fontSize: 24),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Text(
-            S.of(context).counting("$_count"),
-            style: TextStyle(fontSize: 12),
-          ),
-        ],
-      )),
+        child: Stack(
+          alignment: Alignment.center,
+          children: <Widget>[
+            Image.asset(
+              Config.splashBg,
+              width: width,
+              height: height,
+              fit: BoxFit.cover,
+            ),
+            Positioned(
+              top: statusBarHeight + 10,
+              right: 20,
+              child: Text(
+                S.of(context).counting("$_count"),
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 

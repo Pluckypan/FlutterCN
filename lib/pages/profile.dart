@@ -2,6 +2,7 @@ import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/cmpt/storage/mmkv.dart';
 import 'package:fluttercn/config.dart';
+import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/route_manager.dart';
 
 // ignore: must_be_immutable
@@ -41,7 +42,9 @@ class _ProfilePage extends State<ProfilePage> {
   Widget build(BuildContext context) {
     _deviceSize = MediaQuery.of(context).size;
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text(S.of(context).profile),
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -50,7 +53,11 @@ class _ProfilePage extends State<ProfilePage> {
             followColumn(_deviceSize),
             commonDivider(),
             descColumn(),
-            commonDivider()
+            commonDivider(),
+            Switch(
+                value: _checked == true,
+                onChanged: (checked) =>
+                    {MMKV.setValue<bool>("checked", checked)}),
           ],
         ),
       ),
@@ -97,20 +104,11 @@ class _ProfilePage extends State<ProfilePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                profileTile(
-                  title: "Plucky.Pan",
-                  subtitle: "plucky@echo.engineer",
-                ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      IconButton(
-                        icon: Icon(Icons.chat),
-                        color: Colors.black,
-                        onPressed: () {},
-                      ),
                       Container(
                         decoration: BoxDecoration(
                           borderRadius:
@@ -126,14 +124,16 @@ class _ProfilePage extends State<ProfilePage> {
                           radius: 30.0,
                         ),
                       ),
-                      IconButton(
-                        icon: Icon(Icons.call),
-                        color: Colors.black,
-                        onPressed: () {},
-                      ),
                     ],
                   ),
-                )
+                ),
+                Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Text(
+                    "Plucky.Pan",
+                    style: TextStyle(fontSize: 16, color: Colors.black87),
+                  ),
+                ),
               ],
             ),
           ),
@@ -146,25 +146,17 @@ class _ProfilePage extends State<ProfilePage> {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             profileTile(
-              title: "1.5K",
+              title: "215",
               subtitle: "Posts",
             ),
             profileTile(
-              title: "2.5K",
-              subtitle: "Followers",
+              title: "100",
+              subtitle: "Videos",
             ),
             profileTile(
-              title: "10K",
-              subtitle: "Comments",
+              title: "1K",
+              subtitle: "Photos",
             ),
-            profileTile(
-              title: "1.2K",
-              subtitle: "Following",
-            ),
-            Switch(
-                value: _checked == true,
-                onChanged: (checked) =>
-                    {MMKV.setValue<bool>("checked", checked)})
           ],
         ),
       );
@@ -175,7 +167,7 @@ class _ProfilePage extends State<ProfilePage> {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 50.0),
             child: Text(
-              "#Flutter #Android #Vloger #YouTuber",
+              "#Android #Vloger",
               style: TextStyle(fontWeight: FontWeight.w700),
               textAlign: TextAlign.center,
               maxLines: 3,
