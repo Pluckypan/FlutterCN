@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MMKV {
@@ -18,10 +16,6 @@ class MMKV {
 
     if (value.runtimeType == String) {
       return prefs.setString(key, value as String);
-    }
-
-    if (value.runtimeType == Double) {
-      return prefs.setDouble(key, value as double);
     }
 
     if (value.runtimeType == List) {
