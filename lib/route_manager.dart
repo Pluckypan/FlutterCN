@@ -4,6 +4,7 @@ import 'package:fluttercn/pages/about.dart';
 import 'package:fluttercn/pages/home.dart';
 import 'package:fluttercn/pages/page404.dart';
 import 'package:fluttercn/pages/profile.dart';
+import 'package:fluttercn/pages/setting.dart';
 
 class RouteManager {
   RouteManager._();
@@ -19,6 +20,7 @@ class RouteManager {
     AboutPage.configRoutes(_router);
     Home.configRoutes(_router);
     ProfilePage.configRoutes(_router);
+    Settings.configRoutes(_router);
   }
 
   static Future goto(BuildContext context, String path,

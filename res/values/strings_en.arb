@@ -8,6 +8,12 @@
   "widget": "Widgets",
   "animation": "Animation",
   "settings": "Settings",
+  "english": "English",
+  "simple_chinese": "Simple Chinese",
+  "language": "language",
+  "theme": "theme",
+  "theme_blue": "Blue Theme",
+  "theme_pink": "Pink Theme",
   "coming_soon": "Coming Soon",
   "counting": "$time s",
   "about": "About"

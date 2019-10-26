@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/about.dart';
-import 'package:fluttercn/pages/page404.dart';
 import 'package:fluttercn/pages/profile.dart';
+import 'package:fluttercn/pages/setting.dart';
 
 class LeftDrawer extends StatelessWidget {
   static const drawerTextStyle =
@@ -27,7 +27,7 @@ class LeftDrawer extends StatelessWidget {
                   backgroundImage: AssetImage(Config.avatarUrl),
                 ),
               )),
-          new ListTile(
+          ListTile(
             title: Text(
               S.of(context).profile,
               style: drawerTextStyle,
@@ -38,7 +38,7 @@ class LeftDrawer extends StatelessWidget {
               color: Colors.blue,
             ),
           ),
-          new ListTile(
+          ListTile(
             title: Text(
               S.of(context).widget,
               style: drawerTextStyle,
@@ -48,7 +48,7 @@ class LeftDrawer extends StatelessWidget {
               color: Colors.yellow,
             ),
           ),
-          new ListTile(
+          ListTile(
             title: Text(
               S.of(context).animation,
               style: drawerTextStyle,
@@ -59,7 +59,7 @@ class LeftDrawer extends StatelessWidget {
             ),
           ),
           Divider(),
-          new ListTile(
+          ListTile(
             title: Text(
               S.of(context).settings,
               style: drawerTextStyle,
@@ -69,7 +69,7 @@ class LeftDrawer extends StatelessWidget {
               color: Colors.brown,
             ),
             onTap: () => {
-              Page404.gotoRoute(context, "settings").then((val) => {print(val)})
+              Settings.gotoRoute(context).then((val) => {print(val)})
             },
           ),
         ],

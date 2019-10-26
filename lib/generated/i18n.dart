@@ -26,10 +26,16 @@ class S implements WidgetsLocalizations {
   String get appName => "FlutterCN";
   String get beijing => "Beijing";
   String get coming_soon => "Coming Soon";
+  String get english => "English";
   String get home => "Home";
+  String get language => "language";
   String get profile => "Profile";
   String get settings => "Settings";
+  String get simple_chinese => "Simple Chinese";
   String get sunny => "Sunny";
+  String get theme => "theme";
+  String get theme_blue => "Blue Theme";
+  String get theme_pink => "Pink Theme";
   String get widget => "Widgets";
   String counting(String time) => "$time s";
   String messageFrom(String user, String age) => "Message from:$user $age";
@@ -46,11 +52,11 @@ class $zh_CN extends S {
   TextDirection get textDirection => TextDirection.ltr;
 
   @override
-  String get coming_soon => "正在开发中...";
-  @override
   String get settings => "设置";
   @override
   String get widget => "常用控件";
+  @override
+  String get theme_blue => "蓝色主题";
   @override
   String get appName => "FlutterCN";
   @override
@@ -58,13 +64,25 @@ class $zh_CN extends S {
   @override
   String get about => "关于";
   @override
-  String get beijing => "北京";
+  String get language => "语言";
   @override
-  String get sunny => "晴";
+  String get beijing => "北京";
   @override
   String get home => "首页";
   @override
   String get animation => "动画专题";
+  @override
+  String get coming_soon => "正在开发中...";
+  @override
+  String get theme_pink => "粉色主题";
+  @override
+  String get english => "英语";
+  @override
+  String get simple_chinese => "简体中文";
+  @override
+  String get theme => "主题";
+  @override
+  String get sunny => "晴";
   @override
   String counting(String time) => "倒计时($time)";
   @override
