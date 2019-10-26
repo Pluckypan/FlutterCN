@@ -39,9 +39,9 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] web开发
 	- [x] 路由
 	- [x] 启动页
-	- [x] 数据持久化：KV、~~SQLite~~	
+	- [x] 数据持久化：KV、~~SQLite~~
 	- [ ] MVVM
-	- [ ] 主题: provider 全局状态同步
+	- [x] 主题: provider 全局状态同步
 	- [ ] 自定义View
 	- [ ] 与原生APP交互		
 	- [ ] Flutter 终端指令
