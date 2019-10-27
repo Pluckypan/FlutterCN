@@ -8,7 +8,9 @@ class NativeManager {
   NativeManager._();
 
   static const platform =
-      const MethodChannel('echo.engineer.fluttercn/channel');
+      const MethodChannel('echo.engineer.fluttercn/method_channel');
+  static const eventChannel =
+      const EventChannel("echo.engineer.fluttercn/event_channel");
 
   static sayHi() async {
     var result = await platform.invokeMethod("sayHi");
@@ -25,7 +27,7 @@ class NativeManager {
     return DeviceInfo.fromJson(json.decode(result));
   }
 
-  static openMessageActivity(String message) {
-    platform.invokeMethod("openMessageActivity", {"message": message});
+  static Future<String> openMessageActivity(String message) async {
+    return platform.invokeMethod("openMessageActivity", {"message": message});
   }
 }
