@@ -13,6 +13,22 @@ class OfficialPage extends StatelessWidget {
     RouteManager.goto(context, "/official_page");
   }
 
+  static final itemCount = 0;
+
+  static String _getTitle(BuildContext context, int index) {
+    switch (index) {
+      default:
+        return "";
+    }
+  }
+
+  static _onItemClick(BuildContext context, int index) {
+    switch (index) {
+      case 0:
+        break;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +36,8 @@ class OfficialPage extends StatelessWidget {
         title: Text(S.of(context).official_sample),
       ),
       body: GridView.builder(
-          itemCount: 20,
+          itemCount: itemCount,
+          padding: EdgeInsets.all(10),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
               mainAxisSpacing: 10,
@@ -31,6 +48,19 @@ class OfficialPage extends StatelessWidget {
   }
 
   Widget _buildChild(BuildContext context, int index) {
-    return GridTile(child: Text("$index"));
+    return GridTile(
+        child: GestureDetector(
+          child: Container(
+            alignment: Alignment.center,
+            color: Theme.of(context).primaryColor,
+            child: Text(
+              _getTitle(context, index),
+              style: TextStyle(color: Colors.white, fontSize: 20),
+            ),
+          ),
+          onTap: () {
+            _onItemClick(context, index);
+          },
+        ));
   }
 }
