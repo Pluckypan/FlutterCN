@@ -16,6 +16,7 @@
   "theme_pink": "粉色主题",
   "official_sample": "官方示例",
   "third_party_libs": "第三方类库",
+  "native_call": "原生交互",
   "coming_soon": "正在开发中...",
   "counting": "倒计时($time)",
   "about": "关于"

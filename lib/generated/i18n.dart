@@ -29,6 +29,7 @@ class S implements WidgetsLocalizations {
   String get english => "English";
   String get home => "Home";
   String get language => "language";
+  String get native_call => "Call Native";
   String get official_sample => "Official Sample";
   String get profile => "Profile";
   String get settings => "Settings";
@@ -89,6 +90,8 @@ class $zh_CN extends S {
   String get theme => "主题";
   @override
   String get sunny => "晴";
+  @override
+  String get native_call => "原生交互";
   @override
   String counting(String time) => "倒计时($time)";
   @override

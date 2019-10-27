@@ -40,14 +40,14 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 路由
 	- [x] 启动页
 	- [x] 数据持久化：KV、~~SQLite~~
-	- [ ] MVVM
 	- [x] 主题: provider 全局状态同步
-	- [ ] 自定义View
-	- [ ] 与原生APP交互		
+	- [x] 与原生APP交互	[链接](https://flutter.cn/docs/development/platform-integration/platform-channels)
+	- [ ] 自定义View		
 	- [ ] Flutter 终端指令
+	- [ ] MVVM		
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
-	- [ ] MacOs & Windows App 开发
+	- [x] ~MacOs & Windows App 开发~
 	- [x] ~Mock Release & Debug~
 4. 文档输出
 	- [x] 开发环境: Dart & Flutter & pub

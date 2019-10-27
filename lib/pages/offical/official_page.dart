@@ -1,6 +1,7 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/pages/native.dart';
 import 'package:fluttercn/route_manager.dart';
 
 class OfficialPage extends StatelessWidget {
@@ -13,10 +14,12 @@ class OfficialPage extends StatelessWidget {
     RouteManager.goto(context, "/official_page");
   }
 
-  static final itemCount = 0;
+  static final itemCount = 1;
 
   static String _getTitle(BuildContext context, int index) {
     switch (index) {
+      case 0:
+        return S.of(context).native_call;
       default:
         return "";
     }
@@ -25,6 +28,7 @@ class OfficialPage extends StatelessWidget {
   static _onItemClick(BuildContext context, int index) {
     switch (index) {
       case 0:
+        Native.gotoRoute(context);
         break;
     }
   }
@@ -50,17 +54,17 @@ class OfficialPage extends StatelessWidget {
   Widget _buildChild(BuildContext context, int index) {
     return GridTile(
         child: GestureDetector(
-          child: Container(
-            alignment: Alignment.center,
-            color: Theme.of(context).primaryColor,
-            child: Text(
-              _getTitle(context, index),
-              style: TextStyle(color: Colors.white, fontSize: 20),
-            ),
-          ),
-          onTap: () {
-            _onItemClick(context, index);
-          },
-        ));
+      child: Container(
+        alignment: Alignment.center,
+        color: Theme.of(context).primaryColor,
+        child: Text(
+          _getTitle(context, index),
+          style: TextStyle(color: Colors.white, fontSize: 20),
+        ),
+      ),
+      onTap: () {
+        _onItemClick(context, index);
+      },
+    ));
   }
 }
