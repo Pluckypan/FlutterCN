@@ -1,6 +1,8 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/pages/about.dart';
+import 'package:fluttercn/pages/canvas_page.dart';
+import 'package:fluttercn/pages/clip_path.dart';
 import 'package:fluttercn/pages/home.dart';
 import 'package:fluttercn/pages/native.dart';
 import 'package:fluttercn/pages/offical/official_page.dart';
@@ -27,6 +29,8 @@ class RouteManager {
     OfficialPage.configRoutes(_router);
     ThirdPartyLibsPage.configRoutes(_router);
     Native.configRoutes(_router);
+    ClipPathPage.configRoutes(_router);
+    CanvasPage.configRoutes(_router);
   }
 
   static Future goto(BuildContext context, String path,

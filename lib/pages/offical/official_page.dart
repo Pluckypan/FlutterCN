@@ -1,6 +1,8 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/pages/canvas_page.dart';
+import 'package:fluttercn/pages/clip_path.dart';
 import 'package:fluttercn/pages/native.dart';
 import 'package:fluttercn/route_manager.dart';
 
@@ -14,12 +16,16 @@ class OfficialPage extends StatelessWidget {
     RouteManager.goto(context, "/official_page");
   }
 
-  static final itemCount = 1;
+  static final itemCount = 3;
 
   static String _getTitle(BuildContext context, int index) {
     switch (index) {
       case 0:
         return S.of(context).native_call;
+      case 1:
+        return "ClipPath";
+      case 2:
+        return "Canvas";
       default:
         return "";
     }
@@ -29,6 +35,12 @@ class OfficialPage extends StatelessWidget {
     switch (index) {
       case 0:
         Native.gotoRoute(context);
+        break;
+      case 1:
+        ClipPathPage.gotoRoute(context);
+        break;
+      case 2:
+        CanvasPage.gotoRoute(context);
         break;
     }
   }
