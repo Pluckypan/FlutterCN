@@ -29,6 +29,7 @@ class S implements WidgetsLocalizations {
   String get english => "English";
   String get home => "Home";
   String get language => "language";
+  String get official_sample => "Official Sample";
   String get profile => "Profile";
   String get settings => "Settings";
   String get simple_chinese => "Simple Chinese";
@@ -36,6 +37,7 @@ class S implements WidgetsLocalizations {
   String get theme => "theme";
   String get theme_blue => "Blue Theme";
   String get theme_pink => "Pink Theme";
+  String get third_party_libs => "Third Party Libs";
   String get widget => "Widgets";
   String counting(String time) => "$time s";
   String messageFrom(String user, String age) => "Message from:$user $age";
@@ -51,6 +53,8 @@ class $zh_CN extends S {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
+  @override
+  String get third_party_libs => "第三方类库";
   @override
   String get settings => "设置";
   @override
@@ -79,6 +83,8 @@ class $zh_CN extends S {
   String get english => "英语";
   @override
   String get simple_chinese => "简体中文";
+  @override
+  String get official_sample => "官方示例";
   @override
   String get theme => "主题";
   @override

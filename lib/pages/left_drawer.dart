@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/about.dart';
+import 'package:fluttercn/pages/offical/official_page.dart';
 import 'package:fluttercn/pages/profile.dart';
 import 'package:fluttercn/pages/setting.dart';
+import 'package:fluttercn/pages/third/third_party_libs.dart';
 
 class LeftDrawer extends StatelessWidget {
   static const drawerTextStyle =
@@ -40,23 +42,29 @@ class LeftDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text(
-              S.of(context).widget,
+              S.of(context).official_sample,
               style: drawerTextStyle,
             ),
             leading: Icon(
               Icons.widgets,
               color: Colors.yellow,
             ),
+            onTap: () {
+              OfficialPage.gotoRoutes(context);
+            },
           ),
           ListTile(
             title: Text(
-              S.of(context).animation,
+              S.of(context).third_party_libs,
               style: drawerTextStyle,
             ),
             leading: Icon(
               Icons.pages,
               color: Colors.green,
             ),
+            onTap: () {
+              ThirdPartyLibsPage.gotoRoutes(context);
+            },
           ),
           Divider(),
           ListTile(

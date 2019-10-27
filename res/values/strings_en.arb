@@ -14,6 +14,8 @@
   "theme": "theme",
   "theme_blue": "Blue Theme",
   "theme_pink": "Pink Theme",
+  "official_sample": "Official Sample",
+  "third_party_libs": "Third Party Libs",
   "coming_soon": "Coming Soon",
   "counting": "$time s",
   "about": "About"
