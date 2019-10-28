@@ -42,11 +42,11 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 数据持久化：KV、~~SQLite~~
 	- [x] 主题: provider 全局状态同步
 	- [x] 与原生APP交互	[链接](https://flutter.cn/docs/development/platform-integration/platform-channels)
-	- [x] 自定义View		
+	- [x] 自定义View		[链接](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html)
 	- [ ] MVVM		
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
-	- [ ] Flutter 终端指令	
+	- [ ] Flutter 终端指令
 	- [x] ~MacOs & Windows App 开发~
 	- [x] ~Mock Release & Debug~
 4. 文档输出
