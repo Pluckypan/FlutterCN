@@ -8,15 +8,6 @@ A Project to Share About FlutterCN.Flutter学习与分享
 
 </div>
 
-## 相关文档
-- [开发环境搭建](./doc/install.md)
-- [Dart 语言基础](./doc/dart.md)
-- [Flutter 概述](./doc/flutter.md)
-- [万物皆 Widget](./doc/widget.md)
-- [Flutter开发Web](./doc/web.md)
-- [Flutter 常用指令解析](./doc/command.md)
-
-
 ## 免费API
 - [开源社区](https://www.apiopen.top/api.html#top)
 - [新闻接口](https://www.apiopen.top/journalismApi)
@@ -43,7 +34,9 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 主题: provider 全局状态同步
 	- [x] 与原生APP交互	[链接](https://flutter.cn/docs/development/platform-integration/platform-channels)
 	- [x] 自定义View		[链接](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html)
-	- [ ] MVVM		
+	- [ ] 生命周期
+	- [ ] MVVM
+	- [ ] Flutter Delay		
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
 	- [ ] Flutter 终端指令
@@ -52,11 +45,11 @@ A Project to Share About FlutterCN.Flutter学习与分享
 4. 文档输出
 	- [x] 开发环境: Dart & Flutter & pub
 	- [x] 包管理: pub&git&path&发布自己的包
-	- [ ] 原理解析:渲染机制、消息机制
 	- [x] 常用指令
-	- [ ] 关键字解读
+	- [ ] 原理解析:渲染机制、消息机制
 	- [ ] jit,aot
-	- [ ] 快速集成：`Jenkins` 打包,渠道分发
-	- [ ] 目录结构解析：协作&`git submodule`
+	- [ ] 关键字解读
 	- [x] 遇到的问题
 	- [ ] 技术总结与展望
+	- [ ] 快速集成：`Jenkins` 打包,渠道分发
+	- [ ] 目录结构解析：协作&`git submodule`

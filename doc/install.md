@@ -28,7 +28,7 @@ $ flutter doctor
 	- `git clone https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git  ~/.cocoapods/repos/master`
 
 
-### 运行
+## 运行
 ```
 1. flutter device
 2. flutter run
