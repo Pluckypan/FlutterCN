@@ -36,6 +36,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 自定义View		[链接](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html)
 	- [ ] 生命周期
 	- [ ] MVVM
+	- [ ] AOP
 	- [ ] Flutter Delay		
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/

@@ -8,7 +8,8 @@ Widget
 
 ## StatefulWidget&StatelessWidget
 > Flutter 的核心设计思想便是: Everything is a Widget.
-![widget](http://img.1991th.com/tuchongeter/tech/flutter.widget)
+
+![widget](assets/img/widget.png)
 
 1. StatelessWidget:无中间状态变化的widget，需要更新展示内容就得通过重新new，flutter推荐尽量使用StatelessWidget
 2. StatefullWidget:存在中间状态变化，那么问题来了，widget不是都immutable的，状态变化存储在哪里？flutter 引入state的类用于存放中间态，通过调用state.setState()进行此节点及以下的整个子树更新
