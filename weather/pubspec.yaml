@@ -1,0 +1,19 @@
+name: iweather
+version: 0.0.1
+description: iweather Dart 终端获取天气
+authors:
+  - Plucky <plucky@echo.engineer>
+  - Plucky.Pan <pluckypan@126.com>
+homepage: http://1991th.com
+documentation: https://github.com/Pluckypan/FlutterCN
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  args: ^1.5.2
+  dio: ^3.0.3
+
+dev_dependencies:
+
+executables:
+  iweather:

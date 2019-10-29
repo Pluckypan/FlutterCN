@@ -42,3 +42,5 @@ Flutter Web
   3. dio 不要随意设置 `headers: {HttpHeaders.userAgentHeader: 'xxx'}` 否则会出现跨域问题 无法访问API
   4. 在 `flutter run -d chrome` 后,在终端按 `r` 键 `hot reload`
   5. `dart.io` 中的功能无法在 web 运行,一些 `plugins` 如`webview`也无法运行
+
+  ## 终端指令开发

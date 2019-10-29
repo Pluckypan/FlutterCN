@@ -1,13 +1,5 @@
-Dart 语言概述
-===
-
 ## 官方说明
 > Dart is a client-optimized language for fast apps on any platform,made by Google. Dart 是一种 易于学习、 易于扩展、并且可以部署到 任何地方 的 应用 编程 语言。Google 使用 Dart 来开发 大型应用。
-
-- [dart官网](https://dart.dev/) | https://www.dartlang.org/
-- [dart中文网](http://dart.goodev.org/)
-- [dartdoc.cn](http://www.dartdoc.cn/)
-- [在线运行](https://dartpad.dartlang.org/)
 
 ## 简介
 Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由Google主导开发，于2011年10月公开。它的开发团队由Google Chrome浏览器V8引擎团队的领导者拉尔斯·巴克主持，目标在于成为下一代结构化Web开发语言。类似JavaScript，Dart也是一种面向对象语言，但是它采用基于类编程。它只允许单一继承，语法风格接近C语言。[wiki](https://zh.wikipedia.org/wiki/Dart)
@@ -73,7 +65,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
   - `??=` 运算符前面的变量为null，则赋值，否则不赋值
   - `?.` 空指针检查
   - `??` `A??B`
-  - `...` 对象的级联运算符
+  - `..` 对象的级联运算符
 
 3. 验证代码
   ```
@@ -534,3 +526,8 @@ main() {
   });
 }
 ```
+
+- [dart官网](https://dart.dev/)
+- [dart中文网](http://dart.goodev.org/)
+- [dartdoc.cn](http://www.dartdoc.cn/)
+- [在线运行](https://dartpad.dartlang.org/)

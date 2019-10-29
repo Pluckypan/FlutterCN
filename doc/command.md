@@ -2,22 +2,10 @@ Flutter 指令
 ===
 Flutter 常用指令
 
-## 环境变量
-```
-# flutter 指令环境变量
-export PATH="$HOME/Applications/flutter/bin":$PATH
-# 指定.pub-cache
-export PUB_CACHE="$HOME/Applications/flutter/.pub-cache/"
-# flutter global 安装全局指令 环境变量
-export PATH="$PATH":"$HOME/Applications/flutter/.pub-cache/bin"
-# dart 环境变量
-export PATH="$PATH":"$HOME/Applications/flutter/bin/cache/dart-sdk/bin"
-```
-
 ## flutter 指令
 ```
 flutter doctor
-flutter device
+flutter devices
 flutter run -d deviceId
 flutter run -d chrome
 flutter pub get

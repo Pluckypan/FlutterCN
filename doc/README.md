@@ -5,11 +5,12 @@
 <a class="github-button" href="https://github.com/Pluckypan/FlutterCN" data-icon="octicon-star" data-show-count="true" aria-label="FlutterCN">Star</a>
 
 
-
 ## 概述
 Flutter是Google开发的一套全新的跨平台、开源UI框架，支持iOS、Android系统开发，并且是未来新操作系统Fuchsia的默认开发套件。自从2017年5月发布第一个版本[v0.0.6](https://github.com/flutter/flutter/releases/tag/v0.0.6)以来，目前Flutter已经发布了近[224](https://github.com/flutter/flutter/releases)个版本，并且在2018年5月发布了第一个“Ready for Production Apps”的Beta 3版本，6月20日发布了第一个“Release Preview”版本。
 
-在Flutter诞生之前，已经有许多跨平台UI框架的方案，比如基于WebView的Cordova、AppCan等，还有使用HTML+JavaScript渲染成原生控件的React Native、Weex等。
+在Flutter诞生之前，已经有许多跨平台UI框架的方案
+1. 基于浏览器技术的 Hybird、Cordova、AppCan
+2. 基于桥接Native组件,即使用HTML+JavaScript渲染成原生控件：如RN、WEEX
 
 基于WebView的框架优点很明显，它们几乎可以完全继承现代Web开发的所有成果（丰富得多的控件库、满足各种需求的页面框架、完全的动态化、自动化测试工具等等），当然也包括Web开发人员，不需要太多的学习和迁移成本就可以开发一个App。同时WebView框架也有一个致命（在对体验&性能有较高要求的情况下）的缺点，那就是WebView的渲染效率和JavaScript执行性能太差。再加上Android各个系统版本和设备厂商的定制，很难保证所在所有设备上都能提供一致的体验。
 
@@ -17,7 +18,7 @@ Flutter是Google开发的一套全新的跨平台、开源UI框架，支持iOS�
 
 ![border](assets/img/android.border.png)
 
-Flutter则开辟了一种全新的思路，从头到尾重写一套跨平台的UI框架，包括UI控件、渲染逻辑甚至开发语言。渲染引擎依靠跨平台的Skia图形库来实现，依赖系统的只有图形绘制相关的接口，可以在最大程度上保证不同平台、不同设备的体验一致性，逻辑处理使用支持AOT的Dart语言，执行效率也比JavaScript高得多。
+Flutter则开辟了一种全新的思路，从头到尾重写一套跨平台的UI框架，包括UI控件、渲染逻辑甚至开发语言。渲染引擎依靠跨平台的Skia图形库来实现，依赖系统的只有图形绘制相关的接口，可以在最大程度上保证不同平台、不同设备的体验一致性，逻辑处理使用支持AOT的Dart语言，执行效率也比JavaScript高得多。 [编译](compile)
 
 ## 架构
 ![framework](/assets/img/flutter.framework.png)
@@ -38,6 +39,7 @@ Embedder是一个嵌入层，即把Flutter嵌入到各个平台上去，这里�
 3. 便捷的包管理,活跃的社区氛围
 4. 官方提供了丰富的控件,脚手架
 5. Debug 模式下的 **热重载、热重启** 功能,方便快速构建界面
+6. 因为 `Google`：虽然基于底层统一渲染的跨平台方案有很多，在移动端有实际应用的如QT、cocos2d等,但是 **Flutter的背后是Google**
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

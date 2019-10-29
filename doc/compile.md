@@ -17,7 +17,7 @@ debug 对应的编译模式是 `JIT`,及`Just In Time`(即时编译）.`Flutter`
 - 不会打包构建界面的代码
 - 界面不流畅
 - 编译模式: Kernel Snapshot
-- Hot Reload 原理：[揭秘Flutter Hot Reload](https://www.jianshu.com/p/69c96cefc810)
+- **待研究** Hot Reload 原理：[揭秘Flutter Hot Reload](https://www.jianshu.com/p/69c96cefc810)
 
 ![debug](/assets/img/debug.png)
 ## Release

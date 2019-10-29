@@ -36,7 +36,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 自定义View		[链接](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html)
 	- [ ] 生命周期
 	- [ ] MVVM
-	- [ ] AOP
+	- [x] AOP [AspectD](https://www.yuque.com/xytech/flutter/aukvx8)
 	- [ ] Flutter Delay		
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
@@ -47,8 +47,8 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 开发环境: Dart & Flutter & pub
 	- [x] 包管理: pub&git&path&发布自己的包
 	- [x] 常用指令
-	- [ ] 原理解析:渲染机制、消息机制
-	- [ ] jit,aot
+	- [x] jit,aot
+	- [x] 原理解析:渲染机制、消息机制
 	- [ ] 关键字解读
 	- [x] 遇到的问题
 	- [ ] 技术总结与展望

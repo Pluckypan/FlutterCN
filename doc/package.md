@@ -25,7 +25,7 @@
 - 直接通过 Android Studio 创建 Flutter 插件
 - [pubspec](https://pub.dev/)
 - 预演 `flutter packages pub publish --dry-run`
-- 发布 `flutter packages pub publish`
+- 发布 `flutter packages pub publish --server https://pub.dev/`
 - [发布文档](https://dart.dev/tools/pub/publishing)
 
 ## 发布准备工作
