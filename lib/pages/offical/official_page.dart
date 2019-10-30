@@ -4,6 +4,7 @@ import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/offical/animation_demo.dart';
 import 'package:fluttercn/pages/offical/colors_demo.dart';
 import 'package:fluttercn/pages/offical/contacts_demo.dart';
+import 'package:fluttercn/pages/offical/demos.dart';
 import 'package:fluttercn/pages/offical/images_demo.dart';
 import 'package:fluttercn/pages/offical/pesto_demo.dart';
 import 'package:fluttercn/pages/offical/typography_demo.dart';
@@ -38,6 +39,8 @@ class OfficialPage extends StatelessWidget {
         return "Contacts";
       case 6:
         return "Video";
+      case 7:
+        return "Material";
       default:
         return "";
     }
@@ -50,12 +53,12 @@ class OfficialPage extends StatelessWidget {
             context, MaterialPageRoute(builder: (context) => new ColorsDemo()));
         break;
       case 1:
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => new AnimationDemo()));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => new AnimationDemo()));
         break;
       case 2:
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => new TypographyDemo()));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => new TypographyDemo()));
         break;
       case 3:
         Navigator.push(
@@ -66,12 +69,18 @@ class OfficialPage extends StatelessWidget {
             context, MaterialPageRoute(builder: (context) => new PestoDemo()));
         break;
       case 5:
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => new ContactsDemo()));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => new ContactsDemo()));
         break;
       case 6:
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => new VideoDemo()));
+        break;
+      case 7:
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => new DemosPage(kMaterialComponents)));
         break;
     }
   }

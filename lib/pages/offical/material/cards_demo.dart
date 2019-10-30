@@ -266,7 +266,7 @@ class TravelDestinationContent extends StatelessWidget {
       children: <Widget>[
         // Photo and title.
         SizedBox(
-          height: 184.0,
+          height: 175.0,
           child: Stack(
             children: <Widget>[
               Positioned.fill(
