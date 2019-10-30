@@ -1,3 +1,4 @@
 ## 自定义View
 
-https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html
+## 参考链接
+- [BlendMode](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html)

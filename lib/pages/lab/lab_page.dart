@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/canvas_page.dart';
 import 'package:fluttercn/pages/clip_path.dart';
+import 'package:fluttercn/pages/lab/images.dart';
 import 'package:fluttercn/pages/native.dart';
 import 'package:fluttercn/route_manager.dart';
 
 class LabPage extends StatelessWidget {
-
   static configRoutes(Router router) {
     router.define("/lab_page",
         handler: Handler(handlerFunc: (context, params) => LabPage()));
@@ -17,7 +17,7 @@ class LabPage extends StatelessWidget {
     RouteManager.goto(context, "/lab_page");
   }
 
-  static final itemCount = 3;
+  static final itemCount = 4;
 
   static String _getTitle(BuildContext context, int index) {
     switch (index) {
@@ -27,6 +27,8 @@ class LabPage extends StatelessWidget {
         return "ClipPath";
       case 2:
         return "Canvas";
+      case 3:
+        return "Images";
       default:
         return "";
     }
@@ -42,6 +44,9 @@ class LabPage extends StatelessWidget {
         break;
       case 2:
         CanvasPage.gotoRoute(context);
+        break;
+      case 3:
+        RouteManager.gotoMaterial(context, ImagePage());
         break;
     }
   }

@@ -6,11 +6,19 @@
 
 Flutter 中，Widget 是不可变的，无法被直接更新，你需要操作 Widget 的状态。这就是有状态 (Stateful) 和无状态 (Stateless) Widget 概念的来源。StatelessWidget 如其字面意思—没有状态信息的 Widget。StatelessWidget 用于你描述的用户界面的一部分不依赖于除了对象中的配置信息以外的任何东西的场景。如果你想要根据 HTTP 请求返回的数据或者用户的交互来动态地更新界面，那么你就必须使用 StatefulWidget，并告诉 Flutter 框架 Widget 的状态 (State) 更新了，以便 Flutter 可以更新这个 Widget。
 
-下面列出一些常用的Widget
+Flutter大约有 140+ Widget,下面列出一些常用的Widget
 
 ## 高频控件
 |控件|描述|备注|
 |:--|:--|:--:|
+|MaterialApp|构建Material风格APP。|-|
+|Scaffold|轻松实现 AppBar+FloatingActionButton的界面。|-|
+|AppBar|同Android AppBar|-|
+|FloatingActionButton|同Android|-|
+|ListView|通吃ListView,RecyclerView,ScrollView|-|
+|GridView|网格|-|
+|Table|表格|-|
+|RefreshIndicator|下拉刷新|-|
 |Card|一个 Material Design 卡片。拥有一个圆角和阴影.|-|
 |Padding|一个widget, 会给其子widget添加指定的填充。|-|
 |Center|将其子widget居中显示在自身内部的widget。|-|
@@ -36,11 +44,155 @@ Flutter 中，Widget 是不可变的，无法被直接更新，你需要操作 W
 |BottomSheet|BottomSheet是一个从屏幕底部滑起的列表。|-|
 |Date & Time Pickers|日期&时间选择器。|-|
 
-## MaterialApp
+## Image
+在 `Android` 中，我们需要处理各种图片,譬如网络图片,gif,webp,assets图片,点9图,etc,借助 `Glide` 我们能轻松实现这个需求. 但 `Flutter` 中,不需要任何第三方 `Library`,我们也能轻松实现。这便是 `Flutter` 为我们提供的 `Image`, `Image` 是一个用于展示图片的组件。支持 JPEG、PNG、GIF、Animated GIF、WebP、Animated WebP、BMP 和 WBMP 等格式。
 
-## Scaffold
-- AppBar
-- FloatingActionButton
+## ImageProvider
+
+![Provider](assets/img/image.provider.png)
+
+- NetworkImage
+- AssetImage
+- FileImage
+- MemoryImage
+
+## Boxfit
+相当于 Android 中的 ScaleType
+
+![Boxfit](assets/img/image.boxfit.png)
+
+## 分辨率适配
+
+适配不同像素密度的手机
+
+![dimens-pic](assets/img/dimens-pic.png)
+
+## 圆形图
+```
+CircleAvatar(
+  backgroundImage: NetworkImage(Config.splashUrl),
+  radius: 50,
+)
+```
+## 圆弧图
+```
+ClipOval(
+  child: Image.network(
+    Config.splashUrl,
+  ),
+);
+```
+
+## 圆角图
+```
+ClipRRect(
+  child: Image.network(
+    Config.splashUrl,
+  ),
+  borderRadius: BorderRadius.all(Radius.circular(10)),
+);
+```
+
+## 圆角图
+```
+Container(
+  width: 100,
+  height: 100,
+  decoration: BoxDecoration(
+      shape: BoxShape.rectangle,
+      borderRadius: BorderRadius.all(Radius.circular(10)),
+      image: DecorationImage(
+          image: NetworkImage(Config.splashUrl),
+          fit: BoxFit.cover)),
+);
+```
+
+## FadeInImage
+实现加载占位图以及淡入淡出效果
+```
+FadeInImage.assetNetwork(
+    height: 200,
+    fit: BoxFit.fitWidth,
+    placeholder: Config.logoUrl,
+    image: Config.imgNetGallery3);
+```
+
+## 点9图
+```
+Container(
+  decoration: BoxDecoration(
+    image: DecorationImage(
+      centerSlice: Rect.fromLTWH(19, 13, 8, 8),
+      image: AssetImage(
+        Config.imgBubbleAssets,
+      ),
+    ),
+  ),
+  constraints: BoxConstraints(
+    minWidth: 48,
+    maxWidth: 480,
+  ),
+  padding: EdgeInsets.fromLTRB(18.5, 3.0, 14.5, 20.0),
+  child: Text(
+    '床前明月光\n疑似地上霜\n举头望明月\n低头思故乡\ntrue man does what he will, not what he must.',
+    style: TextStyle(color: Colors.red, fontSize: 15.0),
+  ),
+);
+```
+
+## Gif & WebP
+```
+Row(
+  children: <Widget>[
+    Flexible(
+      flex: 1,
+      child: Image.asset(
+        'animated_images/animated_flutter_stickers.webp',
+        package: 'flutter_gallery_assets',
+      ),
+    ),
+    Expanded(
+        child: Image.asset(
+      'animated_images/animated_flutter_lgtm.gif',
+      package: 'flutter_gallery_assets',
+    ))
+  ],
+);
+```
+
+## 图片平铺
+```
+Image.asset(
+  Config.imgCoinAssets,
+  repeat: ImageRepeat.repeat,
+);
+```
+
+## BlendMode
+```
+Image(
+  image: NetworkImage(Config.imgNetGallery3),
+  color: Colors.pinkAccent,
+  colorBlendMode: BlendMode.saturation,
+)
+```
+
+## 图片缓存
+```
+/// 获取ImageCache 缓存对象
+ImageCache imageCache = PaintingBinding.instance.imageCache;
+/// 设置缓存图片的个数（根据情况自己设置，default = 1000）
+imageCache.maximumSize = 1000;
+/// 获取缓存图片个数
+int num = imageCache.currentSize;
+/// 设置缓存大小（根据情况自己设置，default = 50M）
+imageCache.maximumSizeBytes = 50 << 20;
+/// 获取图片缓存大小(单位是byte,需自行转换到 M)
+int byte = imageCache.currentSizeBytes;
+/// 清除图片缓存
+imageCache.clear();
+```
+
 
 ## Container
 相当于 Android 中的 ViewGroup
@@ -50,10 +202,11 @@ Flutter 中，Widget 是不可变的，无法被直接更新，你需要操作 W
 ##  GestureDetector
 在Flutter中手势识别也是一个widget！使用时只需要将GestureDetector包裹在目标widget外面，再实现对应事件的函数即可。
 
-## DragTarget
 
 ## Flex
 `Flex` 是 `Flexible Box` 的缩写，意为 **弹性布局**，用来为盒状模型提供最大的灵活性。[flex盒子模型](https://www.runoob.com/w3cnote/flex-grammar.html).`Flutter` 在布局上也提供了完整的 `Flex` 布局能力。在 `Flutter` 中，主要通过 `Row`,`Column`,`Flexible` 来实现 **弹性布局**。
+
+Expanded
 
 <div align="center">
 
@@ -76,33 +229,14 @@ Flutter 中，Widget 是不可变的，无法被直接更新，你需要操作 W
 - NO Positioned: 通过控制Stack的alignment属性来控制对齐方式
 
 ## Flow
-## ListView
-## GridView
-## Table
-## RefreshIndicator
 
-## Image
-1. Boxfit,相当于 Android 中的 ScaleType
-  ![Boxfit](http://img.1991th.com/tuchongeter/tech/image.boxfit)
-2. ImageProvider 支持不同情景下的图片加载
-  ![Provider](http://img.1991th.com/tuchongeter/tech/image.provider)
-3. 缓存
-  ImageCache是ImageProvider默认使用的图片缓存。ImageCache使用的是LRU的算法。默认可以存储1000张图片。如果觉得缓存太大，可以通过设置ImageCache的maximumSize属性来控制缓存图片的数量。也可以通过设置maximumSizeBytes来控制缓存的大小（默认缓存大小10MB）。
-4. 在实际开发中，考虑到图片加载速度可能不能达到预期。所以希望能增加渐入效果&增加placeHolder的功能。Flutter同样提供的这样的组件——FadeInImage。
-5. 圆形头像 `CircleAvatar`, 圆角图片 `ClipRRect`
-6. 多分辨率适配
 
-![dimens-pic](assets/img/dimens-pic.png)
 
-## ClipPath
-
-## ClipRect
-
-## CustomPaint
-
-## FutureBuilder
-
-## StreamBuilder
+## 其他
+- ClipPath & ClipRect
+- CustomPaint
+- DragTarget
+- FutureBuilder & StreamBuilder
 
 ## 小结
 1. Flutter Widge 并不支持 类似于 Android的 Visibility 属性,只能设置 `alpha` 或者 `Offstage` 或者通过 `State` 来删除

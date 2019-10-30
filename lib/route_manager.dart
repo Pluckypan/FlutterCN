@@ -57,6 +57,11 @@ class RouteManager {
     return Navigator.pop(context, result);
   }
 
+  static Future gotoMaterial(BuildContext context, Widget page) {
+    return Navigator.push(
+        context, MaterialPageRoute(builder: (context) => page));
+  }
+
   static Route<dynamic> generator(RouteSettings routeSettings) {
     return _manager._router.generator(routeSettings);
   }
