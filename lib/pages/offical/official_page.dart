@@ -1,6 +1,13 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/pages/offical/animation_demo.dart';
+import 'package:fluttercn/pages/offical/colors_demo.dart';
+import 'package:fluttercn/pages/offical/contacts_demo.dart';
+import 'package:fluttercn/pages/offical/images_demo.dart';
+import 'package:fluttercn/pages/offical/pesto_demo.dart';
+import 'package:fluttercn/pages/offical/typography_demo.dart';
+import 'package:fluttercn/pages/offical/video_demo.dart';
 import 'package:fluttercn/route_manager.dart';
 
 class OfficialPage extends StatelessWidget {
@@ -13,10 +20,24 @@ class OfficialPage extends StatelessWidget {
     RouteManager.goto(context, "/official_page");
   }
 
-  static final itemCount = 0;
+  static final itemCount = 10;
 
   static String _getTitle(BuildContext context, int index) {
     switch (index) {
+      case 0:
+        return "Colors";
+      case 1:
+        return "Animations";
+      case 2:
+        return "Typography";
+      case 3:
+        return "Image";
+      case 4:
+        return "Pesto";
+      case 5:
+        return "Contacts";
+      case 6:
+        return "Video";
       default:
         return "";
     }
@@ -24,6 +45,34 @@ class OfficialPage extends StatelessWidget {
 
   static _onItemClick(BuildContext context, int index) {
     switch (index) {
+      case 0:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new ColorsDemo()));
+        break;
+      case 1:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new AnimationDemo()));
+        break;
+      case 2:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new TypographyDemo()));
+        break;
+      case 3:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new ImagesDemo()));
+        break;
+      case 4:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new PestoDemo()));
+        break;
+      case 5:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new ContactsDemo()));
+        break;
+      case 6:
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => new VideoDemo()));
+        break;
     }
   }
 

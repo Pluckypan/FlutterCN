@@ -4,7 +4,7 @@ description: FlutterCN 从0到1
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.2.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -26,6 +26,12 @@ dependencies:
     git: git@github.com:ReactiveX/rxdart.git
   easylib:
     path: easylib
+  # gallery 引入
+  flutter_gallery_assets: 0.1.9+2
+  video_player: 0.10.2+3
+  url_launcher: 5.1.6
+  device_info: 0.4.0+3
+  connectivity: 0.4.4+1
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +51,33 @@ flutter:
 
   assets:
     - assets/images/
+    # gallery 引入
+    - packages/flutter_gallery_assets/animated_images/animated_flutter_lgtm.gif
+    - packages/flutter_gallery_assets/animated_images/animated_flutter_stickers.webp
+    - packages/flutter_gallery_assets/products/sunnies.png
+    - packages/flutter_gallery_assets/products/table.png
+    - packages/flutter_gallery_assets/products/hat.png
+    - packages/flutter_gallery_assets/products/earrings.png
+    - packages/flutter_gallery_assets/logos/pesto/logo_small.png
+    - packages/flutter_gallery_assets/food/butternut_squash_soup.png
+    - packages/flutter_gallery_assets/food/cherry_pie.png
+    - packages/flutter_gallery_assets/food/chopped_beet_leaves.png
+    - packages/flutter_gallery_assets/food/fruits.png
+    - packages/flutter_gallery_assets/food/pesto_pasta.png
+    - packages/flutter_gallery_assets/food/roasted_chicken.png
+    - packages/flutter_gallery_assets/food/spanakopita.png
+    - packages/flutter_gallery_assets/food/spinach_onion_salad.png
+    - packages/flutter_gallery_assets/food/icons/fish.png
+    - packages/flutter_gallery_assets/food/icons/healthy.png
+    - packages/flutter_gallery_assets/food/icons/main.png
+    - packages/flutter_gallery_assets/food/icons/meat.png
+    - packages/flutter_gallery_assets/food/icons/quick.png
+    - packages/flutter_gallery_assets/food/icons/spicy.png
+    - packages/flutter_gallery_assets/food/icons/veggie.png
+    - packages/flutter_gallery_assets/people/ali_landscape.png
+    - packages/flutter_gallery_assets/videos/bee.mp4
+    - packages/flutter_gallery_assets/videos/butterfly.mp4
+
 
   fonts:
     - family: Quicksand
