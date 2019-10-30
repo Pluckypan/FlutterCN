@@ -9,6 +9,11 @@ class Config {
   static const appUser = "Plucky";
   static const appEmail = "plucky@echo.engineer";
 
+  /// 免费接口不是很稳定,可使用本地Mock形式调用
+  /// Mock 的文件在根目录 `mock` 文件夹下
+  /// 需要根据自己 ip 修改
+  static const mockHost = "http://172.18.16.224:1997/";
+
   // image
   static const imageUrl = "assets/images";
   static const logoUrl = "$imageUrl/logo@white.png";

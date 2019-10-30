@@ -1,6 +1,6 @@
-import 'package:fluttercn/cmpt/helper.dart';
 import 'package:fluttercn/cmpt/model/base_model.dart';
 import 'package:json_annotation/json_annotation.dart';
+import 'package:easylib/helper.dart';
 
 part 'weather.g.dart';
 

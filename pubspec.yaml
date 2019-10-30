@@ -24,6 +24,8 @@ dependencies:
     git: git://github.com/theyakka/fluro.git
   rxdart:
     git: git@github.com:ReactiveX/rxdart.git
+  easylib:
+    path: easylib
 
 dev_dependencies:
   flutter_test:

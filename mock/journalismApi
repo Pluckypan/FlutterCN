@@ -1,0 +1,2282 @@
+{
+    "code": 200,
+    "msg": "成功!",
+    "data": {
+        "tech": [
+            {
+                "liveInfo": null,
+                "tcount": 259,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/b9797464ee9346aca43b2f1cc7a9db0a.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMTF9D3000999D8",
+                "videoInfo": null,
+                "channel": "tech",
+                "link": "https://3g.163.com/all/article/ERMTF9D3000999D8.html",
+                "source": "态℃",
+                "title": "态℃ |贾跃亭月收入9万美元！还债要还1777年……",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "作者|铜锤出品|网易科技《态℃》栏目组（公众号：tech_1",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "科技",
+                "ptime": "2019-10-17 15:14:33"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 18,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/2e81470241604c2d844a13250caac19b.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMOH19P00097U7T",
+                "videoInfo": null,
+                "channel": "tech",
+                "link": "https://3g.163.com/all/article/ERMOH19P00097U7T.html",
+                "source": "网易科技报道",
+                "title": "谷歌\"白日梦\"醒了，Daydream VR平台被放弃",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易科技讯10月17日消息，据国外媒体报道，移动端虚拟现实头",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "科技",
+                "ptime": "2019-10-17 13:48:08"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 47,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/67614cd84065467280695d41f326e13a.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMLBC7P00097U7S",
+                "videoInfo": null,
+                "channel": "tech",
+                "link": "https://3g.163.com/all/article/ERMLBC7P00097U7S.html",
+                "source": "澎湃新闻",
+                "title": "航天通信旗下手机ODM厂关厂裁员：欠上亿货款",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "澎湃新闻记者张静张若婷因“长期生产经营困难，已无法继续经营”",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "科技",
+                "ptime": "2019-10-17 12:52:36"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 103,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/71bea21767fe445b918e83d10192f8e0.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMSPKIJ00097U7R",
+                "videoInfo": null,
+                "channel": "tech",
+                "link": "https://3g.163.com/all/article/ERMSPKIJ00097U7R.html",
+                "source": "界面新闻",
+                "title": "微博遭质疑：350万阅读量为何转化量却为零？",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "图片来源：视觉中国记者|王付娇10月17日，公众号“创业中的",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "科技",
+                "ptime": "2019-10-17 15:02:44"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little519LI5AZA6HGbroMQuv02BJHYZoaapj5hw6kA7p8AlHlKUzS1571236303784compressflag.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERL43QUL05118PQA",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERL43QUL05118PQA.html",
+                "source": "倪叔",
+                "title": "走在未来的前方：用数字化联结商业的行业突围“新密码”",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "当今的新商业环境，从一波又一波的国潮风兴起，到玩的风生水起的",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:28:05"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little835UbAj88wxnPxALU9Yu4UBVBEjcPL3EOBDNyjJR56CZrUPG1571300807077.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN1JMB105128A8R",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1JMB105128A8R.html",
+                "source": "泡泡网",
+                "title": "发售＋发布！中兴官宣，两部新机“双管齐下”",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "10月17日消息，中兴手机官方宣布：“明天有一部新机要发售，",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:47"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little6131b36fb958e184a6494661d4529f35e00.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN1GFAH05118IG5",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1GFAH05118IG5.html",
+                "source": "杨剑勇",
+                "title": "人工智能为各行业带来创新活力，智能安防爆发机遇",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "文/杨剑勇近十年来，信息科技得到迅猛发展，在人工智能等新技术",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:44"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little21831decc738b2980244b4f66e98dd2cb0e.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMUUU0G051188EC",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMUUU0G051188EC.html",
+                "source": "砍柴网",
+                "title": "国美给你冬日沐浴的勇气 这几款热水器“融化”一天疲劳",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "沐浴,就是今日通常所说的洗澡,包括头、身、手、脚的洗浴。我国",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:47"
+            }
+        ],
+        "auto": [
+            {
+                "liveInfo": null,
+                "tcount": 3164,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/d94e25c70c77480db88981461a582c87.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERL99PEJ0008856R",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERL99PEJ0008856R.html",
+                "source": "网易汽车",
+                "title": "有雷克萨斯影子 广汽丰田小汉兰达帅呆",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "不仅有雷克萨斯的样子，还与雷克萨斯ES同源，广汽丰田全新SU",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 00:02:47"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 953,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/1ea37829976248cca8643b09169d2d01.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMIN0LF000887BT",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERMIN0LF000887BT.html",
+                "source": "网易汽车综合",
+                "title": "每日易乐:该怎么跟小姐姐搭讪啊 在线等挺急的?",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易汽车综合10月17日报道各位易友有任何建议、想法甚至素材",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 12:06:32"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 31,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/cbb2fe69e35340529243a40dca325df6.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMUPE5R0008856R",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERMUPE5R0008856R.html",
+                "source": "网易汽车",
+                "title": "汉兰达表示求放过 国产雪佛兰Blazer携七座来袭",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "上汽通用雪佛兰Blazer出现在工信部最新一批申报目录中，新",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 15:37:34"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 433,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/bf5e65ad2fa44722a98d6ab1c7ac1e2f.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERLROG0J0008856R",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERLROG0J0008856R.html",
+                "source": "网易汽车",
+                "title": "最高续航650km/本月交付 Aion LX今上市",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "Aion LX将于10月17日上市，两驱基准版补贴后预售25",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 05:25:23"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 2,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/6a7c165075cd46b49d34c6db9138ec00.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMV4RM10008856R",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERMV4RM10008856R.html",
+                "source": "网易汽车",
+                "title": "轴距2670mm/搭1.5T+1.6T 新款瑞虎7更霸气",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "奇瑞全新瑞虎7实车曝光，新造型、新动力。",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 15:43:49"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 452,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/2bf1b4a9796a457fb1a2b48edd3dd2df.png",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/53dda054c969434285d35d03958a5af4.png",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/fadf10cd582d427da1f659ec6cbd6771.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMCRTD80008856S",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERMCRTD80008856S.html",
+                "source": "网易汽车",
+                "title": "七万起步颜值还不错 实拍吉利全新远景X6",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "全新远景X6的外观内饰设计给人不错的第一印象，高配车型的配置",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 10:24:21"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 130,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/df25bc94d2824f339d52ff5a9f7f39ff.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERLRGJ6C0008856R",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERLRGJ6C0008856R.html",
+                "source": "网易汽车",
+                "title": "设性能品牌/VV7插混将上市 WEY未来规划",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "WEY品牌在2019年下半年陆续推出了2020款VV6、VV",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 05:21:04"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 107,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/1310de7f9d5d481e998eef3f02b6f19c.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERLCN3U40008856R",
+                "videoInfo": null,
+                "channel": "auto",
+                "link": "https://3g.163.com/all/article/ERLCN3U40008856R.html",
+                "source": "网易汽车",
+                "title": "平民超跑也出猛男版?丰田86新车型测试",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "版权声明：本文版权为网易汽车所有，转载请注明出处。网易汽车1",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "汽车",
+                "ptime": "2019-10-17 01:02:30"
+            }
+        ],
+        "money": [
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/fab8f016281b4dcca00d7aec1b8fa9c3.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMV4ARA00259DLP",
+                "videoInfo": null,
+                "channel": "money",
+                "link": "https://3g.163.com/all/article/ERMV4ARA00259DLP.html",
+                "source": "中国之声",
+                "title": "商务部:根据协议中国将增加自美农产品订购",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "【商务部：根据中美第一阶段协议，中国将增加自美农产品订购。】",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "财经",
+                "ptime": "2019-10-17 15:43:31"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 14921,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/6cca688290a0483d8f7b552c97b8776c.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM966QB00259DLP",
+                "videoInfo": null,
+                "channel": "money",
+                "link": "https://3g.163.com/all/article/ERM966QB00259DLP.html",
+                "source": "中国基金报",
+                "title": "直降1.4亿!上海顶级豪宅火了 物业费超百万",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "一套房子降价1.4亿元！要不要来一套？近期，上海有套顶级豪宅",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "财经",
+                "ptime": "2019-10-17 09:20:04"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 858,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/44300257ad71407ea510e48151c17556.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM46JR700258105",
+                "videoInfo": null,
+                "channel": "money",
+                "link": "https://3g.163.com/all/article/ERM46JR700258105.html",
+                "source": "观察者网",
+                "title": "美国再次威逼德国：有华为没情报",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "【文/观察者网王慧】德国5G建设向华为敞开大门后，美国立马坐",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "财经",
+                "ptime": "2019-10-17 07:52:55"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 76,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/678faf7dcab24b4c8299091a7272364b.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMSUFBT00258105",
+                "videoInfo": null,
+                "channel": "money",
+                "link": "https://3g.163.com/all/article/ERMSUFBT00258105.html",
+                "source": "网易财经",
+                "title": "沪指窄幅震荡跌0.05% 智慧政务逆势领涨",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易财经10月17日讯今日沪指窄幅震荡，创指小幅上涨，高送转",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "财经",
+                "ptime": "2019-10-17 15:05:22"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little908gyEGxO6FCJkLle5r4SvXvCegzmIyOFz1tpvpV7xk2td571571300797449compressflag.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN1J9TV05199LJK",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1J9TV05199LJK.html",
+                "source": "中国商网",
+                "title": "中高端家电走俏低线市场，成消费升级新爆点",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "图片来自CNSPHOTO中国商报/中国商网（记者朱梦秋）随着",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:01"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [],
+                "docid": "ERN1GF800519C3MG",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1GF800519C3MG.html",
+                "source": "投资者网",
+                "title": "A股维持结构性行情 机构称耐心等待新的力量打破僵局",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 0,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "沪深：在消息面继续偏于利好的情况下，今日沪深两市大盘均出现了",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:14"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little188bac242b2e51e2a1c807e602ba2c26ced.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN11JJR0519B04T",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN11JJR0519B04T.html",
+                "source": "港股解码",
+                "title": "SOHO中国成立5G实验室，潘石屹：不会错过商机",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "前言：5G让致富机会增加100倍，大家存款后面加两个零！大佬",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:18:47"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little637pWtBhYBweBRuiQCzTVsmPwfsFDy3vD0Ip0KNif2H04J981571300178501compressflag.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN10FE705199LJK",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN10FE705199LJK.html",
+                "source": "中国商网",
+                "title": "多企业抢滩 功能饮料市场几家欢喜几家愁",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "中国商报/中国商网（记者周子荑）近日，东鹏特饮集团股份有限公",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:17:30"
+            }
+        ],
+        "sports": [
+            {
+                "liveInfo": null,
+                "tcount": 2700,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/4da68cc8dfa94c4c9b5579168d116ef9.jpeg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/290e02567ac547aea1b28ecdc4d63b1e.jpeg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/5e1842cdf3e3468b9f3c540c5d71c7d1.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "0005set166644",
+                "videoInfo": null,
+                "channel": "sports",
+                "link": "https://3g.163.com/all/photoview/0005/166644.html",
+                "source": "视觉中国",
+                "title": "史无前例!梅西领取第六座欧洲金靴奖",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "00DE0005|166644",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-17 07:16:39"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 8295,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/16/aad6adcea43548ca8c659bc66cf4ea41.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERKT3L0700058781",
+                "videoInfo": null,
+                "channel": "sports",
+                "link": "https://3g.163.com/all/article/ERKT3L0700058781.html",
+                "source": "网易体育",
+                "title": "梅西正式领取上赛季金靴奖 6度加冕成史上第一人",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易体育10月16日报道：北京时间10月16日，巴萨当家球星",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "体育",
+                "ptime": "2019-10-16 20:29:43"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1869,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/16/463d349a94834917be930dbcc9bf4e20.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERKSVDRI00058781",
+                "videoInfo": null,
+                "channel": "sports",
+                "link": "https://3g.163.com/all/article/ERKSVDRI00058781.html",
+                "source": "网易体育",
+                "title": "下课倒计时?曝曼联已接近签约新帅 年薪650万镑",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易体育10月16日报道：北京时间10月16日《都灵体育报》",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "体育",
+                "ptime": "2019-10-16 20:27:25"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1374,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/1e2ebf4051e24b62aa59842f995f8849.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM2MSPG0005877U",
+                "videoInfo": null,
+                "channel": "sports",
+                "link": "https://3g.163.com/all/article/ERM2MSPG0005877U.html",
+                "source": "网易体育",
+                "title": "曝蔡崇信曾给篮网开会 让球员读自己长文了解事实",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易体育10月17日报道：自火箭总经理莫雷发表涉港不当言论引",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "体育",
+                "ptime": "2019-10-17 07:26:51"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little43555d778014300f601175d59c1f48859d7.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN1JJI105298H53",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1JJI105298H53.html",
+                "source": "肆客足球App",
+                "title": "坎通纳：退役后几年没看足球，因为怕忍不住想复出",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "10月17日消息，在接受曼联官网采访时，国王坎通纳承认当初退",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:40"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little742245e1e2e3ca4b337ef7fd9db6346eeae.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN16LMN05298H53",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN16LMN05298H53.html",
+                "source": "肆客足球App",
+                "title": "足球报：巴坎布还是投资人，将投民主刚果旅游项目",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "北京时间10月17日，《足球报》报道，这个国际比赛日回到民主",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:20:34"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little1030fe3bf27f906fdb38543bf03c1490636.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN16HS605298H53",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN16HS605298H53.html",
+                "source": "肆客足球App",
+                "title": "厄齐尔：阿森纳输球总是我背锅，反正我绝不离队",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "据TheAthletic报道，厄齐尔表示自己没有失去进取心，",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:20:21"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little4761208d66951cc9c70e74daba84bc52a6c.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN168LH05298H53",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN168LH05298H53.html",
+                "source": "肆客足球App",
+                "title": "索帅：我和曼联有3年合同，帅位稳固",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "10月17日消息，索尔斯克亚在双红会前接受了老队友加里-内维",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:20:20"
+            }
+        ],
+        "dy": [
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [],
+                "docid": "ERMUQFOG053778KA",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERMUQFOG053778KA.html",
+                "source": "好奇芝士库",
+                "title": "计算速度惊人，你知道什么是“量子霸权”么？",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 0,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "前段时间，美国科技公司谷歌在NASA上发表了一篇论文称，谷歌",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 15:39:07"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little675f2f190bc202a45748d23fa4a381cabb2.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMTMHHD0514M53I",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERMTMHHD0514M53I.html",
+                "source": "新都市场质量监管局",
+                "title": "4种长相的一次性筷子千万别用",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "【4种长相的一次性筷子千万别用】北京饭馆#主动提供一次性筷子",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 15:19:10"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little941d8cf9cd7a56e1a8ac5d26bcae0744624.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMSFFDS05455EF5",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERMSFFDS05455EF5.html",
+                "source": "最爱大北京",
+                "title": "带葛优体验生活的北京“的哥”：坚守公益十八载",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "在电影《我和我的祖国》中《北京,你好》单元里,演员葛优扮演的",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 14:58:01"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little655389a0f74f455ef6edb61f6bf29ca2261.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMRNRN70512IPAO",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERMRNRN70512IPAO.html",
+                "source": "来点科学",
+                "title": "杨利伟的新身份！",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "今天，中国载人航天工程办公室官宣一条消息：中国工程院院士周建",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 14:46:04"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little2393zOVhhnLIwJNY53MKHfLc7IJLP1IwjqBOUdC2rDka5W9F1571293241773.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMQCNPV0525HU7O",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERMQCNPV0525HU7O.html",
+                "source": "羽乐娱乐",
+                "title": "睡眠才是延长生命的最佳秘方！",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "最近，被一本书完全迷住了，夜以继日，把这本书终于看完了。这本",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 14:22:06"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little2360490ed7213c134b6039014e4476edcef.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERL8SNMQ0511BNSN",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERL8SNMQ0511BNSN.html",
+                "source": "化学人生",
+                "title": "世界上最牛博士论文是这样的~",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "相信很多人被论文烦恼过，一想起选题、开题报告、答辩等等环节就",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 14:09:15"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [],
+                "docid": "ERMMN44C0515DHOR",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERMMN44C0515DHOR.html",
+                "source": "演兵场",
+                "title": "智能手机，外国军队这么管",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 0,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "俄军——“功能机”才是“真爱”俄罗斯军方对手机的管理极其严苛",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 13:19:59"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://dingyue.ws.126.net/UIQAGO2Eeo28kHuKwdi5V1haO0BhIJDYX2ulYUFElLPkG1571201643462.jpeg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://dingyue.ws.126.net/kUOg=gekzP8OpztqpnCDrjXFKONnmMou9YxPIHpqW=B5h1571201659645.jpeg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://dingyue.ws.126.net/H3DbZICxy7nDh1L6jSnoy=BCL2JwCfspvxl1ea06LuCFf1571201669012.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERK32KE60518JH1H",
+                "videoInfo": null,
+                "channel": "dy",
+                "link": "https://3g.163.com/all/article/ERK32KE60518JH1H.html",
+                "source": "珠宝匠",
+                "title": "真钻表面长合成钻？莫桑钻覆金刚石膜？最新钻石高仿技术，小心！",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "&uarr;&uarr;&uarr;珠宝匠原创，未经授权，请",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 07:51:59"
+            }
+        ],
+        "war": [
+            {
+                "liveInfo": null,
+                "tcount": 294,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/2459fc2803e149bbb8b8b8fa229f2183.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "0001set2304680",
+                "videoInfo": null,
+                "channel": "war",
+                "link": "https://3g.163.com/all/photoview/0001/2304680.html",
+                "source": "中国新闻网",
+                "title": "高原部队实兵实弹锤炼全天候防空能力",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 3,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "4T8E0001|2304680",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-17 09:11:45"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 2,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERMCVBK14T8E0001NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERMCVBK34T8E0001NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERMCVBK24T8E0001NOS.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "0001set2304684",
+                "videoInfo": null,
+                "channel": "war",
+                "link": "https://3g.163.com/all/photoview/0001/2304684.html",
+                "source": "中国新闻网",
+                "title": "海军太原舰结束访问 东京码头启航回国",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "4T8E0001|2304684",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-17 10:26:40"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 125,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERMBBE8B4T8E0001NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERMBBE8C4T8E0001NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERMBBE8D4T8E0001NOS.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "0001set2304683",
+                "videoInfo": null,
+                "channel": "war",
+                "link": "https://3g.163.com/all/photoview/0001/2304683.html",
+                "source": "海外网",
+                "title": "土耳其持续空袭叙边境城镇拉斯艾因",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "4T8E0001|2304683",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-17 09:58:27"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 18,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERM9A3PV4T8E0001NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERM9A3Q64T8E0001NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0001/2019-10-17/ERM9A3Q44T8E0001NOS.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "0001set2304682",
+                "videoInfo": null,
+                "channel": "war",
+                "link": "https://3g.163.com/all/photoview/0001/2304682.html",
+                "source": "环球网",
+                "title": "甘肃武警魔鬼训练\"清剿恐怖分子营地\"",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "4T8E0001|2304682",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-17 09:23:08"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little514b4TnHEI06cEH2f5DaiS5xRbdTJASyT9QmejFfZ8lvUqVo1571295663526compressflag.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN1HQGR05159PKE",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1HQGR05159PKE.html",
+                "source": "崎峻战史",
+                "title": "《驱逐舰英杰列传·日本篇》No.1：暗夜刺客行",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "（温馨提示：本文约4600字，配图19幅，原创不易，感谢您的",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:26:50"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little647d05bfe3f9e25b96454e80276ed83e9cb.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN0OB470515DD8G",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN0OB470515DD8G.html",
+                "source": "八一视点",
+                "title": "这个女兵班长叫“好帅”",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "女兵是军营中的百灵是钢铁营盘里的美丽风景在第78集团军某新兵",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:13:03"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little841eb69d876e38eaf34b522542d9633abb5.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN0OATI0515DD8G",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN0OATI0515DD8G.html",
+                "source": "八一视点",
+                "title": "给力！高校毕业生退役士兵可报名国家公务员招录",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "国考是一场重大的挑战近日，国家公务员局发布了《中央机关及其直",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:12:54"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little787ml3iVqsWX4P=yiinwJ17NK6a4K8i51No6h=j9fsyXcawR1571298571365.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMVKD7S0529B9US",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMVKD7S0529B9US.html",
+                "source": "毛开云",
+                "title": "不跟彭斯谈，只跟特朗普谈，埃尔多安真牛",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "当地时间10月16日，土耳其总统埃尔多安表示，10月17日不",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 15:53:03"
+            }
+        ],
+        "ent": [
+            {
+                "liveInfo": null,
+                "tcount": 479,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/429d14cda5f54c7ba40ed704a72adec5.jpeg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/febcd2d3991f4c4080a0804b3b34e257.jpeg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/a2ad285b9b11470ba379ebd1ca61d772.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "0003set670667",
+                "videoInfo": null,
+                "channel": "ent",
+                "link": "https://3g.163.com/all/photoview/0003/670667.html",
+                "source": "视觉中国",
+                "title": "佟丽娅比心卖萌可爱爆棚 不像孩子妈",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "00AJ0003|670667",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-17 08:37:59"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 20,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/765f123e13d742f596b79c9e588daf03.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMUQ14M00038FO9",
+                "videoInfo": null,
+                "channel": "ent",
+                "link": "https://3g.163.com/all/article/ERMUQ14M00038FO9.html",
+                "source": "网易娱乐",
+                "title": "朝阳民政局回应王丽坤结婚传闻:没收到谁结婚消息",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易娱乐10月17日报道昨日，王丽坤被曝现身朝阳民政局登记结",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "娱乐",
+                "ptime": "2019-10-17 15:37:54"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 18988,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/803fd0d69ece46eabb156407c76c4f08.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM9LDTH00038FO9",
+                "videoInfo": null,
+                "channel": "ent",
+                "link": "https://3g.163.com/all/article/ERM9LDTH00038FO9.html",
+                "source": "网易娱乐专稿",
+                "title": "惨！曝黄海波靠父亲养老金生活 媳妇在外兼职打工",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "网易娱乐专稿10月17日报道近日，刘江导演接受媒体采访，他在",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "娱乐",
+                "ptime": "2019-10-17 09:28:23"
+            },
+            {
+                "liveInfo": null,
+                "tcount": null,
+                "picInfo": [],
+                "docid": null,
+                "videoInfo": null,
+                "channel": null,
+                "link": null,
+                "source": null,
+                "title": null,
+                "type": "docYunRead",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": null,
+                "unlikeReason": null,
+                "isTop": null,
+                "digest": null,
+                "typeid": null,
+                "addata": null,
+                "tag": null,
+                "category": null,
+                "ptime": null
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little302d4d1c10e3505dcec849568b7b8313222.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMD9KFJ0517853O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMD9KFJ0517853O.html",
+                "source": "爱豆",
+                "title": "191017 10月第二周全球汇 薛之谦相关音乐榜",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "最新谦谦相关内地+海外音乐榜汇，内地榜方面，新专辑已发行的新",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:47"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little169MFUF7IQy=7fmaNpEl89lZJU2fkn9=sqHeFlTymwZAgnG51571300781026.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN1JE7505375CPZ",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN1JE7505375CPZ.html",
+                "source": "ETtoday星光云",
+                "title": "金泰希刚生完2胎！爆复出演戏　20年来首次演妈妈",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "记者吴睿慈／综合报导韩国女神金泰希2017年嫁给交往多年的天",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:27:20"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little531gJdnnJmdjELwAuXqhuJAbK15N2B6bV==IHldvkBY74agg1571300282272compressflag.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN164II051790QP",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN164II051790QP.html",
+                "source": "锐影Vanguard",
+                "title": "香港武侠电影史上少不了这部杰作",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "不知是否还记得，在去年的北京国际电影节上，出了一件大家都特别",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:22:02"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://bjnewsrec-cv.ws.126.net/little903ARxruynXY06gWdKq3lkNPx43S0VRnwk6rGoKjjeKfGO2Y1571058929659.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMHE4OO0517F365",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMHE4OO0517F365.html",
+                "source": "饭拍视频",
+                "title": "三星彻底关闭中国手机工厂，全球销量第一败走中国",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "据路透社，三星电子称该公司已停止在中国生产手机产品，原因是来",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "推荐",
+                "ptime": "2019-10-17 16:21:00"
+            }
+        ],
+        "toutiao": [
+            {
+                "liveInfo": null,
+                "tcount": 271,
+                "picInfo": [],
+                "docid": "ERMQI4K5000189FH",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMQI4K5000189FH.html",
+                "source": "央视网",
+                "title": "习近平点赞国之大典",
+                "type": "doc",
+                "imgsrcFrom": "doc",
+                "imgsrc3gtype": 0,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": true,
+                "digest": "联播+10月16日，中华人民共和国成立70周年庆祝活动总结会",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 14:23:41"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 102,
+                "picInfo": [],
+                "docid": "ERMQN22F000189FH",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMQN22F000189FH.html",
+                "source": "央视网$",
+                "title": "第七届世界军人运动会形象宣传片《我们在一起》",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 0,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": true,
+                "digest": "军运会形象宣传片《我们在一起》",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 14:26:22"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/12b4fd249df743a6a79c2c8d0abe22cd.jpeg",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN0L2G80001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN0L2G80001899O.html",
+                "source": "环球网",
+                "title": "外交部:两名美国人因涉嫌组织他人偷越边境被刑拘",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "【环球时报-环球网报道】在17日下午举行的外交部例会上，有来",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 16:10:09"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 115,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/38487643559b4a9ba4099ef3c99ec086.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMV9T3M0001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMV9T3M0001899O.html",
+                "source": "人民日报",
+                "title": "安倍晋三向靖国神社供奉祭品 中方:已提出严正交涉",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "10月17日，外交部发言人耿爽主持例行记者会。问：今天日本首",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 15:46:34"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/4add5db8efc64ed784c8c032d7f65025.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMV418H0001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMV418H0001899O.html",
+                "source": "中国之声",
+                "title": "商务部:据中美第一阶段协议 中国将增购自美农产品",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "商务部新闻发言人高峰今天在例行新闻发布会上透露，根据初步掌握",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 15:43:22"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1405,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/ba9fa1676778400ca642ee09dca60382.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMRFVBA0001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/special/S1570924755688.html",
+                "source": "央视新闻",
+                "title": "李心草坠河前遭遇了什么 尸检结果对案件有何影响?",
+                "type": "special",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "9月9日，云南昆明大二女生李心草溺亡。16日，其表姐到公安机",
+                "typeid": "S1570924755688",
+                "addata": null,
+                "tag": "专题",
+                "category": "新闻",
+                "ptime": "2019-10-17 14:39:59"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 21,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/5d48d17690d24b78b62ae4fbad07f28b.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMLGIG00001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/special/S1570882788340.html",
+                "source": "新华社",
+                "title": "北京大学原校长丁石孙同志遗体在京火化",
+                "type": "special",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "新华社北京10月17日消息，著名的数学家、教育家和社会活动家",
+                "typeid": "S1570882788340",
+                "addata": null,
+                "tag": "专题",
+                "category": "新闻",
+                "ptime": "2019-10-17 12:55:27"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1806,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/35c9a96c51964948a67c6201c928c8f3.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERML3VE50001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERML3VE50001899O.html",
+                "source": "环球网",
+                "title": "Dior道歉 亲历学生:怎么会找一张错那么多的地图",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "今日（17日）凌晨，法国奢侈品牌“迪奥”（Dior）突然发布",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 12:48:34"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/721a0173ef0547359769a3affb2ce11d.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERN0B08A0001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERN0B08A0001899O.html",
+                "source": "央视新闻客户端",
+                "title": "山西省人大常委会原副主任张茂才受审 受贿超7千万",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "山东省淄博市中级人民法院今天一审公开开庭审理了山西省人大常委",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 16:04:39"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1016,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/21e62fa1701047e189d33726882fac21.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMG8HES0001899N",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMG8HES0001899N.html",
+                "source": "澎湃新闻",
+                "title": "\"一天睡三个\" 团伙借PUA噱头开课教唆\"约炮\"被封",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "PUA（PickUpArtist）原译为“搭讪达人”，某团伙",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 11:23:41"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 675,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/a643242f686440adbf5f06b142eabc8b.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMBQ3SR0001899N",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMBQ3SR0001899N.html",
+                "source": "观察者网",
+                "title": "崔天凯讽刺美限制新规:在美6年半未能踏遍美每个州",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "向来标榜热爱“民主和自由”的美国政府，于当地时间10月16日",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 10:05:54"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1212,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/f4f03b05ab5047f591109f1dc2021157.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMUVJII0001875P",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMUVJII0001875P.html",
+                "source": "梨视频",
+                "title": "女子乘哈啰顺风车遭司机抢劫:菜刀架脖子 缝了12针",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "广东佛山一女子投诉称，10月13日乘哈啰顺风车遭司机持刀抢劫",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 15:40:57"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 5712,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/c4e30ffe30bb4c5fa4480f2f451b670b.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMP2T240001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMP2T240001899O.html",
+                "source": "吴川市公安局",
+                "title": "企图强奸遭强烈反抗 22岁男子刺死幼儿园老师被捕",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "近日，我市（广东省吴川市）海滨街道某幼儿园发生一宗故意杀人案",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 13:57:53"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 9203,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/075defbb3b914a5ea90fb2162b092708.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMGE51E0001899N",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMGE51E0001899N.html",
+                "source": "上游新闻",
+                "title": "80后副厅拟任新职:两度破格提拔 被称\"最牛公务员\"",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "10月14日，山东省委组织部网站“灯塔”发布了一则涉及15名",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 11:26:45"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 48,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/373e9e032f9c4563a4498a7b4e28a999.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERMUL7AC0001899O",
+                "videoInfo": null,
+                "channel": "",
+                "link": "https://3g.163.com/all/article/ERMUL7AC0001899O.html",
+                "source": "南国早报",
+                "title": "女子因唱山歌被老公打死灵柩埋婆家大厅？警方辟谣",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "10月16日，网传广西凤山一女子用手机在微信群唱山歌，被老公",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "新闻",
+                "ptime": "2019-10-17 15:35:16"
+            }
+        ],
+        "home": [
+            {
+                "liveInfo": null,
+                "tcount": 2717,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/17/3b9aada6229843a38fa3efad7c888592.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM1AA8Q001081EI",
+                "videoInfo": null,
+                "channel": "home",
+                "link": "https://3g.163.com/all/article/ERM1AA8Q001081EI.html",
+                "source": "网易家居综合",
+                "title": "香港女生租65平高档公寓月租3.5万 生活堪比贵妇",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "作为学生，我们大部分人住的都是学校宿舍，条件好的两人或单人住",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "家居",
+                "ptime": "2019-10-17 07:02:30"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 3,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/16/5a056eae8ff8406bac8b9bd6b97de031.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM1AASH001081EI",
+                "videoInfo": null,
+                "channel": "home",
+                "link": "https://3g.163.com/all/article/ERM1AASH001081EI.html",
+                "source": "网易家居综合",
+                "title": "甜蜜夫妻住400年幽灵古堡 吃饭都被祖先画像盯着",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "古堡婚礼是很多女孩的向往，浪漫、童话、典雅、高贵。很多明星也",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "家居",
+                "ptime": "2019-10-17 07:02:31"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 10,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/16/7564c37584254747a7736fe63603adba.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM1AB4A001086FJ",
+                "videoInfo": null,
+                "channel": "home",
+                "link": "https://3g.163.com/all/article/ERM1AB4A001086FJ.html",
+                "source": "网易家居原创",
+                "title": "超薄又好贴的陶瓷薄板 让你的家轻松就能焕然一新",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 3,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "各位易友们，你们的家居“种草达人”好物姐又来报道了！最近，好",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "家居",
+                "ptime": "2019-10-17 07:02:31"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 1,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://cms-bucket.ws.126.net/2019/10/16/5df8584db91343c181be970413e73707.png",
+                        "height": null
+                    }
+                ],
+                "docid": "ERM1ABJL001081EI",
+                "videoInfo": null,
+                "channel": "home",
+                "link": "https://3g.163.com/all/article/ERM1ABJL001081EI.html",
+                "source": "网易家居综合",
+                "title": "48岁大叔租50年老房 家中设计考虑的都是残障儿童",
+                "type": "doc",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 1,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "最近一期的《跟拍到我家》跟拍了一位热心于残疾儿童体育事业的大",
+                "typeid": "",
+                "addata": null,
+                "tag": "",
+                "category": "家居",
+                "ptime": "2019-10-17 07:02:32"
+            },
+            {
+                "liveInfo": null,
+                "tcount": 0,
+                "picInfo": [
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0010/2019-10-15/ERI6URDD2OHS0010NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0010/2019-10-15/ERI6URDC2OHS0010NOS.jpg",
+                        "height": null
+                    },
+                    {
+                        "ref": null,
+                        "width": null,
+                        "url": "http://pic-bucket.ws.126.net/photo/0010/2019-10-15/ERI6URDB2OHS0010NOS.jpg",
+                        "height": null
+                    }
+                ],
+                "docid": "0010set58410",
+                "videoInfo": null,
+                "channel": "home",
+                "link": "https://3g.163.com/all/photoview/0010/58410.html",
+                "source": "设计本",
+                "title": "老公花16万就让客厅空间最大化 88平看着像100平",
+                "type": "photoset",
+                "imgsrcFrom": null,
+                "imgsrc3gtype": 2,
+                "unlikeReason": "重复、旧闻/6,内容质量差/6",
+                "isTop": null,
+                "digest": "",
+                "typeid": "2OHS0010|58410",
+                "addata": null,
+                "tag": "图集",
+                "category": "推荐",
+                "ptime": "2019-10-15 19:21:36"
+            }
+        ]
+    }
+}

@@ -5,6 +5,7 @@
 3. MediaQuery.of(context).padding.top
 4. MediaQuery.of(context).platformBrightness
 5. var json = json.decode(jsonStr);
+6. bool.fromEnvironment("dart.vm.product")
 ```
 
 ## 学习资料
