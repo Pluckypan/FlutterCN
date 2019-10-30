@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttercn/cmpt/storage/mmkv.dart';
 import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/pages/setting.dart';
 import 'package:fluttercn/route_manager.dart';
 
 // ignore: must_be_immutable
@@ -35,11 +36,37 @@ class _ProfilePage extends State<ProfilePage> {
             _checked = checked;
           })
         });
+    print("LifyCycle profile initState");
     super.initState();
   }
 
   @override
+  void dispose() {
+    super.dispose();
+    print("LifyCycle profile dispose");
+  }
+
+  @override
+  void deactivate() {
+    super.deactivate();
+    print("LifyCycle profile deactivate");
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    print("LifyCycle profile didChangeDependencies");
+  }
+
+  @override
+  void didUpdateWidget(ProfilePage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    print("LifyCycle profile didUpdateWidget changed=${oldWidget != widget}");
+  }
+
+  @override
   Widget build(BuildContext context) {
+    print("LifyCycle profile build");
     _deviceSize = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
@@ -56,8 +83,12 @@ class _ProfilePage extends State<ProfilePage> {
             commonDivider(),
             Switch(
                 value: _checked == true,
-                onChanged: (checked) =>
-                    {MMKV.setValue("checked", checked)}),
+                onChanged: (checked) {
+                  setState(() {
+                    _checked = checked;
+                  });
+                  MMKV.setValue("checked", checked);
+                }),
           ],
         ),
       ),
@@ -109,20 +140,25 @@ class _ProfilePage extends State<ProfilePage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius:
-                              new BorderRadius.all(new Radius.circular(40.0)),
-                          border: new Border.all(
-                            color: Colors.black,
-                            width: 2.0,
+                      GestureDetector(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(40.0)),
+                            border: new Border.all(
+                              color: Colors.black,
+                              width: 2.0,
+                            ),
+                          ),
+                          child: CircleAvatar(
+                            backgroundImage: NetworkImage(Config.avatarNetUrl),
+                            foregroundColor: Colors.black,
+                            radius: 30.0,
                           ),
                         ),
-                        child: CircleAvatar(
-                          backgroundImage: NetworkImage(Config.avatarNetUrl),
-                          foregroundColor: Colors.black,
-                          radius: 30.0,
-                        ),
+                        onTap: () {
+                          Settings.gotoRoute(context);
+                        },
                       ),
                     ],
                   ),
@@ -167,7 +203,7 @@ class _ProfilePage extends State<ProfilePage> {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 50.0),
             child: Text(
-              "#Android #Vloger",
+              "#Android #Vloger #$_checked",
               style: TextStyle(fontWeight: FontWeight.w700),
               textAlign: TextAlign.center,
               maxLines: 3,
