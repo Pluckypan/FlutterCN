@@ -6,6 +6,7 @@ authors:
   - Plucky.Pan <pluckypan@126.com>
 homepage: http://1991th.com
 documentation: https://github.com/Pluckypan/FlutterCN
+repository: https://github.com/Pluckypan/FlutterCN
 environment:
   sdk: ">=2.2.0 <3.0.0"
 

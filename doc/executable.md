@@ -9,12 +9,13 @@ Dart开发命令行工具
 ├── bin
 │   └── iweather.dart
 └── pubspec.yaml
+
 ```
 
 ## pubspec.yaml
 ```
 name: iweather
-version: 0.0.1
+version: 0.0.2
 description: iweather Dart 终端获取天气
 authors:
   - Plucky <plucky@echo.engineer>
@@ -112,6 +113,7 @@ handleResult(t, debug, write) {
     }
   }
 }
+
 ```
 
 ## 关键指令
