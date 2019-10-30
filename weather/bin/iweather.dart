@@ -1,42 +1,3 @@
-Dart开发命令行工具
-
-## 目录结构
-```
-.
-├── CHANGELOG.md
-├── LICENSE
-├── README.md
-├── bin
-│   └── iweather.dart
-└── pubspec.yaml
-```
-
-## pubspec.yaml
-```
-name: iweather
-version: 0.0.1
-description: iweather Dart 终端获取天气
-authors:
-  - Plucky <plucky@echo.engineer>
-  - Plucky.Pan <pluckypan@126.com>
-homepage: http://1991th.com
-documentation: https://github.com/Pluckypan/FlutterCN
-environment:
-  sdk: ">=2.2.0 <3.0.0"
-
-dependencies:
-  args: ^1.5.2
-  dio: ^3.0.3
-
-dev_dependencies:
-
-executables:
-  iweather:
-
-```
-
-## iweather.dart
-```
 import 'dart:convert';
 import 'dart:io';
 
@@ -112,32 +73,3 @@ handleResult(t, debug, write) {
     }
   }
 }
-```
-
-## 关键指令
-```
-$ pub global activate --source path <包路径>
-$ pub global deactivate <package>
-$ pub global list
-$ pub global run <package>:<script>
-```
-
-## 本例示范
-```
-$ pub global activate --source path $PWD
-$ pub global list
-$ pub global run iweather:iweather
-$ iweather
-$ pub global deactivate iweather
-$ pub global list
-```
-
-## 发布
-1. 预演 `pub publish --dry-run`
-2. 发布 `pub publish --server https://pub.dev/`
-3. 第一次发布需要 `Google` 账号验证,之后升级十分方便,直接 `Uploading`
-
-## 注意事项
-1. `bin/` 文件夹容易被 `.gitignore` 加入忽略名单
-2. `package name` 需要小写驼峰
-3. 升级 `iweather` 仍然使用 `pub global activate iweather`

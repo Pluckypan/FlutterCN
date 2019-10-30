@@ -1,5 +1,5 @@
 name: iweather
-version: 0.0.1
+version: 0.0.2
 description: iweather Dart 终端获取天气
 authors:
   - Plucky <plucky@echo.engineer>
