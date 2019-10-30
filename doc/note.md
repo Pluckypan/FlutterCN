@@ -16,3 +16,5 @@
 - [编写 MacOS & Win APP](https://feather-apps.com/)
 - [Flutter Widget 在线预览](https://flutter-widget-livebook.blankapp.org/basics/introduction/)
 - [FlutterAwesome](https://flutterawesome.com/)
+- [给Android开发者](https://flutter.cn/docs/get-started/flutter-for/android-devs)
+- [iOS开发者Flutter指南](https://flutter.cn/docs/get-started/flutter-for/ios-devs)
