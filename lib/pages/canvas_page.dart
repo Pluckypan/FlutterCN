@@ -111,6 +111,7 @@ class CanvasPainter extends CustomPainter {
     var radius = height * progress / 2;
     final rect =Rect.fromCenter(center: center,width: width,height: height);
     final circleRect =Rect.fromCenter(center: center,width: height,height: height);
+    // 离屏渲染
     canvas.saveLayer(rect, aPaint);
     // 先画的一层叫 DST
     canvas.drawRect(rect, dstPaint);

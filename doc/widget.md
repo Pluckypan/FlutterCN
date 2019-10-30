@@ -54,7 +54,7 @@ Flutter大约有 140+ Widget,下面列出一些常用的Widget
 - NetworkImage
 - AssetImage
 - FileImage
-- MemoryImage
+- MemoryImage byte
 
 ## Boxfit
 相当于 Android 中的 ScaleType
@@ -240,6 +240,7 @@ Expanded
 
 ## 小结
 1. Flutter Widge 并不支持 类似于 Android的 Visibility 属性,只能设置 `alpha` 或者 `Offstage` 或者通过 `State` 来删除
+2. 大概约 140+ 控件,需要多实践
 
 ## 参考链接
 - [widget英文文档](https://flutter.dev/docs/development/ui/widgets)
