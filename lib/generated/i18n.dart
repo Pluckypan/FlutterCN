@@ -28,6 +28,7 @@ class S implements WidgetsLocalizations {
   String get coming_soon => "Coming Soon";
   String get english => "English";
   String get home => "Home";
+  String get lab => "Lab";
   String get language => "language";
   String get native_call => "Call Native";
   String get official_sample => "Official Sample";
@@ -72,6 +73,8 @@ class $zh_CN extends S {
   String get language => "语言";
   @override
   String get beijing => "北京";
+  @override
+  String get lab => "实验室";
   @override
   String get home => "首页";
   @override

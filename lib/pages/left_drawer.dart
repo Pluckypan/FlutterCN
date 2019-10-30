@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttercn/config.dart';
 import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/about.dart';
+import 'package:fluttercn/pages/lab/lab_page.dart';
 import 'package:fluttercn/pages/offical/official_page.dart';
 import 'package:fluttercn/pages/profile.dart';
 import 'package:fluttercn/pages/setting.dart';
@@ -39,6 +40,19 @@ class LeftDrawer extends StatelessWidget {
               Icons.person,
               color: Colors.blue,
             ),
+          ),
+          ListTile(
+            title: Text(
+              S.of(context).lab,
+              style: drawerTextStyle,
+            ),
+            leading: Icon(
+              Icons.games,
+              color: Colors.pinkAccent,
+            ),
+            onTap: () {
+              LabPage.gotoRoutes(context);
+            },
           ),
           ListTile(
             title: Text(

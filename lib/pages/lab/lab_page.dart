@@ -1,25 +1,32 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercn/generated/i18n.dart';
+import 'package:fluttercn/pages/canvas_page.dart';
+import 'package:fluttercn/pages/clip_path.dart';
+import 'package:fluttercn/pages/native.dart';
 import 'package:fluttercn/route_manager.dart';
 
-class ThirdPartyLibsPage extends StatelessWidget {
+class LabPage extends StatelessWidget {
+
   static configRoutes(Router router) {
-    router.define("/third_party_libs_page",
-        handler:
-            Handler(handlerFunc: (context, params) => ThirdPartyLibsPage()));
+    router.define("/lab_page",
+        handler: Handler(handlerFunc: (context, params) => LabPage()));
   }
 
   static gotoRoutes(BuildContext context) {
-    RouteManager.goto(context, "/third_party_libs_page");
+    RouteManager.goto(context, "/lab_page");
   }
 
-  static final itemCount = 0;
+  static final itemCount = 3;
 
   static String _getTitle(BuildContext context, int index) {
     switch (index) {
       case 0:
-        return "MVVM";
+        return S.of(context).native_call;
+      case 1:
+        return "ClipPath";
+      case 2:
+        return "Canvas";
       default:
         return "";
     }
@@ -28,6 +35,13 @@ class ThirdPartyLibsPage extends StatelessWidget {
   static _onItemClick(BuildContext context, int index) {
     switch (index) {
       case 0:
+        Native.gotoRoute(context);
+        break;
+      case 1:
+        ClipPathPage.gotoRoute(context);
+        break;
+      case 2:
+        CanvasPage.gotoRoute(context);
         break;
     }
   }
@@ -36,7 +50,7 @@ class ThirdPartyLibsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(S.of(context).third_party_libs),
+        title: Text(S.of(context).lab),
       ),
       body: GridView.builder(
           itemCount: itemCount,
