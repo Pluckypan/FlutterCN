@@ -1,5 +1,5 @@
 ## 官方说明
-> Dart is a client-optimized language for fast apps on any platform,made by Google. Dart 是一种 易于学习、 易于扩展、并且可以部署到 任何地方 的 应用 编程 语言。Google 使用 Dart 来开发 大型应用。
+> Dart is a client-optimized language for fast apps on any platform,made by Google.
 
 ## 简介
 Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由Google主导开发，于2011年10月公开。它的开发团队由Google Chrome浏览器V8引擎团队的领导者拉尔斯·巴克主持，目标在于成为下一代结构化Web开发语言。类似JavaScript，Dart也是一种面向对象语言，但是它采用基于类编程。它只允许单一继承，语法风格接近C语言。[wiki](https://zh.wikipedia.org/wiki/Dart)
@@ -11,7 +11,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
 2. 强类型语言：但变量类型是可选,因为Dart可以自动推断变量类型 `var` & `dynamic`
 3. 支持范型：`List<int>` 表示一个整型的数据列表；`List<dynamic>` 则是一个对象的列表，其中可以装任意对象
 4. Dart没有public protected private等关键字,如果某个变量以下划线 `_` 开头，代表这个变量在库中是私有的
-5. 类的级联运算符 `...`
+5. 类的级联运算符 `..`
 6. 其他：单继承、支持接口、混入 mixins、抽象类、枚举 enum
 7. 编译时只保留运行时需要调用的代码(不允许反射这样的隐式引用)
 
@@ -93,7 +93,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
   print(k ~/ j); // 0
   print(k % j);// 1
 
-  (peter as Person).teach();
+  (json as Map)['name'];
 
   var hello = "hello", world = null;
   hello ??= "world";
@@ -107,6 +107,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
   print(second.length); // 报错
 
   new Person()..eat()..sleep()..study();
+
   ```
 
 ## 控制流程
@@ -186,8 +187,8 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
 - map `students.map((student) => 'Hello ' + student['name']).toList();`
 - contains() `nums.contains(5);`
 - sort() `numbers.sort((num1, num2) => num1 - num2);`
-- reduce() `var sum = numbers.reduce((curr, next) => curr + next);`
-- fold() `numbers.fold(10, (curr, next) => curr + next);`
+- reduce() 求和 `var sum = numbers.reduce((curr, next) => curr + next);`
+- fold() 求和：有初始值 `numbers.fold(10, (curr, next) => curr + next);`
 - every() 用于判断数组中的每一项是否均达到了某个条件
   `var isAgeOver20 = students.every((student) => student["age"] > 20);`
 - where() 返回数组中满足给定条件的元素集合
@@ -199,7 +200,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
 - take(n) 从数组里取 n 个元素
 - skip(n) 跳过数组中的 n 个元素
 - List.from() 克隆一个数组
-- expand()
+- expand() 重组数组
   ```
   var arr1 = [[2, 5], [7], [11, 12]];
   var flattened = arr1.expand((item) => item).toList();
@@ -216,6 +217,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
   print(computed2);
   // [16, 40, 64]  
   ```
+- add(), addAll()  
 
 ## 变量
 - 定义变量
@@ -455,6 +457,7 @@ Dart（/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由
 10. 静态变量和静态方法  
   ```
   class Cons {
+    Cons._();
     static const name = "Tom";
     static sayHello() {
       print("hello, this is ${Cons.name}");
@@ -476,15 +479,15 @@ typedef void CartChangedCallback(Product product, bool inCart);
 ```
 class AnyBody<T> {
   void generic(T t) {
-    print("generic:${t}");
+    print("generic:${t} T=$T Type=${t.runtimeType}");
   }
 }
 
 main() {
   var iBody = new AnyBody<int>();
-  iBody.generic(1);// generic:1
+  iBody.generic(1);// generic:1 T=int Type=int
   var sBody = new AnyBody<String>();
-  sBody.generic("Nicole.");// generic:Nicole.
+  sBody.generic("Nicole.");// generic:Nicole. T=String Type=String
 }
 ```
 
@@ -503,7 +506,7 @@ main() {
 ## 导包
 - 官方标准包 `import 'dart:io';`
 - 第三方类库 `import 'package:flutter/material.dart';`
-- 自己开发包 `import './md5.dart';`
+- 自己开发包 `import './md5.dart';` //不推荐使用路径
 - 使用别名 `import './md5.dart' as md5;` 则使用时需要加上 `md5.` 前缀.目的是为了解决 `import` 冲突
 - 只导入 `import 'package:lib/lib.dart' show foo;` 表示只使用 `foo`
 - 不导入 `import 'package:lib/lib.dart' hide foo;` 表示排除掉 `foo`
@@ -527,7 +530,9 @@ main() {
 }
 ```
 
-- [dart官网](https://dart.dev/)
-- [dart中文网](http://dart.goodev.org/)
-- [dartdoc.cn](http://www.dartdoc.cn/)
+## 相关链接
+- [Dart官网](https://dart.dev/)
+- [Dart中文网](https://dart.cn/)
+- [Dart中文文档](http://www.dartdoc.cn/)
+- [Dart语言](http://dart.goodev.org/)
 - [在线运行](https://dartpad.dartlang.org/)
