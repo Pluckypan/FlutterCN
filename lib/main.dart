@@ -12,7 +12,14 @@ import 'package:provider/provider.dart';
 
 void main() => runApp(FlutterCNApp());
 
-class FlutterCNApp extends StatelessWidget {
+class FlutterCNApp extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return _App();
+  }
+}
+
+class _App extends State<FlutterCNApp> with WidgetsBindingObserver {
   // APP 同样是一个 Widget,这里使用官方推荐的 MaterialApp
   @override
   Widget build(BuildContext context) {
@@ -24,6 +31,29 @@ class FlutterCNApp extends StatelessWidget {
           builder: (context, themeProvider, child) =>
               _createApp(context, themeProvider)),
     );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    print("LifyCycle initState");
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    WidgetsBinding.instance.removeObserver(this);
+    print("LifyCycle dispose");
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    /// resumed  可见可操作
+    /// inactive 可见但不可操作：来电、系统弹窗、画中画
+    /// paused 不可见、不可操作.Android一段时间过后就会处于 suspending 状态
+    /// suspending APP暂时处于挂起状态,iOS目前不可用
+    print("LifyCycle didChangeAppLifecycleState state=$state");
   }
 
   Widget _createApp(BuildContext context, ThemeProvider themeProvider) {
