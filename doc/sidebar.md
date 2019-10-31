@@ -11,10 +11,10 @@
 - [全局状态管理](provider)
 - [Native交互](native)
 - [包管理](package)
+- [CLI](executable)
 - [跨平台开发](cross)
 - [编译](compile)
 - [常用指令](command)
-- [关键字](keywords)
 - [调试](debug)
 - [一些笔记](note)
 - **Links**
