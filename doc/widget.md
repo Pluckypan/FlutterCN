@@ -261,19 +261,8 @@ IndexedStack(
 )
 ```
 
-## Container
-相当于 Android 中的 ViewGroup
-- BoxDecoration 提供了对背景色，边框，圆角，阴影和渐变等功能的定制能力。
-- BoxConstraints 其实是对 Container 组件大小的描述。
-
-##  GestureDetector
-在Flutter中手势识别也是一个widget！使用时只需要将GestureDetector包裹在目标widget外面，再实现对应事件的函数即可。
-
-
 ## Flex
-`Flex` 是 `Flexible Box` 的缩写，意为 **弹性布局**，用来为盒状模型提供最大的灵活性。[flex盒子模型](https://www.runoob.com/w3cnote/flex-grammar.html).`Flutter` 在布局上也提供了完整的 `Flex` 布局能力。在 `Flutter` 中，主要通过 `Row`,`Column`,`Flexible` 来实现 **弹性布局**。
-
-Expanded
+`Flex` 是 `Flexible Box` 的缩写，意为 **弹性布局**，用来为盒状模型提供最大的灵活性。[flex盒子模型](https://www.runoob.com/w3cnote/flex-grammar.html).`Flutter` 在布局上也提供了完整的 `Flex` 布局能力。在 `Flutter` 中，主要通过 `Flex`,`Row`,`Column`,`Flexible`,`Expanded`,`Spacer` 来实现 **弹性布局**。
 
 <div align="center">
 
@@ -288,6 +277,127 @@ Expanded
 ![row](assets/img/row.webp)
 
 水平布局时：x轴为主轴，y轴为副轴!
+
+小结:
+1. `Row` 相当于 **LinearLayout** `orientation = horizontal`
+2. `Column` 相当于 **LinearLayout** `orientation = vertical`
+3. `Flexible` 相当于 **LinearLayout** `weight = xxx `,用途是铺满父布局剩余空间
+4. `Expanded` 继承自 `Flexible`
+5. `Spacer` 实质上是 build 了一个 `Expanded`
+
+
+```
+Flex(
+  direction: Axis.vertical,
+  children: <Widget>[
+    Row(
+      children: <Widget>[
+        Container(
+          color: Colors.redAccent,
+          width: 100,
+          height: 50,
+        ),
+        Expanded(
+            child: Container(
+          color: Colors.greenAccent,
+          height: 50,
+        )),
+        Container(
+          color: Colors.blueAccent,
+          width: 100,
+          height: 50,
+        ),
+      ],
+    ),
+    Spacer(
+      flex: 1,
+    ),
+    Flexible(
+        flex: 2,
+        child: Container(
+          alignment: Alignment.center,
+          color: Colors.purpleAccent,
+          child: Text(
+            "Flexible",
+            style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+                color: Colors.white),
+          ),
+        )),
+    Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisSize: MainAxisSize.max,
+      children: <Widget>[
+        Column(
+          children: <Widget>[
+            Container(
+              height: 80,
+              width: 100,
+              alignment: Alignment.center,
+              color: Colors.redAccent,
+              child: Text(
+                "RED",
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white),
+              ),
+            ),
+            Container(
+              height: 80,
+              width: 100,
+              alignment: Alignment.center,
+              color: Colors.greenAccent,
+              child: Text(
+                "GREEN",
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white),
+              ),
+            ),
+            Container(
+              height: 80,
+              width: 100,
+              alignment: Alignment.center,
+              color: Colors.blueAccent,
+              child: Text(
+                "Blue",
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white),
+              ),
+            ),
+          ],
+        ),
+        Expanded(
+            child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: <Widget>[
+            Container(
+              color: Colors.cyanAccent,
+              width: 80,
+              height: 80,
+            )
+          ],
+        ))
+      ],
+    )
+  ],
+)
+```
+
+## Container
+相当于 Android 中的 ViewGroup
+- BoxDecoration 提供了对背景色，边框，圆角，阴影和渐变等功能的定制能力。
+- BoxConstraints 其实是对 Container 组件大小的描述。
+
+##  GestureDetector
+在Flutter中手势识别也是一个widget！使用时只需要将GestureDetector包裹在目标widget外面，再实现对应事件的函数即可。
+
 
 ## Flow
 
