@@ -8,7 +8,7 @@
 - [网络调用](http)
 - [JSON & Object 相互转换](convert)
 - [多语言](i18n)
-- [全局状态管理 Provider](provider)
+- [全局状态管理](provider)
 - [Native交互](native)
 - [包管理](package)
 - [跨平台开发](cross)

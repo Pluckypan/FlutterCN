@@ -6,9 +6,7 @@ class ProviderManager {
   ProviderManager._();
 
   static final List<SingleChildCloneableWidget> providers = []
-    ..add(ChangeNotifierProvider(
-      builder: (_) => ThemeProvider(),
-    ))
+    ..add(ChangeNotifierProvider(builder: (_) => ThemeProvider()))
     ..add(
       ChangeNotifierProvider(builder: (_) => LanguageProvider()),
     );
