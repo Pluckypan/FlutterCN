@@ -21,7 +21,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 - [网易云音乐API](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 ## 接口说明
-`DEMO` 中使用的接口主要是 [天气获取接口](https://www.apiopen.top/weatherApi?city=北京) 和 [新闻接口](https://www.apiopen.top/journalismApi)，但是接口不是很稳定，大家如果出现接口无法访问，可以通过本地 `Mock` 的形式.`Mock`的json文件在根目录 `mock` 目录下。然后根据修改 `Config` 文件中的 Mock 地址。
+`DEMO` 中使用的接口主要是 [天气获取接口](https://www.apiopen.top/weatherApi?city=北京) 和 [新闻接口](https://www.apiopen.top/journalismApi)，但是接口不是很稳定，大家如果出现接口无法访问，可以通过本地 `Mock` 的形式.`Mock`的json文件在根目录 `mock` 目录下。然后修改 `Config` 文件中的 Mock 地址。
 
 ![mock](art/mock.png)
 
