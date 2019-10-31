@@ -18,7 +18,7 @@ Flutter是Google开发的一套全新的跨平台、开源UI框架，支持iOS�
 
 ![border](assets/img/android.border.png)
 
-Flutter则开辟了一种全新的思路，从头到尾重写一套跨平台的UI框架，包括UI控件、渲染逻辑甚至开发语言。渲染引擎依靠跨平台的Skia图形库来实现，依赖系统的只有图形绘制相关的接口，可以在最大程度上保证不同平台、不同设备的体验一致性，逻辑处理使用支持AOT的Dart语言，执行效率也比JavaScript高得多。 [编译](compile)
+Flutter则开辟了一种全新的思路，从头到尾重写一套跨平台的UI框架，包括UI控件、渲染逻辑甚至开发语言。渲染引擎依靠跨平台的 [Skia](https://github.com/google/skia) 图形库来实现，依赖系统的只有图形绘制相关的接口，可以在最大程度上保证不同平台、不同设备的体验一致性，逻辑处理使用支持AOT的Dart语言，执行效率也比JavaScript高得多。 [编译](compile)
 
 ## 架构
 ![framework](/assets/img/flutter.framework.png)

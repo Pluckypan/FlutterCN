@@ -1,6 +1,6 @@
 # 全局状态管理
 
-实现全局状态的方式有很多种,如 `RxData`,`ScopedModel`,`Redux`,`fish_redux`,今天要分享的是`Provider`
+实现全局状态的方式有很多种,如 `RxData`,`ScopedModel`,`Redux`,`Bloc`,`fish_redux`,今天要分享的是`Provider`
 
 ## 应用场景
 - 主题管理
