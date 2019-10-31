@@ -4,7 +4,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 ## 界面展示
 <div align="center">
 
-![home](http://img.1991th.com/tuchongeter/tech/fluttercn_home.png!480jpg)
+![home](http://img.1991th.com/tuchongeter/tech/fluttercn_home.png!480jpg?time=20191031)
 
 </div>
 
@@ -18,7 +18,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 ## 计划
 1. 用 Flutter 开发一个资讯类APP
 2. 要求内容
-	- [x] 新闻流
+	- [x] 新闻Feed流
 	- [x] 天气
 3. 技术栈
 	- [x] Dart 语言简介
@@ -41,7 +41,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
 	- [x] Flutter 终端指令
 	- [x] ~MacOs & Windows App 开发~
-	- [x] ~Mock Release & Debug~
+	- [x] Mock Release & Debug
 4. 文档输出
 	- [x] 开发环境: Dart & Flutter & pub
 	- [x] 包管理: pub&git&path&发布自己的包
