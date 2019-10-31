@@ -236,74 +236,52 @@ int byte = imageCache.currentSizeBytes;
 imageCache.clear();
 ```
 
-## Stack
-堆叠控件,相当于 `Android` 中的 `FrameLayout`,子控件的位置分两种情况:
-- `Positioned`: `left top right bottom` 来决定位置
-- 非`Positioned` : 通过控制 `Stack` 的 `alignment` 属性来控制对齐方式
-
+##  GestureDetector
+在Flutter中手势识别也是一个widget！使用时只需要将GestureDetector包裹在目标widget外面，再实现对应事件的函数即可。
 ```
-Stack(
-  alignment: Alignment.topLeft,
-  children: <Widget>[
-    Container(
-      color: Colors.pinkAccent,
-      width: width,
-      height: 200,
-    ),
-    Container(
-      color: Colors.deepOrangeAccent,
-      width: width / 2,
-      height: 150,
-    ),
-    Container(
-      color: Colors.green,
-      width: 100,
-      height: 100,
-    ),
-    Positioned(
-      child: Container(
-        color: Colors.deepPurpleAccent,
-        width: 100,
-        height: 100,
-      ),
-      right: 0,
-      bottom: 0,
-    )
-  ],
-)
+GestureDetector({
+  Key key,
+  this.child,
+  this.onTapDown,
+  this.onTapUp,
+  this.onTap,
+  this.onTapCancel,
+  this.onSecondaryTapDown,
+  this.onSecondaryTapUp,
+  this.onSecondaryTapCancel,
+  this.onDoubleTap,
+  this.onLongPress,
+  this.onLongPressStart,
+  this.onLongPressMoveUpdate,
+  this.onLongPressUp,
+  this.onLongPressEnd,
+  this.onVerticalDragDown,
+  this.onVerticalDragStart,
+  this.onVerticalDragUpdate,
+  this.onVerticalDragEnd,
+  this.onVerticalDragCancel,
+  this.onHorizontalDragDown,
+  this.onHorizontalDragStart,
+  this.onHorizontalDragUpdate,
+  this.onHorizontalDragEnd,
+  this.onHorizontalDragCancel,
+  this.onForcePressStart,
+  this.onForcePressPeak,
+  this.onForcePressUpdate,
+  this.onForcePressEnd,
+  this.onPanDown,
+  this.onPanStart,
+  this.onPanUpdate,
+  this.onPanEnd,
+  this.onPanCancel,
+  this.onScaleStart,
+  this.onScaleUpdate,
+  this.onScaleEnd,
+  this.behavior,
+  this.excludeFromSemantics = false,
+  this.dragStartBehavior = DragStartBehavior.start,
+})
 ```
-
-## IndexedStack
-一次只显示一个
-
-```
-IndexedStack(
-  index: _index,
-  children: <Widget>[
-    Icon(
-      Icons.wifi,
-      size: 100,
-      color: Colors.redAccent,
-    ),
-    Icon(
-      Icons.wifi_lock,
-      size: 100,
-      color: Colors.greenAccent,
-    ),
-    Icon(
-      Icons.signal_wifi_off,
-      size: 100,
-      color: Colors.blueAccent,
-    ),
-    Icon(
-      Icons.wifi_tethering,
-      size: 100,
-      color: Colors.deepPurpleAccent,
-    ),
-  ],
-)
-```
-
 ## Flex
 `Flex` 是 `Flexible Box` 的缩写，意为 **弹性布局**，用来为盒状模型提供最大的灵活性。[flex盒子模型](https://www.runoob.com/w3cnote/flex-grammar.html).`Flutter` 在布局上也提供了完整的 `Flex` 布局能力。在 `Flutter` 中，主要通过 `Flex`,`Row`,`Column`,`Flexible`,`Expanded`,`Spacer` 来实现 **弹性布局**。
 
@@ -433,13 +411,149 @@ Flex(
 )
 ```
 
+## Stack
+堆叠控件,相当于 `Android` 中的 `FrameLayout`,子控件的位置分两种情况:
+- `Positioned`: `left top right bottom` 来决定位置
+- 非`Positioned` : 通过控制 `Stack` 的 `alignment` 属性来控制对齐方式
 
-##  GestureDetector
-在Flutter中手势识别也是一个widget！使用时只需要将GestureDetector包裹在目标widget外面，再实现对应事件的函数即可。
+```
+Stack(
+  alignment: Alignment.topLeft,
+  children: <Widget>[
+    Container(
+      color: Colors.pinkAccent,
+      width: width,
+      height: 200,
+    ),
+    Container(
+      color: Colors.deepOrangeAccent,
+      width: width / 2,
+      height: 150,
+    ),
+    Container(
+      color: Colors.green,
+      width: 100,
+      height: 100,
+    ),
+    Positioned(
+      child: Container(
+        color: Colors.deepPurpleAccent,
+        width: 100,
+        height: 100,
+      ),
+      right: 0,
+      bottom: 0,
+    )
+  ],
+)
+```
 
+## IndexedStack
+一次只显示一个
+
+```
+IndexedStack(
+  index: _index,
+  children: <Widget>[
+    Icon(
+      Icons.wifi,
+      size: 100,
+      color: Colors.redAccent,
+    ),
+    Icon(
+      Icons.wifi_lock,
+      size: 100,
+      color: Colors.greenAccent,
+    ),
+    Icon(
+      Icons.signal_wifi_off,
+      size: 100,
+      color: Colors.blueAccent,
+    ),
+    Icon(
+      Icons.wifi_tethering,
+      size: 100,
+      color: Colors.deepPurpleAccent,
+    ),
+  ],
+)
+```
 
 ## Flow
+也称作流式布局,在其他布局中,如果控件宽度超出一行会被报错,或者显示不全。但有了`Flow`,当超过一行时可自动换行。实现 `Flow` 主要实现 `delegate`
 
+```
+Flow(
+  delegate: FlowPageDelegate(),
+  children: <Widget>[
+    new Container(
+      width: 80.0,
+      margin: EdgeInsets.all(5),
+      height: 80.0,
+      color: Colors.red,
+    ),
+    new Container(
+      width: 80.0,
+      height: 80.0,
+      margin: EdgeInsets.all(5),
+      color: Colors.green,
+    ),
+    new Container(
+      width: 80.0,
+      height: 80.0,
+      margin: EdgeInsets.all(5),
+      color: Colors.blue,
+    ),
+    new Container(
+      width: 80.0,
+      height: 80.0,
+      margin: EdgeInsets.all(5),
+      color: Colors.yellow,
+    ),
+    new Container(
+      width: 80.0,
+      height: 80.0,
+      margin: EdgeInsets.all(5),
+      color: Colors.brown,
+    ),
+    new Container(
+      width: 80.0,
+      height: 80.0,
+      margin: EdgeInsets.all(5),
+      color: Colors.purple,
+    ),
+  ],
+);
+
+class FlowPageDelegate extends FlowDelegate {
+  EdgeInsets margin = EdgeInsets.only(left: 20);
+  
+  @override
+  void paintChildren(FlowPaintingContext context) {
+    var x = margin.left;
+    var y = margin.top;
+    for (int i = 0; i < context.childCount; i++) {
+      var w = context.getChildSize(i).width + x + margin.right;
+      if (w < context.size.width) {
+        context.paintChild(i,
+            transform:  Matrix4.translationValues(x, y, 0.0)..rotateZ(0.2));
+        x = w + margin.left;
+      } else {
+        x = margin.left;
+        y += context.getChildSize(i).height + margin.top + margin.bottom;
+        context.paintChild(i,
+            transform: new Matrix4.translationValues(x, y, 0.0)..rotateZ(0.2));
+        x += context.getChildSize(i).width + margin.left + margin.right;
+      }
+    }
+  }
+
+  @override
+  bool shouldRepaint(FlowDelegate oldDelegate) {
+    return oldDelegate != this;
+  }
+}
+```
 
 
 ## 其他

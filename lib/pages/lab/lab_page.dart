@@ -5,6 +5,7 @@ import 'package:fluttercn/pages/canvas_page.dart';
 import 'package:fluttercn/pages/clip_path.dart';
 import 'package:fluttercn/pages/lab/column_row_page.dart';
 import 'package:fluttercn/pages/lab/container_page.dart';
+import 'package:fluttercn/pages/lab/flow_page.dart';
 import 'package:fluttercn/pages/lab/images.dart';
 import 'package:fluttercn/pages/lab/stack_page.dart';
 import 'package:fluttercn/pages/native.dart';
@@ -38,6 +39,8 @@ class LabPage extends StatelessWidget {
         return "Column Row";
       case 6:
         return "Container";
+      case 7:
+        return "Flow";
       default:
         return "";
     }
@@ -65,6 +68,9 @@ class LabPage extends StatelessWidget {
         break;
       case 6:
         RouteManager.gotoMaterial(context, ContainerPage());
+        break;
+      case 7:
+        RouteManager.gotoMaterial(context, FlowPage());
         break;
     }
   }
