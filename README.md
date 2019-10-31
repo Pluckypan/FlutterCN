@@ -34,13 +34,12 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 主题: provider 全局状态同步
 	- [x] 与原生APP交互	[链接](https://flutter.cn/docs/development/platform-integration/platform-channels)
 	- [x] 自定义View		[链接](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html)
-	- [ ] 生命周期
-	- [ ] MVVM
+	- [x] 生命周期
+	- [x] MVVM
 	- [x] AOP [AspectD](https://www.yuque.com/xytech/flutter/aukvx8)
-	- [ ] Flutter Delay		
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
-	- [ ] Flutter 终端指令
+	- [x] Flutter 终端指令
 	- [x] ~MacOs & Windows App 开发~
 	- [x] ~Mock Release & Debug~
 4. 文档输出
@@ -49,7 +48,7 @@ A Project to Share About FlutterCN.Flutter学习与分享
 	- [x] 常用指令
 	- [x] jit,aot
 	- [x] 原理解析:渲染机制、消息机制
-	- [ ] 关键字解读
+	- [ ] ~~关键字解读~~
 	- [x] 遇到的问题
 	- [ ] 技术总结与展望
 	- [ ] 快速集成：`Jenkins` 打包,渠道分发
