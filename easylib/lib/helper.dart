@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'dart:ui';
 
 class Helper {
@@ -18,5 +19,10 @@ class Helper {
     RegExp reg = new RegExp(r"[0-9]+");
     Iterable<Match> matches = reg.allMatches(str);
     return int.tryParse(matches.first.group(0));
+  }
+
+  static Color getRandomColor() {
+    return Color.fromARGB(255, Random.secure().nextInt(255),
+        Random.secure().nextInt(255), Random.secure().nextInt(255));
   }
 }
