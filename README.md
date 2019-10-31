@@ -8,12 +8,37 @@ A Project to Share About FlutterCN.Flutter学习与分享
 
 </div>
 
+## 文档地址
+- [如何用Flutter从0-1构建一个APP](http://www.echo.engineer/FlutterCN/#/)
+
+![](art/doc_cover.png)
+
 ## 免费API
 - [开源社区](https://www.apiopen.top/api.html#top)
 - [新闻接口](https://www.apiopen.top/journalismApi)
 - [天气获取接口](https://www.apiopen.top/weatherApi?city=成都)
 - [美图获取接口](https://www.apiopen.top/meituApi?page=1)
 - [网易云音乐API](https://github.com/Binaryify/NeteaseCloudMusicApi)
+
+## 接口说明
+`DEMO` 中使用的接口主要是 [天气获取接口](https://www.apiopen.top/weatherApi?city=北京) 和 [新闻接口](https://www.apiopen.top/journalismApi)，但是接口不是很稳定，大家如果出现接口无法访问，可以通过本地 `Mock` 的形式.`Mock`的json文件在根目录 `mock` 目录下。然后根据修改 `Config` 文件中的 Mock 地址。
+
+![mock](art/mock.png)
+
+我一般使用 `nodejs` [ssr](https://www.npmjs.com/package/ssr),进入 `mock` 目录,然后mock接口。如下：
+```
+FlutterCN git:(master) ✗ cd mock
+➜  mock git:(master) ✗ ssr -p 1997
+
+ Static file server running at
+
+=> http://localhost:1997
+
+```
+
+`http://localhost:1997` 改成你电脑的ip的地址 `http://172.18.16.224:1997/`
+
+
 
 ## 计划
 1. 用 Flutter 开发一个资讯类APP
