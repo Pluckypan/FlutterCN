@@ -58,6 +58,7 @@ class NativePage extends State<Native> {
   @override
   void initState() {
     super.initState();
+    NativeManager.setup();
     _startCounterPlugin();
   }
 

@@ -25,13 +25,15 @@ class MainActivity : FlutterActivity() {
 
     private var animator: ValueAnimator? = null
     private var methodResult: MethodChannel.Result? = null
+    private var methodChannel: MethodChannel? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         GeneratedPluginRegistrant.registerWith(this)
 
         // 注册方法回调
-        MethodChannel(flutterView, METHOD_CHANNEL).setMethodCallHandler { call, result ->
+        methodChannel = MethodChannel(flutterView, METHOD_CHANNEL)
+        methodChannel?.setMethodCallHandler { call, result ->
             onMethodCall(call, result)
         }
 
@@ -56,6 +58,22 @@ class MainActivity : FlutterActivity() {
                 println("onCancel:$arguments main=${Looper.getMainLooper() == Looper.myLooper()}")
             }
 
+        })
+    }
+
+    private fun callFlutter(channel: MethodChannel) {
+        channel.invokeMethod("getRandomColor", "hello", object : MethodChannel.Result {
+            override fun notImplemented() {
+                println("callFlutter notImplemented main=${Looper.getMainLooper() == Looper.myLooper()}")
+            }
+
+            override fun error(errorCode: String?, errorMessage: String?, errorDetails: Any?) {
+                println("callFlutter error errorCode=$errorCode  main=${Looper.getMainLooper() == Looper.myLooper()}")
+            }
+
+            override fun success(result: Any?) {
+                println("callFlutter success result=$result main=${Looper.getMainLooper() == Looper.myLooper()}")
+            }
         })
     }
 
@@ -122,6 +140,9 @@ class MainActivity : FlutterActivity() {
     private fun openMessageActivity(call: MethodCall, result: MethodChannel.Result) {
         val message = call.argument<String>("message")
         if (!TextUtils.isEmpty(message)) {
+            methodChannel?.let {
+                callFlutter(it)
+            }
             MessageActivity.goto(this, message!!)
         } else {
             result.error("-1", "message is empty.", null)
