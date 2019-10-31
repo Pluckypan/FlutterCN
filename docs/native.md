@@ -1,6 +1,6 @@
 # 交互
 
-`Flutter` 虽然号称跨平台,但是仍然无法摆脱`平台`而存在，首页，仍然存在 `Android` & `iOS` 代码；其次，`Flutter`无法实现的功能,仍然需要 Android 和 iOS 去实现。
+`Flutter` 虽然号称跨平台,但是仍然无法摆脱`平台`而存在，首先，仍然存在 `Android` & `iOS` 代码；其次，`Flutter`无法实现的功能,仍然需要 Android 和 iOS 去实现。
 
 ## MethodChannel
 
