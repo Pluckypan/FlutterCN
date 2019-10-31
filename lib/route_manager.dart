@@ -62,6 +62,11 @@ class RouteManager {
         context, MaterialPageRoute(builder: (context) => page));
   }
 
+  static Future gotoNamed(BuildContext context, String name,
+      {Object arguments}) {
+    return Navigator.pushNamed(context, name, arguments: arguments);
+  }
+
   static Route<dynamic> generator(RouteSettings routeSettings) {
     return _manager._router.generator(routeSettings);
   }
