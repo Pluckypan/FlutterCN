@@ -193,6 +193,73 @@ int byte = imageCache.currentSizeBytes;
 imageCache.clear();
 ```
 
+## Stack
+堆叠控件,相当于 `Android` 中的 `FrameLayout`,子控件的位置分两种情况:
+- `Positioned`: `left top right bottom` 来决定位置
+- 非`Positioned` : 通过控制 `Stack` 的 `alignment` 属性来控制对齐方式
+
+```
+Stack(
+  alignment: Alignment.topLeft,
+  children: <Widget>[
+    Container(
+      color: Colors.pinkAccent,
+      width: width,
+      height: 200,
+    ),
+    Container(
+      color: Colors.deepOrangeAccent,
+      width: width / 2,
+      height: 150,
+    ),
+    Container(
+      color: Colors.green,
+      width: 100,
+      height: 100,
+    ),
+    Positioned(
+      child: Container(
+        color: Colors.deepPurpleAccent,
+        width: 100,
+        height: 100,
+      ),
+      right: 0,
+      bottom: 0,
+    )
+  ],
+)
+```
+
+## IndexedStack
+一次只显示一个
+
+```
+IndexedStack(
+  index: _index,
+  children: <Widget>[
+    Icon(
+      Icons.wifi,
+      size: 100,
+      color: Colors.redAccent,
+    ),
+    Icon(
+      Icons.wifi_lock,
+      size: 100,
+      color: Colors.greenAccent,
+    ),
+    Icon(
+      Icons.signal_wifi_off,
+      size: 100,
+      color: Colors.blueAccent,
+    ),
+    Icon(
+      Icons.wifi_tethering,
+      size: 100,
+      color: Colors.deepPurpleAccent,
+    ),
+  ],
+)
+```
 
 ## Container
 相当于 Android 中的 ViewGroup
@@ -221,12 +288,6 @@ Expanded
 ![row](assets/img/row.webp)
 
 水平布局时：x轴为主轴，y轴为副轴!
-
-## Stack
-堆叠控件,相当于 `Android` 中的 `FrameLayout`
-
-- Positioned: left top 来决定位置
-- NO Positioned: 通过控制Stack的alignment属性来控制对齐方式
 
 ## Flow
 

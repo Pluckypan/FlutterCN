@@ -4,6 +4,7 @@ import 'package:fluttercn/generated/i18n.dart';
 import 'package:fluttercn/pages/canvas_page.dart';
 import 'package:fluttercn/pages/clip_path.dart';
 import 'package:fluttercn/pages/lab/images.dart';
+import 'package:fluttercn/pages/lab/stack_page.dart';
 import 'package:fluttercn/pages/native.dart';
 import 'package:fluttercn/route_manager.dart';
 
@@ -17,7 +18,7 @@ class LabPage extends StatelessWidget {
     RouteManager.goto(context, "/lab_page");
   }
 
-  static final itemCount = 4;
+  static final itemCount = 10;
 
   static String _getTitle(BuildContext context, int index) {
     switch (index) {
@@ -29,6 +30,8 @@ class LabPage extends StatelessWidget {
         return "Canvas";
       case 3:
         return "Images";
+      case 4:
+        return "Stack";
       default:
         return "";
     }
@@ -47,6 +50,9 @@ class LabPage extends StatelessWidget {
         break;
       case 3:
         RouteManager.gotoMaterial(context, ImagePage());
+        break;
+      case 4:
+        RouteManager.gotoMaterial(context, StackPage());
         break;
     }
   }

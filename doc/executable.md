@@ -1,4 +1,6 @@
-Dart开发命令行工具
+# Dart开发命令行工具
+
+Dart cli(command-line interface)
 
 ## 目录结构
 ```
