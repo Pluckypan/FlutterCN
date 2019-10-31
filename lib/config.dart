@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:easylib/helper.dart';
 import 'package:flutter/material.dart';
 
 /// FlutterCN 配置常量
@@ -12,6 +13,9 @@ class Config {
   /// 免费接口不是很稳定,可使用本地Mock形式调用
   /// Mock 的文件在根目录 `mock` 文件夹下
   /// 需要根据自己 ip 修改
+
+  static const forceHost = true;
+  static const host = "https://www.apiopen.top/";
   static const mockHost = "http://172.18.16.224:1997/";
 
   // image
@@ -49,4 +53,8 @@ class Config {
     Colors.blueGrey.shade800,
     Colors.black87,
   ];
+
+  static String getHost() {
+    return (Helper.releaseMode || forceHost) ? host : mockHost;
+  }
 }

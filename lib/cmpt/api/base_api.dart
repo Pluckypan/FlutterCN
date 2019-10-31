@@ -2,15 +2,13 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:easylib/helper.dart';
 import 'package:fluttercn/cmpt/model/resp.dart';
 import 'package:fluttercn/config.dart';
 
 class BaseApi {
-  static const host = "https://www.apiopen.top/";
 
   Dio dio = Dio(BaseOptions(
-    baseUrl: Helper.releaseMode ? host : Config.mockHost,
+    baseUrl: Config.getHost(),
     connectTimeout: 5000,
     receiveTimeout: 3000,
   ));

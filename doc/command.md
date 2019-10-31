@@ -11,9 +11,9 @@ flutter run -d chrome
 flutter pub get
 flutter config --enable-web
 flutter pub global activate xxx //全局安装 类似于 npm install -g xxx
-flutter packages get
-flutter packages pub run build_runner build
-flutter packages pub run build_runner watch
+flutter pub get
+flutter pub run build_runner build
+flutter pub run build_runner watch
 flutter update-packages --force-upgrade
 flutter version
 flutter upgrade
