@@ -44,6 +44,49 @@ Flutter大约有 140+ Widget,下面列出一些常用的Widget
 |BottomSheet|BottomSheet是一个从屏幕底部滑起的列表。|-|
 |Date & Time Pickers|日期&时间选择器。|-|
 
+## Container
+当我们需要对一个 `Widget`进行修饰的时候,可以选择`Container` ,`Container` 相当于 `html` 中的 `div`
+- 只有一个 `child`
+- `color` 与 `constraints` 不能同时存在
+- transform 实现 **旋转、平移、缩放...**
+- BoxDecoration 提供了对背景色，边框，圆角，阴影和渐变等功能的定制能力。
+- BoxConstraints 其实是对 Container 组件大小的描述。
+
+```
+Container(
+ child: Text("Hello Flutter",style: TextStyle(
+   fontSize: 20,
+   color: Colors.purple
+ ),),
+ alignment: Alignment.center,
+ padding: EdgeInsets.all(10),
+ margin: EdgeInsets.all(20),
+ width: 10,
+ height: 200,
+ transform:  Matrix4.rotationZ(0.2)..translate(100.0,100.0),
+ constraints: BoxConstraints(
+   minHeight: 100,
+   maxHeight: 100,
+   minWidth: 100,
+   maxWidth: 100
+ ),
+ decoration: BoxDecoration(
+   color: Colors.redAccent,
+   borderRadius: BorderRadius.all(Radius.circular(5)),
+   gradient: LinearGradient(
+     begin: Alignment.topLeft,
+     end: Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
+     colors: [Colors.redAccent, Colors.greenAccent], // whitish to gray
+     tileMode: TileMode.repeated, // repeats the gradient over the canvas
+   ),
+   border: Border.all(
+     color: Colors.black,
+     width: 1.0,
+   ),
+ ),
+)
+```
+
 ## Image
 在 `Android` 中，我们需要处理各种图片,譬如网络图片,gif,webp,assets图片,点9图,etc,借助 `Glide` 我们能轻松实现这个需求. 但 `Flutter` 中,不需要任何第三方 `Library`,我们也能轻松实现。这便是 `Flutter` 为我们提供的 `Image`, `Image` 是一个用于展示图片的组件。支持 JPEG、PNG、GIF、Animated GIF、WebP、Animated WebP、BMP 和 WBMP 等格式。
 
@@ -390,10 +433,6 @@ Flex(
 )
 ```
 
-## Container
-相当于 Android 中的 ViewGroup
-- BoxDecoration 提供了对背景色，边框，圆角，阴影和渐变等功能的定制能力。
-- BoxConstraints 其实是对 Container 组件大小的描述。
 
 ##  GestureDetector
 在Flutter中手势识别也是一个widget！使用时只需要将GestureDetector包裹在目标widget外面，再实现对应事件的函数即可。
