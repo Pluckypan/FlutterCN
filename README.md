@@ -64,7 +64,8 @@ FlutterCN git:(master) ✗ cd mock
 	- [x] AOP [AspectD](https://www.yuque.com/xytech/flutter/aukvx8)
 	- [ ] 控件实践：长线
 	- [ ] 动画实践：长线 https://flutterchina.club/animations/
-	- [x] Flutter 终端指令
+	- [x] Flutter 终端指令 [iweather](http://www.echo.engineer/FlutterCN/#/executable)
+	- [x] Dart cli:  ibox = 终端指令盒子,方便日常开发 : 切换 npm 镜像;切换 pub 镜像 [iBox](https://github.com/Pluckypan/iBox)
 	- [x] ~MacOs & Windows App 开发~
 	- [x] Mock Release & Debug
 4. 文档输出
