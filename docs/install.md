@@ -5,7 +5,7 @@
 2. 下载zip：[GitHub](https://github.com/flutter/flutter/releases) & [官网](https://flutter.dev/docs/development/tools/sdk/releases#macos)
 
 ## 环境变量
-当前机器使用的是`Mac`,终端使用的是 `myzsh`,所以在 `~/.bash_profile` 中添加如下代码即可
+当前机器使用的是`Mac`,终端使用的是 `myzsh`,所以在 `~/.bash_profile` 中添加如下代码即可. 本例中我的代码是克隆在 `$HOME/Applications/flutter/` 目录下
 
 ```
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
