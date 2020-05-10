@@ -6,8 +6,7 @@ import 'package:dio/dio.dart';
 
 final ArgParser _argParser = new ArgParser()
   ..addOption('city', abbr: 'c', defaultsTo: '北京', help: "城市名称,如：北京.")
-  ..addFlag('write', defaultsTo: false)
-  ..addFlag('debug', defaultsTo: false);
+  ..addFlag('write', defaultsTo: false)..addFlag('debug', defaultsTo: false);
 final _host = "http://api.map.baidu.com/";
 
 final Dio _dio = Dio(BaseOptions(
@@ -47,18 +46,22 @@ Future getWeather(String city) async {
 
 handleResult(t, debug, write) {
   try {
+    List<String> arr = ["1", "2", "3"];
+    var aaa= arr.takeWhile((item) {
+      item == "2";
+    });
+    print(aaa);
     var resp = t as Response<dynamic>;
     var map = json.decode(resp.data);
     var result = (map['results'] as List).first;
     var index = (result['index'] as List).first;
     var weather = (result['weather_data'] as List).first;
-    var date =map['date'];
+    var date = map['date'];
     var sb = StringBuffer()
-      ..writeln("当前日期：$date")
-      ..writeln("当前城市：${result['currentCity']}")
-      ..writeln("PM2.5：${result['pm25']}")
-      ..writeln("${index['tipt']}：${index['zs']}")
-      ..writeln(
+      ..writeln("当前日期：$date")..writeln(
+          "当前城市：${result['currentCity']}")..writeln(
+          "PM2.5：${result['pm25']}")..writeln(
+          "${index['tipt']}：${index['zs']}")..writeln(
           "实时天气：${weather['weather']} ${weather['temperature']} ${weather['wind']}");
     print(sb.toString());
     if (write) {
